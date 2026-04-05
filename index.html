@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>旅行计划</title>
+    <title>On The Road — 旅行计划</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
     <style>
 :root {
@@ -445,7 +445,7 @@ a:hover { text-decoration: underline; }
             this.planId = null;
             document.getElementById('currencyFab').classList.remove('visible');
             document.getElementById('currencyPanel').classList.remove('open');
-            document.title = '旅行计划';
+            document.title = 'On The Road — 旅行计划';
             this.app.innerHTML = `
                 <div class="home-hero">
                     <div class="hero-icon">✈️</div>
@@ -497,7 +497,7 @@ a:hover { text-decoration: underline; }
 
         renderPlan(plan, md) {
             this.planId = plan.id;
-            document.title = plan.title + ' — 旅行计划';
+            document.title = plan.title + ' — On The Road';
             this.app.innerHTML = `
                 <header class="plan-header">
                     <div class="container header-inner">

@@ -270,6 +270,85 @@ a:hover { text-decoration: underline; }
     .header-inner { gap: 10px; }
     .progress-label { display: none; }
 }
+
+/* ── Currency Converter ── */
+.currency-fab {
+    position: fixed; bottom: 28px; right: 84px; width: 44px; height: 44px;
+    border-radius: 50%; background: var(--card); box-shadow: var(--shadow);
+    border: 1px solid var(--border); cursor: pointer; font-size: 20px;
+    display: none; align-items: center; justify-content: center;
+    transition: box-shadow .2s, transform .2s; z-index: 200;
+}
+.currency-fab.visible { display: flex; }
+.currency-fab:hover { box-shadow: var(--shadow-lg); transform: translateY(-2px); }
+
+.currency-panel {
+    position: fixed; bottom: 84px; right: 28px;
+    width: 340px; background: var(--card);
+    border-radius: var(--radius-lg); box-shadow: var(--shadow-lg);
+    border: 1px solid var(--border);
+    padding: 22px; z-index: 201;
+    display: none;
+}
+.currency-panel.open { display: block; animation: fadeUp .25s ease; }
+
+.currency-header {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 16px;
+}
+.currency-info { display: flex; align-items: center; gap: 10px; }
+.currency-flag { font-size: 1.5rem; }
+.currency-title { font-size: .92rem; font-weight: 600; }
+.currency-rate-badge { font-size: .78rem; color: var(--text-2); margin-top: 2px; }
+.currency-close {
+    background: none; border: none; cursor: pointer;
+    font-size: 18px; color: var(--text-3); width: 30px; height: 30px;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 50%; transition: background .15s; flex-shrink: 0;
+}
+.currency-close:hover { background: rgba(0,0,0,.06); }
+
+.currency-quick {
+    display: flex; gap: 6px; margin-bottom: 14px; flex-wrap: wrap;
+}
+.currency-quick-btn {
+    padding: 5px 14px; border: 1px solid var(--border); border-radius: 8px;
+    background: var(--bg); font-size: .82rem; cursor: pointer;
+    font-family: var(--font); transition: all .15s; white-space: nowrap;
+}
+.currency-quick-btn:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
+
+.currency-row {
+    display: flex; gap: 10px; align-items: flex-end; margin-bottom: 14px;
+}
+.currency-input-group { flex: 1; }
+.currency-input-group label {
+    display: block; font-size: .78rem; color: var(--text-2);
+    margin-bottom: 5px; font-weight: 500;
+}
+.currency-input {
+    width: 100%; padding: 10px 12px; border: 1.5px solid var(--border);
+    border-radius: 10px; font-size: 1rem; font-family: var(--font);
+    outline: none; transition: border-color .15s, background .15s;
+    background: var(--bg);
+}
+.currency-input:focus { border-color: var(--accent); background: #fff; }
+.currency-input-result {
+    background: var(--accent-bg); border-color: transparent;
+    color: var(--accent); font-weight: 600;
+}
+.currency-input-result:focus { border-color: var(--accent); }
+.currency-arrow {
+    padding-bottom: 12px; color: var(--text-3); font-size: .95rem; flex-shrink: 0;
+}
+.currency-footer {
+    font-size: .72rem; color: var(--text-3); text-align: center;
+}
+
+@media (max-width: 640px) {
+    .currency-panel { left: 16px; right: 16px; width: auto; bottom: 80px; }
+    .currency-fab { right: 76px; }
+}
     </style>
 </head>
 <body>
@@ -277,6 +356,8 @@ a:hover { text-decoration: underline; }
         <div class="loading"><div class="spinner"></div><p>加载中…</p></div>
     </div>
     <button class="back-top" id="backTop" title="回到顶部">↑</button>
+    <button class="currency-fab" id="currencyFab" title="货币换算"></button>
+    <div class="currency-panel" id="currencyPanel"></div>
 
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
@@ -303,6 +384,7 @@ a:hover { text-decoration: underline; }
             marked.setOptions({ gfm: true, breaks: false });
             window.addEventListener('hashchange', () => this.route());
             this.setupBackTop();
+            this.setupCurrencyFab();
             this.route();
         }
 
@@ -327,6 +409,8 @@ a:hover { text-decoration: underline; }
 
         showHome() {
             this.planId = null;
+            document.getElementById('currencyFab').classList.remove('visible');
+            document.getElementById('currencyPanel').classList.remove('open');
             document.title = '旅行计划';
             this.app.innerHTML = `
                 <div class="home-hero">
@@ -395,6 +479,7 @@ a:hover { text-decoration: underline; }
                     <div class="plan-content" id="pc">${marked.parse(md)}</div>
                 </main>`;
             this.postProcess(plan.id);
+            this.setupCurrency(md);
         }
 
         /* ── Post-processing ── */
@@ -531,6 +616,140 @@ a:hover { text-decoration: underline; }
                 li.querySelector('.check-input').checked = false;
             });
             this.syncProgress(planId);
+        }
+
+        /* ── Currency Converter ── */
+
+        setupCurrencyFab() {
+            const fab = document.getElementById('currencyFab');
+            const panel = document.getElementById('currencyPanel');
+            fab.addEventListener('click', (e) => {
+                e.stopPropagation();
+                panel.classList.toggle('open');
+            });
+            document.addEventListener('click', (e) => {
+                if (!panel.contains(e.target) && e.target !== fab) {
+                    panel.classList.remove('open');
+                }
+            });
+        }
+
+        detectCurrency(md) {
+            const currencies = [
+                { symbol: '₽', code: 'RUB', name: '俄罗斯卢布', flag: '🇷🇺' },
+                { symbol: '€', code: 'EUR', name: '欧元', flag: '🇪🇺' },
+                { symbol: '£', code: 'GBP', name: '英镑', flag: '🇬🇧' },
+                { symbol: '₩', code: 'KRW', name: '韩元', flag: '🇰🇷' },
+                { symbol: '฿', code: 'THB', name: '泰铢', flag: '🇹🇭' },
+                { symbol: '₫', code: 'VND', name: '越南盾', flag: '🇻🇳' },
+                { symbol: '₸', code: 'KZT', name: '哈萨克坚戈', flag: '🇰🇿' },
+                { symbol: '$', code: 'USD', name: '美元', flag: '🇺🇸' },
+            ];
+            let best = null, bestCount = 0;
+            for (const c of currencies) {
+                const escaped = c.symbol.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+                const count = (md.match(new RegExp(escaped, 'g')) || []).length;
+                if (count > bestCount) { best = c; bestCount = count; }
+            }
+            return best;
+        }
+
+        async fetchRate(code) {
+            const cacheKey = `tp-rate-${code}`;
+            const cached = sessionStorage.getItem(cacheKey);
+            if (cached) {
+                const { rate, ts } = JSON.parse(cached);
+                if (Date.now() - ts < 30 * 60 * 1000) return rate;
+            }
+            try {
+                const r = await fetch(`https://open.er-api.com/v6/latest/${code}`);
+                const data = await r.json();
+                if (data.result === 'success' && data.rates?.CNY) {
+                    const rate = data.rates.CNY;
+                    sessionStorage.setItem(cacheKey, JSON.stringify({ rate, ts: Date.now() }));
+                    return rate;
+                }
+            } catch (_) {}
+            const fallback = { RUB: 0.076, USD: 7.25, EUR: 7.90, GBP: 9.20, KRW: 0.0053, THB: 0.21, VND: 0.00029, KZT: 0.015 };
+            return fallback[code] || 1;
+        }
+
+        async setupCurrency(md) {
+            const currency = this.detectCurrency(md);
+            const fab = document.getElementById('currencyFab');
+            const panel = document.getElementById('currencyPanel');
+            if (!currency) {
+                fab.classList.remove('visible');
+                panel.classList.remove('open');
+                return;
+            }
+            this.currencyInfo = currency;
+            fab.textContent = currency.flag;
+            fab.title = `${currency.name} → 人民币`;
+            fab.classList.add('visible');
+            panel.innerHTML = `<div style="text-align:center;padding:30px 0;color:var(--text-3);font-size:.88rem">汇率加载中…</div>`;
+
+            const currentPlanId = this.planId;
+            const rate = await this.fetchRate(currency.code);
+            if (this.planId !== currentPlanId) return;
+            this.currencyRate = rate;
+            this.renderCurrencyPanel();
+        }
+
+        renderCurrencyPanel() {
+            const panel = document.getElementById('currencyPanel');
+            const { symbol, code, name, flag } = this.currencyInfo;
+            const rate = this.currencyRate;
+            const qMap = {
+                RUB: [100, 500, 1000, 5000, 10000], USD: [10, 50, 100, 500],
+                EUR: [10, 50, 100, 500], GBP: [10, 50, 100, 500],
+                KRW: [1000, 5000, 10000, 50000], THB: [100, 500, 1000, 5000],
+                VND: [10000, 50000, 100000, 500000], KZT: [500, 1000, 5000, 10000],
+            };
+            const amounts = qMap[code] || [100, 500, 1000, 5000];
+            panel.innerHTML = `
+                <div class="currency-header">
+                    <div class="currency-info">
+                        <span class="currency-flag">${flag}</span>
+                        <div>
+                            <div class="currency-title">${esc(name)} → 人民币</div>
+                            <div class="currency-rate-badge">1 ${esc(code)} ≈ ${rate.toFixed(4)} CNY</div>
+                        </div>
+                    </div>
+                    <button class="currency-close" onclick="document.getElementById('currencyPanel').classList.remove('open')">×</button>
+                </div>
+                <div class="currency-quick">
+                    ${amounts.map(a => `<button class="currency-quick-btn" data-amount="${a}">${a.toLocaleString()}</button>`).join('')}
+                </div>
+                <div class="currency-row">
+                    <div class="currency-input-group">
+                        <label>${esc(symbol)} ${esc(code)}</label>
+                        <input type="number" class="currency-input" id="currFrom" placeholder="输入金额" inputmode="decimal">
+                    </div>
+                    <div class="currency-arrow">→</div>
+                    <div class="currency-input-group">
+                        <label>¥ CNY</label>
+                        <input type="number" class="currency-input currency-input-result" id="currTo" placeholder="0.00" inputmode="decimal">
+                    </div>
+                </div>
+                <div class="currency-footer">汇率来源 open.er-api.com · 仅供参考</div>`;
+
+            const from = document.getElementById('currFrom');
+            const to = document.getElementById('currTo');
+            from.addEventListener('input', () => {
+                const v = parseFloat(from.value);
+                to.value = isNaN(v) || from.value === '' ? '' : (v * rate).toFixed(2);
+            });
+            to.addEventListener('input', () => {
+                const v = parseFloat(to.value);
+                from.value = isNaN(v) || to.value === '' ? '' : (v / rate).toFixed(2);
+            });
+            panel.querySelectorAll('.currency-quick-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    from.value = btn.dataset.amount;
+                    from.dispatchEvent(new Event('input'));
+                });
+            });
         }
 
         /* ── Back to Top ── */

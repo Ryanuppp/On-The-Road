@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>旅行计划</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
+    <style>
+:root {
+    --bg: #f5f5f7;
+    --card: #ffffff;
+    --text: #1d1d1f;
+    --text-2: #6e6e73;
+    --text-3: #aeaeb2;
+    --border: #d2d2d7;
+    --accent: #0071e3;
+    --accent-bg: rgba(0,113,227,0.06);
+    --green: #34c759;
+    --green-bg: #e8faf0;
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
+    --shadow: 0 2px 8px rgba(0,0,0,0.08);
+    --shadow-lg: 0 4px 24px rgba(0,0,0,0.12);
+    --radius: 12px;
+    --radius-lg: 20px;
+    --font: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'PingFang SC',
+             'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', sans-serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body {
+    font-family: var(--font);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.75;
+    min-height: 100vh;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ── Layout ── */
+.container { max-width: 860px; margin: 0 auto; padding: 0 20px; }
+
+/* ── Loading / Error ── */
+.loading, .error {
+    display: flex; flex-direction: column; align-items: center;
+    justify-content: center; min-height: 60vh; gap: 16px; color: var(--text-2);
+}
+.spinner {
+    width: 32px; height: 32px; border: 3px solid var(--border);
+    border-top-color: var(--accent); border-radius: 50%;
+    animation: spin .8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ── Home Page ── */
+.home-hero {
+    text-align: center; padding: 80px 20px 32px;
+}
+.hero-icon { font-size: 4rem; margin-bottom: 8px; }
+.home-hero h1 { font-size: 2.4rem; font-weight: 700; letter-spacing: -0.5px; }
+.home-hero p { font-size: 1.05rem; color: var(--text-2); margin-top: 6px; }
+
+.plan-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px; max-width: 900px; margin: 24px auto 0; padding: 0 20px;
+}
+.plan-card {
+    display: block; background: var(--card); border-radius: var(--radius-lg);
+    padding: 32px; box-shadow: var(--shadow); color: var(--text);
+    transition: transform .2s, box-shadow .2s; text-decoration: none !important;
+}
+.plan-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+.plan-emoji { font-size: 2.8rem; margin-bottom: 14px; }
+.plan-card h2 { font-size: 1.25rem; font-weight: 600; margin-bottom: 6px; }
+.plan-meta { font-size: .88rem; color: var(--text-2); }
+.plan-desc { font-size: .85rem; color: var(--text-3); margin-top: 4px; }
+.card-progress { margin-top: 18px; display: flex; align-items: center; gap: 10px; }
+.card-progress .progress-text { font-size: .8rem; color: var(--text-2); white-space: nowrap; }
+.plan-new { margin-top: 18px; font-size: .82rem; color: var(--text-3); }
+
+.home-footer {
+    text-align: center; padding: 48px 20px 40px;
+    font-size: .85rem; color: var(--text-3);
+}
+.home-footer code {
+    background: #e8e8ed; padding: 2px 6px; border-radius: 4px; font-size: .82rem;
+}
+
+/* ── Plan Header (sticky) ── */
+.plan-header {
+    position: sticky; top: 0; z-index: 100;
+    background: rgba(245,245,247,.82);
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    border-bottom: .5px solid rgba(0,0,0,.12);
+}
+.header-inner {
+    display: flex; align-items: center; gap: 16px;
+    padding-top: 10px; padding-bottom: 10px;
+}
+.back-btn {
+    display: inline-flex; align-items: center; gap: 2px;
+    padding: 5px 10px; border-radius: 8px; font-size: .88rem;
+    color: var(--accent); white-space: nowrap; transition: background .15s;
+}
+.back-btn:hover { background: var(--accent-bg); text-decoration: none; }
+
+.overall-progress {
+    display: flex; align-items: center; gap: 10px; flex: 1;
+    font-size: .82rem; color: var(--text-2); min-width: 0;
+}
+.progress-label { white-space: nowrap; }
+.progress-bar {
+    height: 5px; background: #e5e5ea; border-radius: 3px;
+    overflow: hidden; flex: 1; min-width: 60px;
+}
+.progress-fill {
+    height: 100%; background: var(--green); border-radius: 3px;
+    transition: width .4s ease; min-width: 0;
+}
+.progress-pct { white-space: nowrap; font-variant-numeric: tabular-nums; }
+
+/* ── Plan Content (rendered Markdown) ── */
+.plan-content { padding: 28px 0 80px; animation: fadeUp .35s ease; }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+
+.plan-content > h1:first-child { font-size: 1.85rem; font-weight: 700; margin-bottom: 12px; }
+.plan-content h2 {
+    font-size: 1.4rem; font-weight: 700; margin-top: 48px; margin-bottom: 18px;
+    padding-bottom: 8px; border-bottom: 2px solid var(--accent);
+}
+.plan-content h3 {
+    font-size: 1.15rem; font-weight: 600; margin-top: 36px; margin-bottom: 4px;
+    padding: 14px 18px; background: var(--card);
+    border-left: 4px solid var(--accent); border-radius: 0 var(--radius) var(--radius) 0;
+    box-shadow: var(--shadow-sm);
+}
+.plan-content h4 {
+    font-size: 1rem; font-weight: 600; margin-top: 24px; margin-bottom: 10px;
+    color: var(--text-2);
+}
+.plan-content p { margin-bottom: 12px; }
+.plan-content blockquote {
+    border-left: 3px solid var(--accent); padding: 10px 16px; margin: 14px 0;
+    background: var(--accent-bg); border-radius: 0 8px 8px 0;
+    font-size: .92rem; color: var(--text-2);
+}
+.plan-content blockquote p { margin-bottom: 4px; }
+.plan-content blockquote p:last-child { margin-bottom: 0; }
+.plan-content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+.plan-content ul, .plan-content ol { margin-bottom: 14px; padding-left: 24px; }
+.plan-content li { margin-bottom: 5px; }
+.plan-content strong { font-weight: 600; }
+.plan-content code {
+    background: #ececf0; padding: 2px 6px; border-radius: 4px; font-size: .88em;
+}
+.plan-content img { max-width: 100%; border-radius: 8px; }
+
+/* Day header accent colors (cycle through 5 colors) */
+.plan-content h3.day-h3:nth-of-type(5n+1) { border-left-color: #6366f1; }
+.plan-content h3.day-h3:nth-of-type(5n+2) { border-left-color: #f59e0b; }
+.plan-content h3.day-h3:nth-of-type(5n+3) { border-left-color: #10b981; }
+.plan-content h3.day-h3:nth-of-type(5n+4) { border-left-color: #8b5cf6; }
+.plan-content h3.day-h3:nth-of-type(5n+5) { border-left-color: #ef4444; }
+
+/* ── Tables ── */
+.table-wrapper {
+    overflow-x: auto; margin: 14px 0;
+    border-radius: var(--radius); box-shadow: var(--shadow-sm);
+    -webkit-overflow-scrolling: touch;
+}
+.plan-content table {
+    width: 100%; border-collapse: collapse; font-size: .88rem; background: var(--card);
+}
+.plan-content th {
+    background: #f5f5f7; font-weight: 600; text-align: left;
+    padding: 10px 14px; white-space: nowrap; border-bottom: 2px solid var(--border);
+}
+.plan-content td { padding: 10px 14px; border-bottom: 1px solid #f0f0f3; }
+.plan-content tr:last-child td { border-bottom: none; }
+.plan-content tbody tr:hover td { background: #fafafa; }
+
+/* ── Day Progress Bar ── */
+.day-progress {
+    display: flex; align-items: center; gap: 10px;
+    padding: 8px 18px 14px; font-size: .82rem; color: var(--text-2);
+}
+.day-progress .progress-bar { max-width: 200px; }
+.day-complete .progress-fill { background: var(--green); }
+.day-complete .progress-text::after { content: ' ✅'; }
+
+/* ── Checkable Items ── */
+.checkable-list { list-style: none !important; padding-left: 0 !important; }
+
+.checkable-item {
+    display: flex; align-items: flex-start; gap: 12px;
+    padding: 12px 16px; margin-bottom: 2px;
+    border-radius: 10px; cursor: pointer;
+    transition: background .15s, opacity .3s;
+}
+.checkable-item:hover { background: rgba(0,0,0,.03); }
+
+.check-input {
+    -webkit-appearance: none; appearance: none;
+    width: 22px; height: 22px; min-width: 22px;
+    border: 2px solid #c7c7cc; border-radius: 50%;
+    margin-top: 2px; cursor: pointer;
+    transition: all .2s; position: relative; background: var(--card);
+}
+.check-input:hover { border-color: var(--green); }
+.check-input:checked { background: var(--green); border-color: var(--green); }
+.check-input:checked::after {
+    content: '✓'; position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%); color: #fff;
+    font-size: 13px; font-weight: 700; line-height: 1;
+}
+
+.item-content { flex: 1; min-width: 0; }
+.item-content ul { margin-top: 6px; }
+
+/* Completed state */
+.checkable-item.completed { opacity: .45; }
+.checkable-item.completed .item-content {
+    text-decoration: line-through;
+    text-decoration-color: var(--text-3);
+    color: var(--text-3);
+}
+.checkable-item.completed .item-content strong,
+.checkable-item.completed .item-content a,
+.checkable-item.completed .item-content em,
+.checkable-item.completed .item-content code { color: inherit; }
+.checkable-item.completed .item-content a { pointer-events: none; }
+
+/* ── Reset Button ── */
+.reset-section {
+    text-align: center; padding: 32px 0 48px;
+    border-top: 1px solid var(--border); margin-top: 40px;
+}
+.reset-btn {
+    background: none; border: 1px solid var(--border); border-radius: 8px;
+    padding: 8px 20px; font-size: .85rem; color: var(--text-3);
+    cursor: pointer; font-family: var(--font); transition: all .15s;
+}
+.reset-btn:hover { border-color: #ff3b30; color: #ff3b30; }
+
+/* ── Back-to-top ── */
+.back-top {
+    position: fixed; bottom: 28px; right: 28px; width: 44px; height: 44px;
+    border-radius: 50%; background: var(--card); box-shadow: var(--shadow);
+    border: 1px solid var(--border); cursor: pointer; font-size: 18px;
+    display: flex; align-items: center; justify-content: center;
+    opacity: 0; transform: translateY(10px); pointer-events: none;
+    transition: opacity .25s, transform .25s;
+}
+.back-top.visible { opacity: 1; transform: none; pointer-events: auto; }
+.back-top:hover { box-shadow: var(--shadow-lg); }
+
+/* ── Responsive ── */
+@media (max-width: 640px) {
+    .home-hero { padding: 48px 16px 24px; }
+    .home-hero h1 { font-size: 1.8rem; }
+    .plan-grid { grid-template-columns: 1fr; padding: 0 16px; }
+    .plan-content > h1:first-child { font-size: 1.4rem; }
+    .plan-content h2 { font-size: 1.2rem; }
+    .plan-content h3 { font-size: 1.02rem; padding: 12px 14px; }
+    .checkable-item { padding: 10px 10px; gap: 10px; }
+    .plan-content table { font-size: .78rem; }
+    .plan-content th, .plan-content td { padding: 8px 10px; }
+    .header-inner { gap: 10px; }
+    .progress-label { display: none; }
+}
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="loading"><div class="spinner"></div><p>加载中…</p></div>
+    </div>
+    <button class="back-top" id="backTop" title="回到顶部">↑</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+(function () {
+    'use strict';
+
+    const KEY = 'tp';
+
+    class TravelApp {
+        constructor() {
+            this.app = document.getElementById('app');
+            this.plans = [];
+            this.planId = null;
+            this.init();
+        }
+
+        async init() {
+            try {
+                const r = await fetch('plans.json');
+                this.plans = await r.json();
+            } catch (_) {
+                this.plans = [];
+            }
+            marked.setOptions({ gfm: true, breaks: false });
+            window.addEventListener('hashchange', () => this.route());
+            this.setupBackTop();
+            this.route();
+        }
+
+        /* ── Routing ── */
+
+        route() {
+            const h = decodeURIComponent(location.hash.slice(1));
+            if (h.startsWith('/plan/')) {
+                this.loadPlan(h.slice(6));
+            } else {
+                this.showHome();
+            }
+        }
+
+        /* ── Home ── */
+
+        progress(planId) {
+            const t = +localStorage.getItem(`${KEY}-${planId}-total`) || 0;
+            const d = +localStorage.getItem(`${KEY}-${planId}-done`) || 0;
+            return { total: t, done: d };
+        }
+
+        showHome() {
+            this.planId = null;
+            document.title = '旅行计划';
+            this.app.innerHTML = `
+                <div class="home-hero">
+                    <div class="hero-icon">✈️</div>
+                    <h1>旅行计划</h1>
+                    <p>选择一个目的地，开始你的旅程</p>
+                </div>
+                <div class="plan-grid">
+                    ${this.plans.map(p => this.card(p)).join('')}
+                </div>
+                <div class="home-footer">
+                    <p>添加新计划：将 Markdown 文件放入 <code>plans/</code> 目录，并在 <code>plans.json</code> 中注册即可</p>
+                </div>`;
+        }
+
+        card(p) {
+            const { total, done } = this.progress(p.id);
+            const pct = total > 0 ? Math.round(done / total * 100) : 0;
+            return `<a href="#/plan/${encodeURIComponent(p.id)}" class="plan-card">
+                <div class="plan-emoji">${p.emoji || '🗺️'}</div>
+                <h2>${esc(p.title)}</h2>
+                <div class="plan-meta">${esc(p.dates || '')}</div>
+                <div class="plan-desc">${esc(p.description || '')}</div>
+                ${total > 0
+                    ? `<div class="card-progress">
+                        <div class="progress-bar"><div class="progress-fill" style="width:${pct}%"></div></div>
+                        <span class="progress-text">${done}/${total} 已完成</span>
+                       </div>`
+                    : '<div class="plan-new">尚未开始</div>'}
+            </a>`;
+        }
+
+        /* ── Plan ── */
+
+        async loadPlan(id) {
+            const plan = this.plans.find(p => p.id === id);
+            if (!plan) {
+                this.app.innerHTML = `<div class="error"><h2>计划未找到</h2><a href="#/">← 返回首页</a></div>`;
+                return;
+            }
+            this.app.innerHTML = `<div class="loading"><div class="spinner"></div><p>正在加载…</p></div>`;
+            try {
+                const r = await fetch(plan.file);
+                if (!r.ok) throw new Error('HTTP ' + r.status);
+                this.renderPlan(plan, await r.text());
+            } catch (e) {
+                this.app.innerHTML = `<div class="error"><h2>加载失败</h2><p>${esc(e.message)}</p><a href="#/">← 返回首页</a></div>`;
+            }
+        }
+
+        renderPlan(plan, md) {
+            this.planId = plan.id;
+            document.title = plan.title + ' — 旅行计划';
+            this.app.innerHTML = `
+                <header class="plan-header">
+                    <div class="container header-inner">
+                        <a href="#/" class="back-btn">← 返回</a>
+                        <div class="overall-progress">
+                            <span class="progress-label">旅程进度</span>
+                            <div class="progress-bar"><div class="progress-fill" id="oFill"></div></div>
+                            <span class="progress-pct" id="oText">—</span>
+                        </div>
+                    </div>
+                </header>
+                <main class="container">
+                    <div class="plan-content" id="pc">${marked.parse(md)}</div>
+                </main>`;
+            this.postProcess(plan.id);
+        }
+
+        /* ── Post-processing ── */
+
+        postProcess(planId) {
+            const c = document.getElementById('pc');
+
+            c.querySelectorAll('table').forEach(t => {
+                if (t.parentElement.classList.contains('table-wrapper')) return;
+                const w = document.createElement('div');
+                w.className = 'table-wrapper';
+                t.parentNode.insertBefore(w, t);
+                w.appendChild(t);
+            });
+
+            c.querySelectorAll('a[href^="http"]').forEach(a => {
+                a.target = '_blank';
+                a.rel = 'noopener noreferrer';
+            });
+
+            this.injectCheckboxes(c, planId);
+            this.restoreState();
+            this.syncProgress(planId);
+
+            const reset = document.createElement('div');
+            reset.className = 'reset-section';
+            reset.innerHTML = `<button class="reset-btn" id="resetBtn">重置本计划进度</button>`;
+            c.appendChild(reset);
+            document.getElementById('resetBtn').addEventListener('click', () => this.resetPlan(planId));
+        }
+
+        injectCheckboxes(container, planId) {
+            const h3s = container.querySelectorAll('h3');
+            let dayNum = 0;
+
+            h3s.forEach(h3 => {
+                if (!/Day\s*\d/i.test(h3.textContent)) return;
+                dayNum++;
+                h3.classList.add('day-h3');
+
+                const prog = document.createElement('div');
+                prog.className = 'day-progress';
+                prog.dataset.day = dayNum;
+                prog.innerHTML = `<div class="progress-bar"><div class="progress-fill"></div></div><span class="progress-text"></span>`;
+                h3.after(prog);
+
+                let el = prog.nextElementSibling;
+                while (el && el.tagName !== 'H3' && el.tagName !== 'H2') {
+                    if (el.tagName === 'OL') {
+                        el.classList.add('checkable-list');
+                        el.querySelectorAll(':scope > li').forEach((li, i) => {
+                            this.makeCheckable(li, `${planId}-d${dayNum}-${i}`, dayNum);
+                        });
+                    }
+                    el = el.nextElementSibling;
+                }
+            });
+        }
+
+        makeCheckable(li, itemId, dayNum) {
+            li.classList.add('checkable-item');
+            li.dataset.itemId = itemId;
+            li.dataset.day = dayNum;
+
+            const cb = document.createElement('input');
+            cb.type = 'checkbox';
+            cb.className = 'check-input';
+
+            const wrap = document.createElement('div');
+            wrap.className = 'item-content';
+            while (li.firstChild) wrap.appendChild(li.firstChild);
+
+            li.appendChild(cb);
+            li.appendChild(wrap);
+
+            li.addEventListener('click', e => {
+                if (e.target.tagName === 'A' || e.target.closest('a') || e.target === cb) return;
+                cb.checked = !cb.checked;
+                cb.dispatchEvent(new Event('change'));
+            });
+
+            cb.addEventListener('change', () => {
+                li.classList.toggle('completed', cb.checked);
+                if (cb.checked) localStorage.setItem(`${KEY}-${itemId}`, '1');
+                else localStorage.removeItem(`${KEY}-${itemId}`);
+                this.syncProgress(this.planId);
+            });
+        }
+
+        restoreState() {
+            document.querySelectorAll('.checkable-item').forEach(li => {
+                if (localStorage.getItem(`${KEY}-${li.dataset.itemId}`) === '1') {
+                    li.classList.add('completed');
+                    li.querySelector('.check-input').checked = true;
+                }
+            });
+        }
+
+        syncProgress(planId) {
+            const all = document.querySelectorAll('.checkable-item');
+            const done = document.querySelectorAll('.checkable-item.completed');
+            const t = all.length, d = done.length;
+
+            localStorage.setItem(`${KEY}-${planId}-total`, t);
+            localStorage.setItem(`${KEY}-${planId}-done`, d);
+
+            const fill = document.getElementById('oFill');
+            const text = document.getElementById('oText');
+            if (fill) fill.style.width = t > 0 ? `${Math.round(d / t * 100)}%` : '0%';
+            if (text) text.textContent = t > 0 ? `${d}/${t}` : '—';
+
+            document.querySelectorAll('.day-progress').forEach(dp => {
+                const day = dp.dataset.day;
+                const dt = document.querySelectorAll(`.checkable-item[data-day="${day}"]`).length;
+                const dd = document.querySelectorAll(`.checkable-item[data-day="${day}"].completed`).length;
+                const f = dp.querySelector('.progress-fill');
+                const tx = dp.querySelector('.progress-text');
+                if (f) f.style.width = dt > 0 ? `${Math.round(dd / dt * 100)}%` : '0%';
+                if (tx) tx.textContent = dt > 0 ? `${dd}/${dt} 已完成` : '';
+                dp.classList.toggle('day-complete', dd === dt && dt > 0);
+            });
+        }
+
+        resetPlan(planId) {
+            if (!confirm('确定要重置「' + planId + '」的所有进度吗？此操作不可撤销。')) return;
+            const toRemove = [];
+            for (let i = 0; i < localStorage.length; i++) {
+                const k = localStorage.key(i);
+                if (k && k.startsWith(`${KEY}-${planId}`)) toRemove.push(k);
+            }
+            toRemove.forEach(k => localStorage.removeItem(k));
+            document.querySelectorAll('.checkable-item').forEach(li => {
+                li.classList.remove('completed');
+                li.querySelector('.check-input').checked = false;
+            });
+            this.syncProgress(planId);
+        }
+
+        /* ── Back to Top ── */
+
+        setupBackTop() {
+            const btn = document.getElementById('backTop');
+            let ticking = false;
+            window.addEventListener('scroll', () => {
+                if (!ticking) {
+                    requestAnimationFrame(() => {
+                        btn.classList.toggle('visible', window.scrollY > 400);
+                        ticking = false;
+                    });
+                    ticking = true;
+                }
+            });
+            btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+        }
+    }
+
+    function esc(s) {
+        const d = document.createElement('div');
+        d.textContent = s;
+        return d.innerHTML;
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', () => new TravelApp());
+    } else {
+        new TravelApp();
+    }
+})();
+    </script>
+</body>
+</html>

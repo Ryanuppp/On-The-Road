@@ -349,6 +349,40 @@ a:hover { text-decoration: underline; }
     .currency-panel { left: 16px; right: 16px; width: auto; bottom: 80px; }
     .currency-fab { right: 76px; }
 }
+
+/* ── Restaurant Option Cards ── */
+.restaurant-card {
+    margin: 20px 0; border-radius: var(--radius);
+    overflow: hidden; box-shadow: var(--shadow); background: var(--card);
+}
+.restaurant-card > h4 {
+    margin: 0 !important; padding: 14px 18px !important;
+    background: linear-gradient(135deg, #fef7ed, #fdf4e7) !important;
+    border-left: 4px solid #f59e0b !important;
+    border-radius: 0 !important; box-shadow: none !important;
+    font-size: .95rem !important;
+}
+.restaurant-card > .table-wrapper {
+    margin: 0 !important; border-radius: 0 !important; box-shadow: none !important;
+}
+.restaurant-card th {
+    background: #fffbf5 !important; border-bottom-color: #f0e6d6 !important;
+    font-size: .82rem !important;
+}
+.restaurant-card td { border-bottom-color: #f5f0ea !important; }
+.restaurant-card tbody tr:hover td { background: #fffdf8 !important; }
+.restaurant-card td:last-child { font-size: .78rem; color: var(--text-3); }
+.restaurant-card td:last-child a {
+    display: inline-block; padding: 3px 10px;
+    border: 1px solid #e5ddd3; border-radius: 20px;
+    font-size: .76rem; margin: 2px 2px;
+    transition: all .15s; text-decoration: none !important;
+    color: var(--text-2) !important;
+}
+.restaurant-card td:last-child a:hover {
+    border-color: var(--accent) !important; color: var(--accent) !important;
+    background: var(--accent-bg) !important;
+}
     </style>
 </head>
 <body>
@@ -495,6 +529,8 @@ a:hover { text-decoration: underline; }
                 w.appendChild(t);
             });
 
+            this.processRestaurantCards(c);
+
             c.querySelectorAll('a[href^="http"]').forEach(a => {
                 a.target = '_blank';
                 a.rel = 'noopener noreferrer';
@@ -509,6 +545,25 @@ a:hover { text-decoration: underline; }
             reset.innerHTML = `<button class="reset-btn" id="resetBtn">重置本计划进度</button>`;
             c.appendChild(reset);
             document.getElementById('resetBtn').addEventListener('click', () => this.resetPlan(planId));
+        }
+
+        processRestaurantCards(container) {
+            const h4s = [...container.querySelectorAll('h4')];
+            h4s.forEach(h4 => {
+                if (!h4.textContent.includes('🍽️')) return;
+                let next = h4.nextElementSibling;
+                let tw = null;
+                for (let i = 0; i < 5 && next; i++) {
+                    if (next.classList && next.classList.contains('table-wrapper')) { tw = next; break; }
+                    next = next.nextElementSibling;
+                }
+                if (!tw) return;
+                const card = document.createElement('div');
+                card.className = 'restaurant-card';
+                h4.parentNode.insertBefore(card, h4);
+                card.appendChild(h4);
+                card.appendChild(tw);
+            });
         }
 
         injectCheckboxes(container, planId) {

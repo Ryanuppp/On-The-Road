@@ -6,5 +6,13 @@
     "dates": "2026/05/01 – 05/05",
     "emoji": "🇷🇺",
     "description": "白昼走街 ｜ 黄昏看桥 ｜ 夜间追夜景"
+  },
+  {
+    "id": "Suzhou",
+    "title": "苏州3日亲子旅行计划",
+    "file": "plans/Suzhou.md",
+    "dates": "2026/04/10 – 04/12",
+    "emoji": "🏯",
+    "description": "园林赏春 ｜ 古街漫步 ｜ 寺庙祈福 ｜ 苏帮美食"
   }
 ]

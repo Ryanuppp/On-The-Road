@@ -163,7 +163,7 @@
 | **НЕ РЫДАЙ 百年大食堂** | 焦糖面包、卡布奇诺，周末有钢琴 | ~700₽ | [大众点评](https://www.dianping.com/search/keyword/0/0_НЕРЫДАЙ海参崴) [谷歌地图](https://www.google.com/maps/search/?api=1&query=НЕ+РЫДАЙ+Vladivostok) |
 | **SUPRA** | 格鲁吉亚菜，海边氛围好 | ~1200₽ | [大众点评](https://www.dianping.com/search/keyword/0/0_SUPRA海参崴) [谷歌地图](https://www.google.com/maps/search/?api=1&query=SUPRA+restaurant+Vladivostok) |
 
-> 📖 **小红书来源**：[二刷海参崴餐厅黑红榜（带定位版）· 435赞](https://www.xiaohongshu.com/explore/68a18d51000000001c031f73)
+> 📖 **小红书来源**：[海参崴好吃的餐厅推荐😋（附详细地址）· 271赞](https://www.xiaohongshu.com/explore/69595369000000001e037cd9) ｜ [海参崴 亲测美食附地址（无广不踩雷版）· 92赞](https://www.xiaohongshu.com/explore/69c48e4e000000002103b2f4)
 
 #### 📍 Day 1 交通详情（Google Maps 实测）
 
@@ -219,8 +219,8 @@
    - 📖 **小红书来源**：
      - [海参崴射击体验（超划算详细版）· 914赞](https://www.xiaohongshu.com/explore/685a3761000000001202c665) — 详细路线+价格+无信号提醒
      - [海参崴打枪避雷！· 228赞](https://www.xiaohongshu.com/explore/688073770000000013012571) — 避坑指南：不要找中国中间商
-     - [海参崴不跟团🔫攻略 · 253赞](https://www.xiaohongshu.com/explore/67a2ec78000000001703bffe) — 苏联大爷 1000₽/10发（早期价格）
-     - [海参崴室内&室外射击经验 · 179赞](https://www.xiaohongshu.com/explore/68e25ef70000000007002776) — 室内外对比+详细路线
+     - [海参崴biu biu指引 · 146赞](https://www.xiaohongshu.com/explore/68f396d5000000000702115b) — 炮台射击详细路线+流程图解
+     - [海参崴托比津纳海角徒步+射击体验！· 177赞](https://www.xiaohongshu.com/explore/68442f0700000000220067da) — 海角+炮台一日实测
    - ⚠️ **重要提示**：
      - 炮台内**完全没有手机信号**！提前下载好离线地图
      - 返程时无法打车，必须靠包车司机在停车场等候
@@ -324,7 +324,7 @@
 | **Octopus Cafe** | 帝王蟹 2500₽/kg，能看灯塔 | ~2500₽ | [大众点评](https://www.dianping.com/search/keyword/0/0_OctopusCafe海参崴) [谷歌地图](https://www.google.com/maps/search/?api=1&query=Octopus+Cafe+Vladivostok) |
 | **海边饺子馆** | 清蒸帝王蟹 2500₽/kg，有中国店员 | ~2000₽ | [大众点评](https://www.dianping.com/search/keyword/0/0_海边饺子馆海参崴) [谷歌地图](https://www.google.com/maps/search/?api=1&query=dumpling+restaurant+crab+Vladivostok) |
 
-> 📖 **小红书来源**：[二刷海参崴餐厅黑红榜（带定位版）· 435赞](https://www.xiaohongshu.com/explore/68a18d51000000001c031f73) ｜ [海参崴已回🦀5天4晚吃喝全记录 · 108赞](https://www.xiaohongshu.com/explore/6953a4fb000000001e03905e)
+> 📖 **小红书来源**：[海参崴好吃的餐厅推荐😋（附详细地址）· 271赞](https://www.xiaohongshu.com/explore/69595369000000001e037cd9) ｜ [海参崴 亲测美食附地址（无广不踩雷版）· 92赞](https://www.xiaohongshu.com/explore/69c48e4e000000002103b2f4)
 
 #### 📍 Day 3 交通详情（Google Maps 实测 · 步行为主）
 
@@ -390,7 +390,7 @@
    - 2GIS 平台 288+ 好评的本地宝藏馆子
    - 必点：布里亚特蒸包（Буузы）、呼舒尔炸饺（Хушуур）、烤肉大拼盘
    - 人均约 1000₽，分量大
-   - 📖 **小红书来源**：[海参崴本地人私藏！布里亚特餐厅N刷 · 49赞](https://www.xiaohongshu.com/explore/69c77f8700000000210066bf) — 详细菜品推荐+地址
+   - 📖 **小红书来源**：[海参崴03丨餐厅大反馈 · 112赞](https://www.xiaohongshu.com/explore/688e03600000000004004b29) — 多家餐厅褒贬实测
 
 #### 🍽️ D4 午餐推荐（FEFU 校区 / Kalina Mall）
 
@@ -408,7 +408,7 @@
 | **Studio** | 排骨、鸡翅，24h营业 | ~1000₽ | [大众点评](https://www.dianping.com/search/keyword/0/0_Studio海参崴) [谷歌地图](https://www.google.com/maps/search/?api=1&query=Studio+restaurant+Vladivostok) |
 | **SUPRA** | 格鲁吉亚菜，需WhatsApp预约 | ~1200₽ | [大众点评](https://www.dianping.com/search/keyword/0/0_SUPRA海参崴) [谷歌地图](https://www.google.com/maps/search/?api=1&query=SUPRA+restaurant+Vladivostok) |
 
-> 📖 **小红书来源**：[海参崴本地人私藏！布里亚特餐厅N刷 · 49赞](https://www.xiaohongshu.com/explore/69c77f8700000000210066bf)
+> 📖 **小红书来源**：[海参崴太好吃了，我要为俄餐发声🫕 · 255赞](https://www.xiaohongshu.com/explore/692d6714000000001e0309de) ｜ [海参崴03丨餐厅大反馈 · 112赞](https://www.xiaohongshu.com/explore/688e03600000000004004b29)
 
 #### 📍 Day 4 交通详情（Google Maps 实测）
 
@@ -865,9 +865,9 @@
 - **小红书搜索**：`海参崴 出海 海豹`
 - **注意**：五一船位紧张，需提前预定
 - 📖 **小红书来源**：
-  - [海参崴出海追海豹全干货 · 小红书](https://www.xiaohongshu.com/explore/69c774430000000021038914) — 行程+安全+预定指南
+  - [海参崴出海看海豹一日行程真实体验 · 15赞](https://www.xiaohongshu.com/explore/6912ddd2000000000300e8a5) — 详细时间线：10点集合→12点到码头→13:30登船→无人岛→19点回市区
+  - [海参崴值得｜出海看海豹🦭钓鱼🎣追日落🌅 · 42赞](https://www.xiaohongshu.com/explore/681801420000000003038896) — 拼团出海6小时，近距离看海豹+灯塔海景
   - [海参崴看斑海豹 · 157赞](https://www.xiaohongshu.com/explore/68b8394a000000001c00562e) — 海豹科普+实拍
-  - [五一必冲！海参崴看海豹 · 小红书](https://www.xiaohongshu.com/explore/69d038f9000000002102e806) — 五一大船升级
 
 ### 🎪 海参崴马戏团
 
@@ -877,8 +877,8 @@
 - **五一期间排期不确定**，需提前在官网查看
 - 距离鹰巢山缆车不远，可顺路安排
 - 📖 **小红书来源**：
-  - [海参崴马戏团2026最新排期 · 小红书](https://www.xiaohongshu.com/explore/6969c8bd000000002202cc69) — 排期+官网购票
-  - [海参崴DAY3 马戏团体验 · 48赞](https://www.xiaohongshu.com/explore/68863069000000001c03348f) — 详细体验+座位推荐
+  - [海参崴DAY3 马戏团体验 · 48赞](https://www.xiaohongshu.com/explore/68863069000000001c03348f) — 详细体验+座位推荐+顺路缆车
+  - [海参崴第三天，精彩的大马戏非常值得！· 9赞](https://www.xiaohongshu.com/explore/6886b26800000000100244b0) — 亲子体验+商场购物
 
 ### 🏪 特色纪念品店
 
@@ -898,10 +898,12 @@
 | Moonshine | 酒吧 | 鸡尾酒 | ¥80 | 网红酒吧，氛围不错 |
 | 海边饺子馆 | 帝王蟹 | 清蒸帝王蟹 2500₽/kg | ¥150+ | 市中心帝王蟹价格洼地，有中国店员 |
 
-> 📖 **小红书美食来源**：
-> - [二刷海参崴餐厅黑红榜（带定位版）· 435赞](https://www.xiaohongshu.com/explore/68a18d51000000001c031f73) — Studio/百年食堂/海边饺子馆详细点评
-> - [海参崴已回🦀5天4晚吃喝9图全记录 · 108赞](https://www.xiaohongshu.com/explore/6953a4fb000000001e03905e) — 7家餐厅实测
-> - [海参崴好吃推荐（小众）· 138赞](https://www.xiaohongshu.com/explore/694b473c000000001b03276e) — 日料/咖啡/小众美食
+> 📖 **小红书美食来源**（均为个人用户实测）：
+> - [海参崴好吃的餐厅推荐😋（附详细地址）· 271赞](https://www.xiaohongshu.com/explore/69595369000000001e037cd9) — 6家餐厅评分+地址
+> - [海参崴 亲测美食附地址（无广不踩雷版）· 92赞](https://www.xiaohongshu.com/explore/69c48e4e000000002103b2f4) — 明确标注无广，6家餐厅+⚠️小费提醒
+> - [我在海参崴吃什么🍽️ · 130赞](https://www.xiaohongshu.com/explore/68dded9d000000000402260c) — 9家餐厅褒贬混评
+> - [海参崴太好吃了，我要为俄餐发声🫕 · 255赞](https://www.xiaohongshu.com/explore/692d6714000000001e0309de) — 多家特色餐厅+超市推荐
+> - [海参崴03丨餐厅大反馈 · 112赞](https://www.xiaohongshu.com/explore/688e03600000000004004b29) — 多家餐厅真实踩雷+推荐
 
 ### 🔫 市区室内射击（备选）
 
@@ -914,6 +916,6 @@
 
 > 💡 **伏罗希洛夫炮台的老爷爷（D2已安排）仍然是性价比最高的选择**：2000₽/10发 + 免费拍照 + 可参观军事基地
 
-> 📖 **小红书室内射击来源**：
-> - [海参崴—打枪自由 Top Gun · 97赞](https://www.xiaohongshu.com/explore/68de01d90000000003011ea2) — Top Gun 详细体验
+> 📖 **小红书室内射击来源**（个人体验）：
+> - [海参崴—打枪自由 Top Gun · 97赞](https://www.xiaohongshu.com/explore/68de01d90000000003011ea2) — Top Gun 详细体验，老板耐心指导
 > - [海参崴避雷！Fireline只坑中国人 · 30赞](https://www.xiaohongshu.com/explore/6980a130000000000a02ff63) — FireLine 避雷

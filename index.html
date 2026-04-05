@@ -383,6 +383,31 @@ a:hover { text-decoration: underline; }
     border-color: var(--accent) !important; color: var(--accent) !important;
     background: var(--accent-bg) !important;
 }
+
+/* ── Attraction Guide Collapsible ── */
+details.attraction-guide {
+    margin: 10px 0 4px; border: 1px solid var(--border);
+    border-radius: 10px; background: var(--bg); overflow: hidden;
+}
+details.attraction-guide summary {
+    padding: 8px 14px; cursor: pointer; color: var(--accent);
+    font-weight: 500; font-size: .85rem; list-style: none;
+    display: flex; align-items: center; gap: 6px;
+    user-select: none; transition: background .15s;
+}
+details.attraction-guide summary:hover { background: var(--accent-bg); }
+details.attraction-guide summary::-webkit-details-marker { display: none; }
+details.attraction-guide summary::before {
+    content: '▸'; font-size: .75rem;
+    transition: transform .2s; flex-shrink: 0;
+}
+details.attraction-guide[open] summary::before { transform: rotate(90deg); }
+details.attraction-guide[open] summary { border-bottom: 1px solid var(--border); }
+details.attraction-guide .guide-content {
+    padding: 12px 16px; line-height: 1.7; font-size: .9rem;
+}
+details.attraction-guide .guide-content > *:first-child { margin-top: 0; }
+details.attraction-guide .guide-content > *:last-child { margin-bottom: 0; }
     </style>
 </head>
 <body>
@@ -530,6 +555,7 @@ a:hover { text-decoration: underline; }
             });
 
             this.processRestaurantCards(c);
+            this.processAttractionGuides(c);
 
             c.querySelectorAll('a[href^="http"]').forEach(a => {
                 a.target = '_blank';
@@ -564,6 +590,102 @@ a:hover { text-decoration: underline; }
                 card.appendChild(h4);
                 card.appendChild(tw);
             });
+        }
+
+        processAttractionGuides(c) {
+            const h2s = [...c.querySelectorAll('h2')];
+            const guideH2 = h2s.find(h => h.textContent.includes('景点') && h.textContent.includes('介绍'));
+            if (!guideH2) return;
+
+            const nextH2 = h2s[h2s.indexOf(guideH2) + 1] || null;
+            const sectionEls = [guideH2];
+            let nd = guideH2.nextElementSibling;
+            while (nd && nd !== nextH2 && nd.tagName !== 'H2') {
+                sectionEls.push(nd);
+                nd = nd.nextElementSibling;
+            }
+
+            const hasH3 = sectionEls.some(el => el.tagName === 'H3');
+            const attractions = [];
+
+            if (hasH3) {
+                let cur = null, els = [];
+                for (const el of sectionEls) {
+                    if (el === guideH2) continue;
+                    if (el.tagName === 'H3') {
+                        if (cur) attractions.push({ name: cur, els });
+                        cur = el.textContent.replace(/^\d+[\.\s]+/, '').trim();
+                        els = [];
+                    } else if (el.tagName !== 'HR' && cur) {
+                        els.push(el);
+                    }
+                }
+                if (cur) attractions.push({ name: cur, els });
+            } else {
+                for (const el of sectionEls) {
+                    const tbl = el.tagName === 'TABLE' ? el : el.querySelector?.('table');
+                    if (!tbl) continue;
+                    const rows = tbl.querySelectorAll('tbody tr');
+                    (rows.length ? rows : tbl.querySelectorAll('tr:not(:first-child)')).forEach(row => {
+                        const cells = row.querySelectorAll('td');
+                        if (cells.length >= 3) attractions.push({
+                            name: cells[1].textContent.trim(),
+                            html: '<p>' + cells[2].innerHTML + '</p>' +
+                                (cells.length >= 4 ? '<p><b>亲子适宜度</b>：' + cells[3].innerHTML + '</p>' : '')
+                        });
+                    });
+                }
+            }
+
+            if (!attractions.length) return;
+
+            const allLis = [...c.querySelectorAll('ol > li')];
+            const movedEls = new Set(), usedLis = new Set();
+
+            for (const attr of attractions) {
+                const terms = this.guideSearchTerms(attr.name);
+                let target = null;
+                for (const term of terms) {
+                    if (term.length < 2) continue;
+                    for (const li of allLis) {
+                        if (usedLis.has(li)) continue;
+                        if (li.textContent.includes(term)) { target = li; break; }
+                    }
+                    if (target) break;
+                }
+                if (!target) continue;
+                usedLis.add(target);
+
+                const det = document.createElement('details');
+                det.className = 'attraction-guide';
+                const sum = document.createElement('summary');
+                sum.textContent = '📖 ' + attr.name;
+                det.appendChild(sum);
+
+                const div = document.createElement('div');
+                div.className = 'guide-content';
+                if (attr.els) attr.els.forEach(e => { div.appendChild(e); movedEls.add(e); });
+                else if (attr.html) div.innerHTML = attr.html;
+                det.appendChild(div);
+                target.appendChild(det);
+            }
+
+            const prev = guideH2.previousElementSibling;
+            if (prev && prev.tagName === 'HR') prev.style.display = 'none';
+            sectionEls.forEach(el => { if (!movedEls.has(el)) el.style.display = 'none'; });
+        }
+
+        guideSearchTerms(name) {
+            const s = name.replace(/[\u{1F300}-\u{1FFFF}\u{2600}-\u{27BF}]/gu, '').replace(/^\d+[\.\s]+/, '').trim();
+            const a = s.replace(/\s*[（(].*[）)]\s*/g, '').trim();
+            const b = a.replace(/\s*(与|和|以及|\/|／).*$/, '').trim();
+            const d = b.replace(/^(海参崴|苏州|上海|北京|杭州)/, '').trim();
+            const terms = [];
+            const add = t => { if (t && t.length >= 2 && !terms.includes(t)) terms.push(t); };
+            add(a); add(b); add(d);
+            if (/^[\u4e00-\u9fff]/.test(b)) add(b.replace(/\s+[A-Za-z].*$/, '').trim());
+            if (/^[A-Za-z]/.test(b)) add(b.replace(/\s+[\u4e00-\u9fff].*$/, '').trim());
+            return terms;
         }
 
         injectCheckboxes(container, planId) {
@@ -611,7 +733,7 @@ a:hover { text-decoration: underline; }
             li.appendChild(wrap);
 
             li.addEventListener('click', e => {
-                if (e.target.tagName === 'A' || e.target.closest('a') || e.target === cb) return;
+                if (e.target.tagName === 'A' || e.target.closest('a') || e.target === cb || e.target.closest('details')) return;
                 cb.checked = !cb.checked;
                 cb.dispatchEvent(new Event('change'));
             });

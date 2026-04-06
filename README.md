@@ -1,71 +1,74 @@
 # 🛤️ On the Road（在路上）
 
-一个 AI 驱动的旅行攻略生成器。通过 Cursor AI + MCP 工具链，自动从小红书采集攻略、调用地图 API 规划路线，生成结构化的 Markdown 旅行计划，并以精美的单页应用呈现。
+An AI-powered travel guide generator. Using Cursor AI + MCP toolchain, it automatically collects travel tips from Xiaohongshu (小红书), plans routes via map APIs, generates structured Markdown itineraries, and presents them as a polished single-page application.
 
-## 预览
+AI 驱动的旅行攻略生成器。通过 Cursor AI + MCP 工具链，自动从小红书采集攻略、调用地图 API 规划路线，生成结构化的 Markdown 旅行计划，并以精美的单页应用呈现。
 
-打开 `index.html` 即可浏览所有旅行计划。每份攻略包含：
+## Preview
 
-- 逐日行程时间线，支持 checkbox 勾选追踪进度
-- 实时汇率换算器（境外目的地）
-- 每段路线的导航链接（高德/Google Maps 一键跳转）
-- 每餐 2–3 家餐厅推荐卡片，附大众点评和地图链接
-- 景点详情、交通费用总览、坐标速查表
+Open `index.html` to browse all travel plans. Each guide includes:
 
-## 项目结构
+- Day-by-day timeline with checkbox progress tracking
+- Real-time currency converter (for international destinations)
+- Navigation links for every leg (Amap / Google Maps one-click)
+- 2–3 restaurant recommendations per meal, with Dianping & map links
+- Collapsible attraction details, cost breakdowns, coordinate lookups
+- Ad-filtered Xiaohongshu sources — only verified personal experience posts
+
+## Project Structure
 
 ```
 on-the-road/
-├── index.html          # 单页应用，渲染所有旅行计划
-├── plans.json          # 计划注册表（标题、日期、描述）
-├── plans/              # Markdown 格式的旅行攻略
-│   ├── Vladivostok.md  # 海参崴 5 日计划
-│   └── Suzhou.md       # 苏州 3 日亲子计划
-└── .cursor/skills/     # Cursor AI 技能定义
-    ├── travel-guide-creation/   # 攻略生成全流程
-    ├── xiaohongshu-search/      # 小红书搜索与内容提取
-    └── google-maps-route-planning/  # Google Maps 路线规划
+├── index.html          # SPA that renders all travel plans
+├── plans.json          # Plan registry (title, dates, description)
+├── plans/              # Markdown travel guides
+│   ├── Vladivostok.md  # Vladivostok 5-day plan (海参崴)
+│   └── Suzhou.md       # Suzhou 3-day family plan (苏州)
+└── .cursor/skills/     # Cursor AI skill definitions
+    ├── travel-guide-creation/        # End-to-end guide generation
+    ├── xiaohongshu-search/           # Xiaohongshu search + ad filtering
+    └── google-maps-route-planning/   # Google Maps route planning
 ```
 
-## 工作流程
+## Workflow
 
 ```
-小红书搜索（采集攻略/美食/住宿推荐）
+Xiaohongshu search (collect attractions / food / hotel tips)
+        ↓  filter out ads, keep personal posts only
+Map APIs (geocoding + route planning + distance calculation)
         ↓
-地图 API（地理编码 + 路线规划 + 距离计算）
+Generate Markdown guide (strict template format)
         ↓
-生成 Markdown 攻略（严格模板格式）
+Register in plans.json → index.html auto-renders
         ↓
-注册到 plans.json → index.html 自动展示
-        ↓
-Chrome DevTools 截图验证渲染效果
+Chrome DevTools screenshot verification
 ```
 
-## MCP 工具链
+## MCP Toolchain
 
-本项目使用以下 MCP（Model Context Protocol）服务，均可从 [MCP Market](https://mcpmarket.cn/) 获取：
+This project uses the following MCP (Model Context Protocol) services:
 
-| MCP 服务 | 用途 | 核心工具 |
+| MCP Service | Purpose | Key Tools |
 | --- | --- | --- |
-| **高德地图 (Amap)** | 国内路线规划、地理编码、POI 搜索 | `maps_geo` `maps_direction_driving` `maps_direction_walking` `maps_direction_transit_integrated` `maps_text_search` |
-| **谷歌地图 (Google Maps)** | 境外路线规划、景点搜索、距离矩阵 | `maps_directions` `maps_search_places` `maps_distance_matrix` `maps_geocode` |
-| **RedNote search (小红书)** | 搜索小红书笔记、获取攻略内容和评论 | `search_notes` `get_note_content` `get_note_comments` |
-| **Chrome DevTools** | 浏览器自动化，用于页面验证和小红书备用搜索 | `new_page` `take_screenshot` `take_snapshot` `evaluate_script` |
+| **Amap (高德地图)** | Domestic route planning, geocoding, POI search | `maps_geo` `maps_direction_driving` `maps_direction_walking` `maps_direction_transit_integrated` |
+| **Google Maps** | International route planning, place search, distance matrix | `maps_directions` `maps_search_places` `maps_distance_matrix` `maps_geocode` |
+| **RedNote search (小红书)** | Search Xiaohongshu notes, extract guides and comments | `search_notes` `get_note_content` `get_note_comments` |
+| **Chrome DevTools** | Browser automation for page verification and fallback search | `new_page` `take_screenshot` `take_snapshot` `evaluate_script` |
 
 ## Cursor Skills
 
-项目包含三个自定义 Cursor 技能（`.cursor/skills/`），定义了 AI 的完整工作流：
+The project includes three custom Cursor skills (`.cursor/skills/`) that define the AI's complete workflow:
 
-- **travel-guide-creation** — 端到端攻略生成流程，从信息采集到格式化输出
-- **xiaohongshu-search** — 小红书搜索策略，含图片内容读取和 Chrome DevTools 备用方案
-- **google-maps-route-planning** — Google Maps 路线查询、费用估算和导航链接生成
+- **travel-guide-creation** — End-to-end guide generation: from data collection to formatted output
+- **xiaohongshu-search** — Xiaohongshu search strategy with image content extraction, ad filtering rules, and Chrome DevTools fallback
+- **google-maps-route-planning** — Google Maps route queries, cost estimation, and navigation link generation
 
-## 本地运行
+## Run Locally
 
 ```bash
 cd on-the-road
 python3 -m http.server 8765
-# 浏览器打开 http://localhost:8765
+# Open http://localhost:8765
 ```
 
 ## License

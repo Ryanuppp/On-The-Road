@@ -14,5 +14,13 @@
     "dates": "2026/04/10 – 04/12",
     "emoji": "🏯",
     "description": "园林赏春 ｜ 古街漫步 ｜ 寺庙祈福 ｜ 苏帮美食"
+  },
+  {
+    "id": "Malaysia2026",
+    "title": "马来西亚（吉隆坡＋亚庇）7日旅行计划",
+    "file": "plans/Malaysia2026.md",
+    "dates": "2026/10/01 – 10/07",
+    "emoji": "🇲🇾",
+    "description": "吉隆坡Citywalk ｜ 亚庇体验潜水+浮潜 ｜ 周日市集 ｜ 红树林萤火虫"
   }
 ]

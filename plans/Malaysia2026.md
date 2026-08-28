@@ -245,14 +245,16 @@ KLIA Ekspres 每 20 分钟一班，KL Sentral 至 T1 为 28 分钟，T1 至 T2 �
 
 > ✈️ 今天的任务是准时抵达 KUL T2；不要加黑风洞、马六甲等远程项目。
 
-**今日重点**：把海脚人作为吉隆坡最后一顿正餐，随后整理行李、从容转场。
+**今日重点**：先退房寄存行李，把海脚人作为吉隆坡最后一顿正餐，随后从容转场。
 
 **行程节点**：
 
-- [ ] **09:30–10:30** 睡到自然醒，酒店附近早餐。
-- [ ] **10:45–11:45** The Exchange TRX 慢逛、咖啡；下雨也不受影响。
+- [ ] **09:30–10:15** 睡到自然醒，酒店附近早餐。
+- [ ] **10:15–10:45** 整理行李、办理退房，把行李寄存在前台。
+- [ ] **11:00–11:45** The Exchange TRX 慢逛、咖啡；下雨也不受影响。
 - [ ] **12:00–13:15** Grab 前往 **海脚人 Hai Kah Lang TRX** 午餐；优先综合海鲜粉或奶汤鱼头米粉，两人不要同时点过大的海鲜组合。
-- [ ] **13:15–14:30** 回酒店洗澡、整理行李、办理退房；离开前再次核对护照和登机牌。
+- [ ] **13:15–14:15** 返回酒店，在大堂或附近咖啡馆休息；不再安排购物任务。
+- [ ] **14:15–15:15** 取行李、整理随身物品，再次核对护照和登机牌。
 - [ ] **15:30** Grab 前往 KL Sentral。
 - [ ] **16:15 左右** KLIA Ekspres 前往 KUL T2；目标 **17:00 前到 T2**。
 - [ ] **17:00–18:15** 自助值机、打印行李条、托运行李、安检、吃简餐。
@@ -269,6 +271,8 @@ KLIA Ekspres 每 20 分钟一班，KL Sentral 至 T1 为 28 分钟，T1 至 T2 �
 | **Lot 10 Hutong** | 多种本地小吃，离酒店近 | RM25–50/人 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Lot+10+Hutong+Kuala+Lumpur) |
 
 海脚人官网列出的 TRX 分店地址为 No. 32 & 34, Jalan Utara, Off Jalan Imbi，营业时间 08:00–次日 02:00。[海脚人官网分店信息](https://www.haikahlang.com/contact-us/)
+
+Capri by Fraser Bukit Bintang 官方退房时间为 12:00，并提供前台行李寄存。因此本日默认先退房再吃海脚人；只有酒店书面确认延迟退房时，才保留回房洗澡的安排。[酒店官方 FAQ](https://www.frasershospitality.com/en/malaysia/kualalumpur/capri-by-fraser-bukit-bintang/faq/)
 
 > **分店区别**：米其林指南 2026 的必比登门店是 **Taman Cheras（Yulek）总店**，不是 TRX 分店。总店离本次动线更远且 17:00 关门，因此默认吃菜单相近、交通更顺的 TRX 分店；若你追求“米其林上榜原店”，应把 D3 上午购物改成 10:30 前往 Yulek 总店。[米其林 2026 名单](https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-kuala-lumpur-penang-2026)
 

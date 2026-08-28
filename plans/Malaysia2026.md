@@ -77,7 +77,7 @@ AirAsia 在吉隆坡使用 T2、亚庇使用 T1；KUL T2 国内航班托运行�
 | --- | --- | --- | --- | --- |
 | D1 | 10/01 周四 | 抵达吉隆坡 | 北京大兴 → KUL T1 → 武吉免登 | 入境、入住、阿罗街晚餐 |
 | D2 | 10/02 周五 | 吉隆坡完整日 | 独立广场 → 占美清真寺 → 中央市场 → 伊斯兰艺术博物馆 → Pavilion → KLCC | 历史城区 + 博物馆 + 双子塔夜景 |
-| D3 | 10/03 周六 | 吉隆坡 → 亚庇 | 武吉免登慢逛 → KL Sentral → KUL T2 → BKI T1 | 晚班内陆航班，不赶景点 |
+| D3 | 10/03 周六 | 吉隆坡 → 亚庇 | TRX → 海脚人午餐 → KL Sentral → KUL T2 → BKI T1 | 吃完海鲜粉再从容赶晚班机 |
 | D4 | 10/04 周日 | 亚庇城市日 | 加雅街周日市集 → 市区休息 → 丹绒亚路 → 海鲜晚餐 | 周日限定市集 + 日落 |
 | D5 | 10/05 周一 | 潜水日 | Jesselton Point → 东姑阿都拉曼海洋公园 → 亚庇 | 无证 DSD 两潜 + 水面浮潜 |
 | D6 | 10/06 周二 | 红树林日 | 上午休息 → Klias 湿地 → 长鼻猴 → 萤火虫 | 下午出发、约 22:00 回城 |
@@ -243,14 +243,14 @@ KLIA Ekspres 每 20 分钟一班，KL Sentral 至 T1 为 28 分钟，T1 至 T2 �
 
 > ✈️ 今天的任务是准时抵达 KUL T2；不要加黑风洞、马六甲等远程项目。
 
-**今日重点**：慢逛、整理行李、从容转场。
+**今日重点**：把海脚人作为吉隆坡最后一顿正餐，随后整理行李、从容转场。
 
 **行程节点**：
 
 - [ ] **08:30–10:00** 睡到自然醒，酒店附近早餐。
-- [ ] **10:00–12:30** Pavilion / The Exchange TRX 购物、咖啡；下雨也不受影响。
-- [ ] **12:30–13:30** 午餐。
-- [ ] **13:30–14:30** 回酒店洗澡、整理行李、办理退房；行李寄存前再次核对护照和登机牌。
+- [ ] **10:00–11:30** The Exchange TRX 慢逛、咖啡；下雨也不受影响。
+- [ ] **11:40–13:00** Grab 前往 **海脚人 Hai Kah Lang TRX** 午餐；优先综合海鲜粉或奶汤鱼头米粉，两人不要同时点过大的海鲜组合。
+- [ ] **13:00–14:30** 回酒店洗澡、整理行李、办理退房；离开前再次核对护照和登机牌。
 - [ ] **15:30** Grab 前往 KL Sentral。
 - [ ] **16:15 左右** KLIA Ekspres 前往 KUL T2；目标 **17:00 前到 T2**。
 - [ ] **17:00–18:15** 自助值机、打印行李条、托运行李、安检、吃简餐。
@@ -262,11 +262,15 @@ KLIA Ekspres 每 20 分钟一班，KL Sentral 至 T1 为 28 分钟，T1 至 T2 �
 
 | 餐厅 | 推荐内容 | 预算 | 链接 |
 | --- | --- | ---: | --- |
+| **海脚人 Hai Kah Lang TRX** | 综合海鲜粉、鱼头奶汤米粉；本次固定午餐 | RM35–70/人 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Hai+Kah+Lang+TRX+Kuala+Lumpur) |
 | **ICC Pudu** | 粿条、海南茶、传统早餐 | RM15–30/人 | [Google Maps](https://www.google.com/maps/search/?api=1&query=ICC+Pudu+Kuala+Lumpur) |
 | **Lot 10 Hutong** | 多种本地小吃，离酒店近 | RM25–50/人 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Lot+10+Hutong+Kuala+Lumpur) |
-| **TRX 餐饮区** | 环境舒适，适合出发前慢吃 | RM30–70/人 | [Google Maps](https://www.google.com/maps/search/?api=1&query=The+Exchange+TRX) |
 
-> 🗺️ **机场路线**：[武吉免登 → KL Sentral → KUL T2](https://www.google.com/maps/dir/Capri+by+Fraser+Bukit+Bintang/KL+Sentral/Kuala+Lumpur+International+Airport+Terminal+2/)
+海脚人官网列出的 TRX 分店地址为 No. 32 & 34, Jalan Utara, Off Jalan Imbi，营业时间 08:00–次日 02:00。[海脚人官网分店信息](https://www.haikahlang.com/contact-us/)
+
+> **分店区别**：米其林指南 2026 的必比登门店是 **Taman Cheras（Yulek）总店**，不是 TRX 分店。总店离本次动线更远且 17:00 关门，因此默认吃菜单相近、交通更顺的 TRX 分店；若你追求“米其林上榜原店”，应把 D3 上午购物改成 10:30 前往 Yulek 总店。[米其林 2026 名单](https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-kuala-lumpur-penang-2026)
+
+> 🗺️ **当天路线**：[酒店 → The Exchange TRX → 海脚人 TRX → KL Sentral → KUL T2](https://www.google.com/maps/dir/Capri+by+Fraser+Bukit+Bintang/The+Exchange+TRX/Hai+Kah+Lang+TRX/KL+Sentral/Kuala+Lumpur+International+Airport+Terminal+2/)
 
 > ⚠️ AirAsia 基础票通常不含托运行李。两人如果只有一个大箱，可在同一订单中只给其中一人购买足够托运行李额；以航司规则和实际行李重量为准。
 
@@ -453,7 +457,7 @@ DAN 建议：单次免减压潜水后至少 12 小时再飞；一天内多潜或
 | --- | --- | ---: | --- |
 | D1 | 机场快线 + Grab | 1–2 km | [KUL T1→KL Sentral→武吉免登](https://www.google.com/maps/dir/Kuala+Lumpur+International+Airport+Terminal+1/KL+Sentral/Capri+by+Fraser+Bukit+Bintang/) |
 | D2 | 步行 + 3次 Grab | 6–8 km | [完整 Citywalk](https://www.google.com/maps/dir/Dataran+Merdeka/Masjid+Jamek/Central+Market+Kuala+Lumpur/Islamic+Arts+Museum+Malaysia/Pavilion+Kuala+Lumpur/Petronas+Twin+Towers/) |
-| D3 | Grab + 机场快线 + 飞机 | 2–4 km | [武吉免登→KL Sentral→KUL T2](https://www.google.com/maps/dir/Capri+by+Fraser+Bukit+Bintang/KL+Sentral/Kuala+Lumpur+International+Airport+Terminal+2/) |
+| D3 | Grab + 机场快线 + 飞机 | 2–4 km | [酒店→TRX→海脚人→KL Sentral→KUL T2](https://www.google.com/maps/dir/Capri+by+Fraser+Bukit+Bintang/The+Exchange+TRX/Hai+Kah+Lang+TRX/KL+Sentral/Kuala+Lumpur+International+Airport+Terminal+2/) |
 | D4 | 步行 + Grab | 4–6 km | [Gaya→丹绒亚路→海鲜](https://www.google.com/maps/dir/Gaya+Street+Kota+Kinabalu/Tanjung+Aru+Beach/Welcome+Seafood+Restaurant+Kota+Kinabalu/) |
 | D5 | 步行 + 潜店船只 | 1–2 km | [酒店区→Jesselton Point](https://www.google.com/maps/dir/Hotel+Sixty3+Kota+Kinabalu/Jesselton+Point/) |
 | D6 | 旅行社接送 + 河船 | 1 km 内 | [Gaya Street→Klias Wetland](https://www.google.com/maps/dir/Gaya+Street+Kota+Kinabalu/Klias+Wetland/) |
@@ -509,6 +513,7 @@ DAN 建议：单次免减压潜水后至少 12 小时再飞；一天内多潜或
 
 | 城市 | 必吃类型 | 推荐地点 | 预算 |
 | --- | --- | --- | ---: |
+| 吉隆坡 | 海鲜粉、鱼头米粉 | **海脚人 Hai Kah Lang TRX（D3 固定午餐）** | RM35–70/人 |
 | 吉隆坡 | 椰浆饭、仁当、咖喱叻沙 | Madam Kwan's / 商场餐饮区 | RM35–65/人 |
 | 吉隆坡 | 街头小吃 | Jalan Alor | RM30–60/人 |
 | 吉隆坡 | 老城面食 | Lai Foong 一带 | RM15–30/人 |

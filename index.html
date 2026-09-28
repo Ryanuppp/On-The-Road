@@ -153,6 +153,13 @@ a:hover { text-decoration: underline; }
 .weather-city-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
 .weather-city-name { font-size: .95rem; font-weight: 650; }
 .weather-city-dates { margin-top: 1px; color: var(--text-2); font-size: .75rem; }
+.weather-section-label { margin: 14px 0 7px; color: var(--text-2); font-size: .72rem; font-weight: 600; }
+.weather-hours { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 5px; }
+.weather-hour, .weather-day { min-width: 0; padding: 7px 3px; text-align: center; border-radius: 9px; background: rgba(255,255,255,.72); }
+.weather-hour-time, .weather-day-date { display: block; color: var(--text-2); font-size: .68rem; }
+.weather-hour-icon { display: block; margin: 3px 0 1px; font-size: 1rem; line-height: 1.2; }
+.weather-hour-temp { display: block; font-size: .72rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.weather-hour-rain { display: block; margin-top: 1px; color: #3b82c4; font-size: .66rem; white-space: nowrap; }
 .weather-days { display: grid; grid-template-columns: repeat(auto-fit, minmax(72px, 1fr)); gap: 5px; margin-top: 12px; }
 .weather-day { min-width: 0; padding: 7px 3px; text-align: center; border-radius: 9px; background: rgba(255,255,255,.72); }
 .weather-day-date { display: block; color: var(--text-2); font-size: .68rem; }
@@ -307,6 +314,7 @@ a:hover { text-decoration: underline; }
     .weather-city-grid { grid-template-columns: 1fr; }
     .weather-city + .weather-city { border-left: 0; border-top: 1px solid #dbeaf7; }
     .weather-city { padding: 14px; }
+    .weather-hours { grid-template-columns: repeat(4, minmax(0, 1fr)); }
     .weather-days { grid-template-columns: repeat(auto-fit, minmax(48px, 1fr)); }
 }
 
@@ -981,7 +989,7 @@ details.attraction-guide .guide-content > *:last-child { margin-bottom: 0; }
         }
 
         async fetchWeather(city) {
-            const query = new URLSearchParams({
+            const tripQuery = new URLSearchParams({
                 latitude: String(city.latitude),
                 longitude: String(city.longitude),
                 daily: 'weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,precipitation_sum',
@@ -989,13 +997,33 @@ details.attraction-guide .guide-content > *:last-child { margin-bottom: 0; }
                 start_date: city.startDate,
                 end_date: city.endDate
             });
-            const response = await fetch(`https://api.open-meteo.com/v1/forecast?${query}`, { cache: 'no-store' });
-            if (!response.ok) throw new Error('weather unavailable');
-            return response.json();
+            const hourlyQuery = new URLSearchParams({
+                latitude: String(city.latitude),
+                longitude: String(city.longitude),
+                hourly: 'temperature_2m,precipitation_probability,weather_code',
+                timezone: 'Asia/Kuala_Lumpur',
+                forecast_hours: '12'
+            });
+            const [tripResponse, hourlyResponse] = await Promise.all([
+                fetch(`https://api.open-meteo.com/v1/forecast?${tripQuery}`, { cache: 'no-store' }),
+                fetch(`https://api.open-meteo.com/v1/forecast?${hourlyQuery}`, { cache: 'no-store' })
+            ]);
+            if (!tripResponse.ok || !hourlyResponse.ok) throw new Error('weather unavailable');
+            return {
+                trip: await tripResponse.json(),
+                hourly: await hourlyResponse.json()
+            };
         }
 
         weatherCityCard(city, data) {
-            const daily = data.daily || {};
+            const daily = data.trip?.daily || {};
+            const hourly = data.hourly?.hourly || {};
+            const hours = (hourly.time || []).slice(0, 12).map((time, index) => ({
+                time,
+                weather: this.weatherInfo(hourly.weather_code?.[index]),
+                temperature: hourly.temperature_2m?.[index],
+                rain: hourly.precipitation_probability?.[index]
+            }));
             const forecast = (daily.time || []).map((date, index) => {
                 return {
                     date,
@@ -1012,6 +1040,14 @@ details.attraction-guide .guide-content > *:last-child { margin-bottom: 0; }
                         <div class="weather-city-dates">行程日 ${esc(this.weatherDate(city.startDate))}–${esc(this.weatherDate(city.endDate))}</div>
                     </div>
                 </div>
+                ${hours.length ? `<div class="weather-section-label">当地未来 12 小时</div>
+                <div class="weather-hours">${hours.map(hour => `
+                    <div class="weather-hour" title="${esc(this.weatherHour(hour.time))} ${esc(hour.weather.label)}，降雨概率 ${this.weatherNumber(hour.rain)}%">
+                        <span class="weather-hour-time">${esc(this.weatherHour(hour.time))}</span>
+                        <span class="weather-hour-icon" aria-hidden="true">${hour.weather.icon}</span>
+                        <span class="weather-hour-temp">${this.weatherNumber(hour.temperature)}°</span>
+                        <span class="weather-hour-rain">☂ ${this.weatherNumber(hour.rain)}%</span>
+                    </div>`).join('')}</div>` : ''}
                 ${forecast.length ? `<div class="weather-days">${forecast.map(day => `
                     <div class="weather-day" title="${esc(day.weather.label)}，降雨概率 ${this.weatherNumber(day.rain)}%">
                         <span class="weather-day-date">${esc(this.weatherDate(day.date))}</span>
@@ -1039,6 +1075,10 @@ details.attraction-guide .guide-content > *:last-child { margin-bottom: 0; }
 
         weatherDate(date) {
             return date ? date.slice(5).replace('-', '/') : '—';
+        }
+
+        weatherHour(time) {
+            return time ? time.slice(11, 16) : '—';
         }
 
         weatherNumber(value) {

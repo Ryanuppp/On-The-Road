@@ -95,15 +95,13 @@ MH2638 在吉隆坡使用 T1、亚庇抵达 T1。马航马来西亚境内航线�
 
 ### 吉隆坡｜10/01–10/03，共 2 晚
 
-> 🛏️ **建议住武吉免登 Bukit Bintang**：晚上吃饭、Pavilion/TRX 购物和步行去 KLCC 都方便；10/03 退房后也容易前往 KL Sentral。
+> 🛏️ **已订吉隆坡活乐酒店 WOLO Kuala Lumpur**：位于 Jalan Bukit Bintang 与 Jalan Sultan Ismail 路口，紧邻武吉免登站；去 Pavilion、阿罗街、Lot 10 和单轨线都很方便，10/03 退房后叫 Grab 去 KL Sentral 即可。
 
-| 档位 | 酒店 | 适合原因 | 订房注意 |
-| --- | --- | --- | --- |
-| **默认推荐** | [Capri by Fraser Bukit Bintang](https://www.frasershospitality.com/en/malaysia/kualalumpur/capri-by-fraser-bukit-bintang/) | 正规酒店式公寓、有前台，靠近 Pavilion/TRX，空间比普通酒店宽松 | 订可取消价，确认是否含早餐 |
-| **舒适升级** | [PARKROYAL COLLECTION Kuala Lumpur](https://www.panpacific.com/en/hotels-and-resorts/pr-collection-kuala-lumpur.html) | 位于金三角，设施完整，步行购物方便 | 控制在 RM650–900/晚再考虑 |
-| **紧凑省心** | [citizenM Kuala Lumpur](https://www.marriott.com/en-gb/hotels/kulcm-citizenm-kuala-lumpur/overview/) | 正规品牌、24小时餐饮、位置方便 | 房型偏紧凑，适合行李不多 |
+| 已确认酒店 | 位置优势 | 行程提醒 |
+| --- | --- | --- |
+| [WOLO Kuala Lumpur（活乐酒店）](https://wolohotel.com.my/contact-us/) | 武吉免登核心区；Pavilion、Lot 10 与阿罗街步行可达，楼下就是武吉免登轨道交通 | 10/01 晚到可直接去 Lot 10 或阿罗街；10/03 按 12:00 前退房、寄存行李，15:30 再出发去 KL Sentral |
 
-**目标价**：RM350–550/晚；两晚 RM700–1,100。避开没有前台、押金只能原路退回境外账户的个人公寓。
+酒店官方退房时间为 12:00；本次不为酒店早餐早起，D3 在附近灵活吃晚早餐即可。[WOLO FAQ](https://wolohotel.com.my/frequently-asked-questions/)
 
 ### 亚庇｜10/03–10/07，共 4 晚
 
@@ -155,8 +153,8 @@ MH2638 在吉隆坡使用 T1、亚庇抵达 T1。马航马来西亚境内航线�
 | 路段 | 推荐方式 | 时间 | 两人费用估算 |
 | --- | --- | --- | ---: |
 | KUL T1 → KL Sentral | KLIA Ekspres | 28 min | RM110；官网购票通常有折扣 |
-| KL Sentral → 武吉免登酒店 | Grab | 15–25 min | RM15–30 |
-| 武吉免登 → KL Sentral → KUL T1 | Grab + KLIA Ekspres | 约 60–80 min（含换乘） | RM125–145 |
+| KL Sentral → WOLO | Grab | 15–25 min | RM15–30 |
+| WOLO → KL Sentral → KUL T1 | Grab + KLIA Ekspres | 约 60–80 min（含换乘） | RM125–145 |
 | BKI → Kota Kinabalu Marriott Hotel | Grab | 15–20 min | RM18–30 |
 | 亚庇市区 → 丹绒亚路 | Grab | 15–25 min | RM12–25/车 |
 | Kota Kinabalu Marriott Hotel → BKI | Grab | 15–20 min | RM18–30 |
@@ -179,7 +177,7 @@ KLIA Ekspres 每 20 分钟一班，KL Sentral 至 T1 为 28 分钟，T1 至 T2 �
 - [ ] **10:00–16:30** MF9102 / MH319 北京大兴 → 吉隆坡 KUL T1。
 - [ ] **16:30–18:00** 入境、取行李、ATM 取少量 MYR、购买饮用水。
 - [ ] **18:00–18:40** KLIA Ekspres 前往 KL Sentral。
-- [ ] **18:40–19:20** Grab 前往武吉免登酒店，入住、简单洗漱。
+- [ ] **18:40–19:20** Grab 前往 **WOLO Kuala Lumpur**，入住、简单洗漱。
 - [ ] **20:00–21:30** 阿罗街或 Lot 10 Hutong 晚餐；只在酒店附近活动。
 - [ ] **22:00** 回酒店睡觉。
 
@@ -193,7 +191,7 @@ KLIA Ekspres 每 20 分钟一班，KL Sentral 至 T1 为 28 分钟，T1 至 T2 �
 
 马来西亚旅游局将阿罗街与 Lot 10 Hutong 列为武吉免登代表性美食地点。[Tourism Malaysia：Bukit Bintang](https://www.malaysia.travel/explore/bukit-bintang)
 
-> 🗺️ **路线**：[KUL T1 → KL Sentral → 武吉免登](https://www.google.com/maps/dir/Kuala+Lumpur+International+Airport+Terminal+1/KL+Sentral/Capri+by+Fraser+Bukit+Bintang/)
+> 🗺️ **路线**：[KUL T1 → KL Sentral → WOLO Kuala Lumpur](https://www.google.com/maps/dir/Kuala+Lumpur+International+Airport+Terminal+1/KL+Sentral/WOLO+Kuala+Lumpur/)
 
 > ⚠️ 若 18:30 后仍没出机场，直接 Grab 去酒店也可以；先看预计到达时间和总价再决定。
 
@@ -237,7 +235,7 @@ KLIA Ekspres 每 20 分钟一班，KL Sentral 至 T1 为 28 分钟，T1 至 T2 �
 | **Madam Kwan's** | 椰浆饭、咖喱叻沙、牛肉仁当 | RM35–65/人 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Madam+Kwan%27s+Pavilion+Kuala+Lumpur) |
 | **Suria KLCC 餐饮区** | 选择多，便于直接看夜景 | RM25–70/人 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Suria+KLCC) |
 
-> 🗺️ **全天路线**：[武吉免登 → 独立广场 → 占美清真寺 → 中央市场 → IAMM → Pavilion → 双子塔](https://www.google.com/maps/dir/Capri+by+Fraser+Bukit+Bintang/Dataran+Merdeka/Masjid+Jamek/Central+Market+Kuala+Lumpur/Islamic+Arts+Museum+Malaysia/Pavilion+Kuala+Lumpur/Petronas+Twin+Towers/)
+> 🗺️ **全天路线**：[WOLO → 独立广场 → 占美清真寺 → 中央市场 → IAMM → Pavilion → 双子塔](https://www.google.com/maps/dir/WOLO+Kuala+Lumpur/Dataran+Merdeka/Masjid+Jamek/Central+Market+Kuala+Lumpur/Islamic+Arts+Museum+Malaysia/Pavilion+Kuala+Lumpur/Petronas+Twin+Towers/)
 
 > 📖 **小红书经验信号**：[《吉隆坡citywalk路线，有些地方真的不值得去》](https://www.xiaohongshu.com/explore/69e6dc10000000001f00795a)的可采纳部分是：历史城区可集中走、中央市场以伴手礼为主、中央市场到博物馆不建议按地图硬走。个人评价仅作避坑参考，开放时间与票价以上述官方页面为准。
 
@@ -274,11 +272,11 @@ KLIA Ekspres 每 20 分钟一班，KL Sentral 至 T1 为 28 分钟，T1 至 T2 �
 
 海脚人官网列出的 TRX 分店地址为 No. 32 & 34, Jalan Utara, Off Jalan Imbi，营业时间 08:00–次日 02:00。[海脚人官网分店信息](https://www.haikahlang.com/contact-us/)
 
-Capri by Fraser Bukit Bintang 官方退房时间为 12:00，并提供前台行李寄存。因此本日默认先退房再吃海脚人；只有酒店书面确认延迟退房时，才保留回房洗澡的安排。[酒店官方 FAQ](https://www.frasershospitality.com/en/malaysia/kualalumpur/capri-by-fraser-bukit-bintang/faq/)
+WOLO 官方退房时间为 12:00。因此本日默认先退房、将行李寄存在前台再吃海脚人；只有酒店书面确认延迟退房时，才保留回房洗澡的安排。[WOLO FAQ](https://wolohotel.com.my/frequently-asked-questions/)
 
 > **分店区别**：米其林指南 2026 的必比登门店是 **Taman Cheras（Yulek）总店**，不是 TRX 分店。总店离本次动线更远且 17:00 关门，因此默认吃菜单相近、交通更顺的 TRX 分店；若你追求“米其林上榜原店”，应把 D3 上午购物改成 10:30 前往 Yulek 总店。[米其林 2026 名单](https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-kuala-lumpur-penang-2026)
 
-> 🗺️ **当天路线**：[酒店 → The Exchange TRX → 海脚人 TRX → KL Sentral → KUL T1](https://www.google.com/maps/dir/Capri+by+Fraser+Bukit+Bintang/The+Exchange+TRX/Hai+Kah+Lang+TRX/KL+Sentral/Kuala+Lumpur+International+Airport+Terminal+1/)
+> 🗺️ **当天路线**：[WOLO → The Exchange TRX → 海脚人 TRX → KL Sentral → KUL T1](https://www.google.com/maps/dir/WOLO+Kuala+Lumpur/The+Exchange+TRX/Hai+Kah+Lang+TRX/KL+Sentral/Kuala+Lumpur+International+Airport+Terminal+1/)
 
 > ⚠️ MH2638 已出票；出发前按订单再次确认两人英文姓名、航站楼与每人的托运行李额，不只看第三方比价页的行李图标。
 
@@ -483,9 +481,9 @@ DAN 建议：单次免减压潜水后至少 12 小时再飞；一天内多潜或
 
 | Day | 主要交通 | 预计步行 | 关键导航 |
 | --- | --- | ---: | --- |
-| D1 | 机场快线 + Grab | 1–2 km | [KUL T1→KL Sentral→武吉免登](https://www.google.com/maps/dir/Kuala+Lumpur+International+Airport+Terminal+1/KL+Sentral/Capri+by+Fraser+Bukit+Bintang/) |
+| D1 | 机场快线 + Grab | 1–2 km | [KUL T1→KL Sentral→WOLO](https://www.google.com/maps/dir/Kuala+Lumpur+International+Airport+Terminal+1/KL+Sentral/WOLO+Kuala+Lumpur/) |
 | D2 | 步行 + 3次 Grab | 6–8 km | [完整 Citywalk](https://www.google.com/maps/dir/Dataran+Merdeka/Masjid+Jamek/Central+Market+Kuala+Lumpur/Islamic+Arts+Museum+Malaysia/Pavilion+Kuala+Lumpur/Petronas+Twin+Towers/) |
-| D3 | Grab + 机场快线 + 飞机 | 2–4 km | [酒店→TRX→海脚人→KL Sentral→KUL T1](https://www.google.com/maps/dir/Capri+by+Fraser+Bukit+Bintang/The+Exchange+TRX/Hai+Kah+Lang+TRX/KL+Sentral/Kuala+Lumpur+International+Airport+Terminal+1/) |
+| D3 | Grab + 机场快线 + 飞机 | 2–4 km | [WOLO→TRX→海脚人→KL Sentral→KUL T1](https://www.google.com/maps/dir/WOLO+Kuala+Lumpur/The+Exchange+TRX/Hai+Kah+Lang+TRX/KL+Sentral/Kuala+Lumpur+International+Airport+Terminal+1/) |
 | D4 | 步行 + Grab | 4–6 km | [怡丰→市集→刺天堂→丹绒亚路→敬文](https://www.google.com/maps/dir/Yee+Fung+Laksa+Kota+Kinabalu/Gaya+Street+Sunday+Market/KK+Durian+Paradise/Tanjung+Aru+Beach/Leslie+Cafe+Kota+Kinabalu/) |
 | D5 | Grab + 潜店船只 | 2–4 km | [万豪→Jesselton Point→洪金买](https://www.google.com/maps/dir/Kota+Kinabalu+Marriott+Hotel/Jesselton+Point/Ang+Restaurant+Kota+Kinabalu/) |
 | D6 | 旅行社接送 + 河船 | 1 km 内 | [京那巴鲁咖啡店→Klias Wetland](https://www.google.com/maps/dir/Kedai+Kopi+Kinabalu/Klias+Wetland/) |
@@ -499,7 +497,7 @@ DAN 建议：单次免减压潜水后至少 12 小时再飞；一天内多潜或
 
 | 地点 | 坐标 / 地址提示 | Google Maps |
 | --- | --- | --- |
-| Capri by Fraser Bukit Bintang | 3.146506, 101.715173 | [打开](https://www.google.com/maps/search/?api=1&query=3.146506,101.715173) |
+| WOLO Kuala Lumpur（活乐酒店） | Corner of Jalan Bukit Bintang and Jalan Sultan Ismail | [打开](https://www.google.com/maps/search/?api=1&query=WOLO+Kuala+Lumpur) |
 | 独立广场 | 3.149000, 101.693700 | [打开](https://www.google.com/maps/search/?api=1&query=3.149000,101.693700) |
 | Masjid Jamek | 3.148929, 101.695676 | [打开](https://www.google.com/maps/search/?api=1&query=3.148929,101.695676) |
 | Central Market | 3.144082, 101.695448 | [打开](https://www.google.com/maps/search/?api=1&query=3.144082,101.695448) |
@@ -572,7 +570,8 @@ DAN 建议：单次免减压潜水后至少 12 小时再飞；一天内多潜或
 
 - [x] 已购买 10/03 KUL→BKI：MH2638，18:55–21:35，KUL T1 → BKI T1。
 - [ ] 打开马航订单复核两人英文姓名、票号和各自托运行李额，并把订单截图保存到两部手机。
-- [ ] 确认吉隆坡 2 晚酒店；向亚庇万豪确认晚到入住信息。
+- [x] 已订吉隆坡活乐酒店 WOLO Kuala Lumpur，10/01–10/03。
+- [ ] 打开 WOLO 订单核对房型、是否含早餐和预计 19:30 左右到店；向亚庇万豪确认晚到入住信息。
 - [ ] 向 2–3 家 PADI 潜店发送文末问题，锁定 10/05 DSD 两潜与浮潜安排。
 - [ ] 预订可取消的 10/06 Klias 拼团，核验旅行社牌照。
 

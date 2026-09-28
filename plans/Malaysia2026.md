@@ -5,7 +5,8 @@
 > **出行成员** 2人<br>
 > **节奏** 晚起慢游｜城市文化与美食｜无证体验潜水 + 浮潜｜周日市集与日落｜红树林萤火虫<br>
 > **已订国际航班** 10/01 MF9102（实际承运 MH319）10:00–16:30；10/07 AK1560 18:00–23:15<br>
-> **关键待订** 10/03 吉隆坡 KUL → 亚庇 BKI 晚间航班<br>
+> **已订境内航班** 10/03 MH2638 吉隆坡 KUL T1 → 亚庇 BKI T1，18:55–21:35<br>
+> **关键待订** 10/05 DSD 潜水、10/06 Klias 红树林<br>
 > **预算口径** 中等舒适；人民币换算暂按 `RM1 ≈ ¥1.66`，汇率与价格均会变动
 
 ---
@@ -31,14 +32,14 @@
 | 日期 | 航段 | 航班 / 候选 | 航站楼 | 操作 |
 | --- | --- | --- | --- | --- |
 | 10/01 | 北京大兴 → 吉隆坡 | MF9102，实际承运 MH319，10:00–16:30 | 抵达 KUL T1 | 已订；07:00 前到大兴 |
-| 10/03 | 吉隆坡 → 亚庇 | **优先候选 AK5118，当前排班 19:35–22:15** | KUL T2 → BKI T1 | 立即复核并购买 |
+| 10/03 | 吉隆坡 → 亚庇 | **MH2638，18:55–21:35** | KUL T1 → BKI T1 | 已订；按订单复核行李额 |
 | 10/07 | 亚庇 → 北京大兴 | AK1560，18:00–23:15 | BKI T1 | 已订；14:30 从市区出发 |
 
-10/03 的 AK5118 当前时刻表为 19:35–22:15；AirAsia 页面显示 10/03 该航线公开基础价约 RM343/人，但实际票价、班号和时间以下单页为准。[AirAsia KUL→BKI](https://www.airasia.com/flights/en/gb/from-kuala-lumpur-kul-to-kota-kinabalu-bki/)｜[AK5118 当前时刻表](https://www.flight.info/AK5118)
+2026/09/01 比价时，MH2638 的 10/03 两人票面总价约 ¥1,294，直飞 2 小时 40 分；班次为 18:55 从 KUL T1 起飞、21:35 抵达 BKI T1。实时票价、行李权益和最终班表以下单页为准。[Google Flights 比价页](https://www.google.com/travel/flights?q=Flights%20from%20KUL%20to%20BKI%20on%202026-10-03%20one%20way%202%20adults&hl=zh-CN&curr=CNY)｜[MH2638 时刻参考](https://www.flight.info/MH2638)
 
-> **买票标准**：两人总价要按“票价 + 两人需要的托运行李 + 选座”比较。若 AirAsia 价格明显上涨，可同时比较 Batik Air 与 Malaysia Airlines，但优先选 19:00–20:30 起飞、23:00 前抵达的直飞。
+> **出票后操作**：在马航订单中核对两人英文姓名、日期、航站楼和托运行李额；保存票号与订单截图，起飞前再次查看班次变更。
 
-AirAsia 在吉隆坡使用 T2、亚庇使用 T1；KUL T2 国内航班托运行李柜台在起飞前 1 小时关闭，登机口通常提前 20 分钟关闭。[AirAsia 航站楼](https://support.airasia.com/s/article/Airports-and-Terminals?language=en_GB)｜[AirAsia 值机与行李截止时间](https://support.airasia.com/s/article/self-baggage-drop-and-check-in-counter?language=kk)
+MH2638 在吉隆坡使用 T1、亚庇抵达 T1。马航马来西亚境内航线按重量计算托运行李，经济舱 Value / Basic / Flex 当前分别为 20 / 25 / 35 kg；购票时仍需核对实际票价品牌。[马航托运行李规则](https://www.malaysiaairlines.com/hq/en/travel-info/baggage/checked-baggage.html)
 
 ### 💰 换汇与支付
 
@@ -54,7 +55,8 @@ AirAsia 在吉隆坡使用 T2、亚庇使用 T1；KUL T2 国内航班托运行�
 
 - **Grab**：机场接送、城市打车；出发前绑定境外卡。
 - **Google Maps**：收藏文末全部地点，下载吉隆坡和亚庇离线地图。
-- **AirAsia MOVE**：10/03、10/07 航班值机和变更提醒。
+- **Malaysia Airlines**：管理已订的 10/03 航班、在线值机与接收变更提醒；保存票号。
+- **AirAsia MOVE**：10/07 返京航班值机和变更提醒。
 - **天气**：出发前 7 天开始看逐小时降雨；岛游以前一晚潜店通知为准。
 - **电话卡/eSIM**：优先选 CelcomDigi、Maxis/Hotlink 等主流网络；保留中国号码接收短信。
 
@@ -77,13 +79,13 @@ AirAsia 在吉隆坡使用 T2、亚庇使用 T1；KUL T2 国内航班托运行�
 | --- | --- | --- | --- | --- |
 | D1 | 10/01 周四 | 抵达吉隆坡 | 北京大兴 → KUL T1 → 武吉免登 | 入境、入住、阿罗街晚餐 |
 | D2 | 10/02 周五 | 吉隆坡完整日 | 独立广场 → 占美清真寺 → 中央市场 → 伊斯兰艺术博物馆 → Pavilion → KLCC | 历史城区 + 博物馆 + 双子塔夜景 |
-| D3 | 10/03 周六 | 吉隆坡 → 亚庇 | TRX → 海脚人午餐 → KL Sentral → KUL T2 → BKI T1 | 吃完海鲜粉再从容赶晚班机 |
-| D4 | 10/04 周日 | 亚庇城市日 | 加雅街周日市集 → 市区休息 → 丹绒亚路 → 海鲜晚餐 | 周日限定市集 + 日落 |
-| D5 | 10/05 周一 | 潜水日 | Jesselton Point → 东姑阿都拉曼海洋公园 → 亚庇 | 无证 DSD 两潜 + 水面浮潜 |
-| D6 | 10/06 周二 | 红树林日 | 上午休息 → Klias 湿地 → 长鼻猴 → 萤火虫 | 下午出发、约 22:00 回城 |
-| D7 | 10/07 周三 | 返程 | Gaya 早餐 → Imago → BKI T1 → 北京大兴 | 买手信、预留机场时间 |
+| D3 | 10/03 周六 | 吉隆坡 → 亚庇 | TRX → 海脚人午餐 → KL Sentral → KUL T1 → BKI T1 | 吃完海鲜粉再从容赶晚班机 |
+| D4 | 10/04 周日 | 亚庇城市日 | 怡丰茶室 → 加雅街周日市集 → 刺天堂 → 丹绒亚路 → 食全食美 | 周日限定市集 + 日落 + 海鲜 |
+| D5 | 10/05 周一 | 潜水日 | Jesselton Point → 东姑阿都拉曼海洋公园 → 洪金买饭店 | 无证 DSD 两潜 + 水面浮潜 |
+| D6 | 10/06 周二 | 红树林日 | 京那巴鲁咖啡店 → 上午休息 → Klias 湿地 → 长鼻猴 → 萤火虫 | 下午出发、约 22:00 回城 |
+| D7 | 10/07 周三 | 返程 | Gaya 早餐 → Imago/Borenos → BKI T1 → 北京大兴 | 买手信、吃沙巴本土炸鸡、预留机场时间 |
 
-> **不绕路原则**：吉隆坡只住武吉免登；亚庇只住 Gaya Street/Jesselton Point 一带，不换酒店。
+> **不绕路原则**：吉隆坡只住武吉免登；亚庇确认住 **Kota Kinabalu Marriott Hotel（市中心滨海）**，全程不换酒店。去 Gaya Street、Jesselton Point 与 Lintas 等非步行点统一用 Grab。
 
 > **晚起原则**：除 10/01 固定国际航班和 10/05 潜店集合外，其余日期尽量 09:30 后出门；不为了多打卡牺牲睡眠。
 
@@ -105,15 +107,13 @@ AirAsia 在吉隆坡使用 T2、亚庇使用 T1；KUL T2 国内航班托运行�
 
 ### 亚庇｜10/03–10/07，共 4 晚
 
-> 🛏️ **建议住 Gaya Street / Jesselton Point**：周日市集、早餐店、潜店集合点和码头都能步行解决。
+> 🛏️ **已订 Kota Kinabalu Marriott Hotel**：Lot G-23A, Jalan Tun Fuad Stephens，市中心滨海位置；适合晚到入住、去丹绒亚路、机场和 Imago。Gaya Street／Jesselton Point 约一小段 Grab 车程，潜水日按潜店集合时间提前叫车即可。
 
-| 档位 | 酒店 | 适合原因 | 订房注意 |
-| --- | --- | --- | --- |
-| **默认性价比** | [Hotel Sixty3](https://hotelsixty3.com/rooms/) | Gaya Street 核心区，官方基础房价从 RM280 起，房间面积较大 | 没有度假型设施需求时最划算 |
-| **舒适升级** | [Hyatt Centric Kota Kinabalu](https://www.hyatt.com/hyatt-centric/en-US/bkict-hyatt-centric-kota-kinabalu) | 距 Jesselton Point 和周日市集近，屋顶泳池，晚到也有完整前台服务 | 价格合适再升；海景房非必要 |
-| **码头优先** | [Mercure Kota Kinabalu City Centre](https://all.accor.com/hotel/9416/index.en.shtml) | 官方标注 Jesselton Port 约 100 m，潜水集合最省力 | 仔细比较房间面积与是否有窗 |
+| 已确认酒店 | 位置优势 | 行程提醒 |
+| --- | --- | --- |
+| [Kota Kinabalu Marriott Hotel](https://www.marriott.com/en-us/hotels/bkikk-kota-kinabalu-marriott-hotel/overview/) | 市中心滨海，靠近 Waterfront / Oceanus；去丹绒亚路、Imago 和机场方向更顺路 | Gaya Street、Jesselton Point 与食全食美不适合步行，统一 Grab；10/05 潜水日以潜店集合时间倒推约 15–20 分钟出发 |
 
-**目标价**：Hotel Sixty3 / Mercure RM280–450/晚；Hyatt Centric 作为升级项。10/03 会在 23:00 左右到店，订完必须留言“late arrival after 23:00”。
+按 MH2638 计算，10/03 预计 22:15–22:45 到店；订房备注或 App 消息保留“late arrival around 22:30”，避免被误判未入住。
 
 ---
 
@@ -123,7 +123,7 @@ AirAsia 在吉隆坡使用 T2、亚庇使用 T1；KUL T2 国内航班托运行�
 | --- | --- | --- | --- |
 | 10/01 | 07:00 到大兴；16:30 抵 KUL；19:15 入住 | 机场快线、武吉免登晚餐 | 低 |
 | 10/02 | 09:30–21:30 | 吉隆坡历史城区、博物馆、Pavilion、KLCC | 中 |
-| 10/03 | 09:30–23:00 | 慢早餐、海脚人、19:35 飞亚庇 | 低 |
+| 10/03 | 09:30–22:45 | 慢早餐、海脚人、18:55 飞亚庇 | 低 |
 | 10/04 | 09:30–20:30 | Gaya 周日市集、休息、18:05 日落、海鲜 | 中低 |
 | 10/05 | 08:15–16:00 | DSD 两潜，按海况安排浮潜 | 中高 |
 | 10/06 | 10:00–22:00 | 睡到自然醒、Klias 长鼻猴与萤火虫 | 中低但车程长 |
@@ -137,16 +137,18 @@ AirAsia 在吉隆坡使用 T2、亚庇使用 T1；KUL T2 国内航班托运行�
 
 | 项目 | 经济舒适区间（MYR） | 人民币参考 |
 | --- | ---: | ---: |
-| 10/03 KUL→BKI 机票 + 行李 | 820–980 | ¥1,360–1,630 |
+| 10/03 KUL→BKI 机票 + 行李 | 780–960 | ¥1,290–1,590 |
 | 吉隆坡 2 晚 + 亚庇 4 晚 | 1,900–2,900 | ¥3,150–4,810 |
 | DSD 两潜 | **840** | 约 ¥1,395 |
 | Klias 红树林萤火虫 | 380–420 | ¥630–700 |
 | 市内与机场交通 | 400–550 | ¥660–910 |
 | 7天餐饮 | 900–1,400 | ¥1,495–2,325 |
 | 景点、电话卡、杂项 | 300–500 | ¥500–830 |
-| **合计（不含已订国际机票与购物）** | **5,540–7,590** | **约 ¥9,200–12,600** |
+| **合计（不含已订国际机票与购物）** | **5,500–7,570** | **约 ¥9,100–12,600** |
 
 > 若亚庇 4 晚全部升级 Hyatt Centric，预计再增加约 RM1,200–2,000。预算不是报价，机票和酒店以下单页面为准。
+
+> MH2638 已购买，但尚未记录你的实际支付金额；机票预算暂保留 2026/09/01 比价参考，收到订单实付价后再替换。
 
 ### 关键交通
 
@@ -154,10 +156,10 @@ AirAsia 在吉隆坡使用 T2、亚庇使用 T1；KUL T2 国内航班托运行�
 | --- | --- | --- | ---: |
 | KUL T1 → KL Sentral | KLIA Ekspres | 28 min | RM110；官网购票通常有折扣 |
 | KL Sentral → 武吉免登酒店 | Grab | 15–25 min | RM15–30 |
-| 武吉免登 → KL Sentral → KUL T2 | Grab + KLIA Ekspres | 约 60–80 min（含换乘） | RM125–145 |
-| BKI → Gaya Street 酒店 | Grab | 15–25 min | RM12–25 |
+| 武吉免登 → KL Sentral → KUL T1 | Grab + KLIA Ekspres | 约 60–80 min（含换乘） | RM125–145 |
+| BKI → Kota Kinabalu Marriott Hotel | Grab | 15–20 min | RM18–30 |
 | 亚庇市区 → 丹绒亚路 | Grab | 15–25 min | RM12–25/车 |
-| Gaya Street 酒店 → BKI | Grab | 15–25 min | RM12–25 |
+| Kota Kinabalu Marriott Hotel → BKI | Grab | 15–20 min | RM18–30 |
 
 KLIA Ekspres 每 20 分钟一班，KL Sentral 至 T1 为 28 分钟，T1 至 T2 再约 3 分钟；成人单程 RM55，官网/APP购票有 10% 折扣。[KLIA Ekspres 官方时刻与票价](https://www.kliaekspres.com/products-fares/klia-ekspres/)
 
@@ -243,7 +245,7 @@ KLIA Ekspres 每 20 分钟一班，KL Sentral 至 T1 为 28 分钟，T1 至 T2 �
 
 ### Day 3 ｜ 10/03 周六 ｜ 吉隆坡慢上午 → 晚飞亚庇
 
-> ✈️ 今天的任务是准时抵达 KUL T2；不要加黑风洞、马六甲等远程项目。
+> ✈️ 今天的任务是准时抵达 KUL T1；不要加黑风洞、马六甲等远程项目。
 
 **今日重点**：先退房寄存行李，把海脚人作为吉隆坡最后一顿正餐，随后从容转场。
 
@@ -256,11 +258,11 @@ KLIA Ekspres 每 20 分钟一班，KL Sentral 至 T1 为 28 分钟，T1 至 T2 �
 - [ ] **13:15–14:15** 返回酒店，在大堂或附近咖啡馆休息；不再安排购物任务。
 - [ ] **14:15–15:15** 取行李、整理随身物品，再次核对护照和登机牌。
 - [ ] **15:30** Grab 前往 KL Sentral。
-- [ ] **16:15 左右** KLIA Ekspres 前往 KUL T2；目标 **17:00 前到 T2**。
-- [ ] **17:00–18:15** 自助值机、打印行李条、托运行李、安检、吃简餐。
-- [ ] **19:35–22:15** 候选 AK5118 KUL T2 → BKI T1。
-- [ ] **22:15–23:00** 取行李、Grab 到 Gaya Street 酒店。
-- [ ] **23:00** 入住；如饿了优先便利店或外卖，不再安排海鲜大餐。
+- [ ] **16:15 左右** KLIA Ekspres 前往 KUL T1；目标 **16:50–17:00 到 T1**。
+- [ ] **17:00–18:10** 值机、托运行李、安检、吃简餐；即使已在线值机也按这个缓冲执行。
+- [ ] **18:55–21:35** 已订 MH2638 KUL T1 → BKI T1。
+- [ ] **21:35–22:20** 取行李、Grab 到 Kota Kinabalu Marriott Hotel。
+- [ ] **22:15–22:45** 入住；如饿了优先便利店或外卖，不再安排海鲜大餐。
 
 #### 🍽️ D3 早餐 / 午餐推荐
 
@@ -276,9 +278,9 @@ Capri by Fraser Bukit Bintang 官方退房时间为 12:00，并提供前台行�
 
 > **分店区别**：米其林指南 2026 的必比登门店是 **Taman Cheras（Yulek）总店**，不是 TRX 分店。总店离本次动线更远且 17:00 关门，因此默认吃菜单相近、交通更顺的 TRX 分店；若你追求“米其林上榜原店”，应把 D3 上午购物改成 10:30 前往 Yulek 总店。[米其林 2026 名单](https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-kuala-lumpur-penang-2026)
 
-> 🗺️ **当天路线**：[酒店 → The Exchange TRX → 海脚人 TRX → KL Sentral → KUL T2](https://www.google.com/maps/dir/Capri+by+Fraser+Bukit+Bintang/The+Exchange+TRX/Hai+Kah+Lang+TRX/KL+Sentral/Kuala+Lumpur+International+Airport+Terminal+2/)
+> 🗺️ **当天路线**：[酒店 → The Exchange TRX → 海脚人 TRX → KL Sentral → KUL T1](https://www.google.com/maps/dir/Capri+by+Fraser+Bukit+Bintang/The+Exchange+TRX/Hai+Kah+Lang+TRX/KL+Sentral/Kuala+Lumpur+International+Airport+Terminal+1/)
 
-> ⚠️ AirAsia 基础票通常不含托运行李。两人如果只有一个大箱，可在同一订单中只给其中一人购买足够托运行李额；以航司规则和实际行李重量为准。
+> ⚠️ MH2638 已出票；出发前按订单再次确认两人英文姓名、航站楼与每人的托运行李额，不只看第三方比价页的行李图标。
 
 ---
 
@@ -290,14 +292,17 @@ Capri by Fraser Bukit Bintang 官方退房时间为 12:00，并提供前台行�
 
 **行程节点**：
 
-- [ ] **09:30–11:30** **Gaya Street Sunday Market**：睡醒后再去，边吃早餐边看手工艺和本地食材；准备小额现金。
-- [ ] **11:30–12:15** 咖啡、回酒店放东西。
-- [ ] **12:15–13:15** 步行 Jesselton Point、Suria Sabah 一带；顺便确认次日潜店集合点。
-- [ ] **13:15–15:45** 午餐 + 酒店午休；不要在太阳最强时暴走。
+- [ ] **09:30–10:15** **怡丰茶室 Yee Fung Laksa** 早餐：两人先点一份叻沙、一份牛杂或干捞面共享；它口碑两极、份量不大，不要为了“网红必吃”加点过量。
+- [ ] **10:15–11:45** **Gaya Street Sunday Market**：看手工艺和本地食材；准备小额现金，最晚不要拖到 12:00 才开始逛。
+- [ ] **11:45–12:15** 步行前往 Jesselton Point；顺便确认次日潜店集合点。
+- [ ] **12:15–12:45** **刺天堂 KK Durian Paradise**：两人共享一份榴莲煎蕊即可；先问清品种、克重、含税总价和果肉状态，不盲点整颗高价榴莲。
+- [ ] **12:45–13:15** Jesselton Point、Suria Sabah 一带慢逛，回酒店前补水。
+- [ ] **13:15–15:45** 如饿了只吃简单午餐，随后酒店午休；早餐和榴莲甜品都吃得多时直接休息，不要硬塞第三顿。
 - [ ] **16:15** Grab 前往丹绒亚路海滩。
 - [ ] **16:40–18:25** 海边散步、等 18:05 左右日落；阵雨时找有遮挡的位置等待，不必过早放弃。
-- [ ] **18:40–20:15** Grab 前往海鲜餐厅晚餐。
-- [ ] **20:30** 回酒店，准备潜水用品，避免饮酒和熬夜。
+- [ ] **18:35–19:05** Grab 前往 Lintas Kolam Centre 的 **食全食美 Hilltop Restaurant**；周日客流可能较大，出发前电话确认是否需要订位。
+- [ ] **19:05–20:35** 食全食美海鲜晚餐：咸蛋黄鱿鱼、湿奶油虾、姜葱炒蟹三选二，另加一份时蔬；螃蟹先确认重量、单价、加工费和税费，两个人不要点整套海鲜。
+- [ ] **20:35–21:00** Grab 回酒店，准备潜水用品，避免饮酒和熬夜。
 
 Gaya Street Sunday Market 官方开放时间为每周日 06:00–13:00。[Sabah Tourism](https://sabahtourism.com/destination/gaya-street-sunday-market/)
 
@@ -305,7 +310,8 @@ Gaya Street Sunday Market 官方开放时间为每周日 06:00–13:00。[Sabah 
 
 | 餐厅 | 推荐内容 | 预算 | 链接 |
 | --- | --- | ---: | --- |
-| **Kedai Kopi Yee Fung** | 亚庇叻沙、牛杂面 | RM10–20/人 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Kedai+Kopi+Yee+Fung+Kota+Kinabalu) |
+| **怡丰茶室 Yee Fung Laksa** | 叻沙、牛杂面；份量不大、评价分化 | RM10–20/人 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Yee+Fung+Laksa+Kota+Kinabalu) |
+| **刺天堂 KK Durian Paradise** | 两人共享榴莲煎蕊；榴莲按当日品种和报价决定 | RM20–40/份起 | [Google Maps](https://www.google.com/maps/search/?api=1&query=KK+Durian+Paradise+Kota+Kinabalu) |
 | **Keng Wan Hing** | 烤面包、包点、咖啡 | RM8–18/人 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Keng+Wan+Hing+Kota+Kinabalu) |
 | **Fook Yuen Gaya Street** | 自选早餐、奶茶 | RM10–25/人 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Fook+Yuen+Gaya+Street) |
 
@@ -313,10 +319,17 @@ Gaya Street Sunday Market 官方开放时间为每周日 06:00–13:00。[Sabah 
 
 | 餐厅 | 推荐内容 | 两人预算 | 链接 |
 | --- | --- | ---: | --- |
-| **Welcome Seafood Restaurant** | 奶油老虎虾、沙巴菜、清蒸鱼；先称重确认价格 | RM120–220 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Welcome+Seafood+Restaurant+Kota+Kinabalu) |
-| **Fatt Kee Seafood** | 海鲜米粉、家常海鲜 | RM80–160 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Fatt+Kee+Seafood+Restaurant+Kota+Kinabalu) |
+| **食全食美 Hilltop Restaurant** | 咸蛋黄鱿鱼、湿奶油虾、姜葱炒蟹；默认晚餐 | RM120–220 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Hilltop+Restaurant+%E9%A3%9F%E5%85%A8%E9%A3%9F%E7%BE%8E+Kota+Kinabalu) |
+| **敬文茶餐室 Leslie Cafe** | 不想去 Lintas 或食全食美排队时的备选；咸蛋黄蟹、湿奶油虾、招牌豆腐 | RM80–150 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Leslie+Cafe+Kota+Kinabalu) |
+| **Welcome Seafood Restaurant** | 两家都不方便时的备选；先称重确认价格 | RM120–220 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Welcome+Seafood+Restaurant+Kota+Kinabalu) |
 
-> 🗺️ **全天路线**：[Gaya Street → Jesselton Point → 丹绒亚路 → Welcome Seafood](https://www.google.com/maps/dir/Gaya+Street+Kota+Kinabalu/Jesselton+Point/Tanjung+Aru+Beach/Welcome+Seafood+Restaurant+Kota+Kinabalu/)
+怡丰位于 127 Jalan Gaya，周二、周三通常休息，本次周日安排不冲突；刺天堂位于 Jesselton Point Ferry Terminal 一带。食全食美（Hilltop Restaurant）在 Lintas Kolam Centre，当前地图资料显示周日约 11:00–23:00、周一休息；晚市可能等位，建议出发前拨打 `+60 11-3143 7989` 确认。敬文位于 Kepayan，官方营业时间为 15:00–次日 01:00、周三休息。[怡丰地址与时段](https://wanderlog.com/place/details/987846)｜[刺天堂位置](https://durianpenang.com/places/1128/kk-durian-paradise-)｜[食全食美位置与菜单](https://www.foodpanda.my/restaurant/g1vo/hilltop-restaurant-shi-quan-shi-mei)｜[食全食美营业时段参考](https://maps.apple.com/place?place-id=I9C1FC9C0421F2EAD)｜[敬文官网](https://lesliecafe.netlify.app/)
+
+> 📖 **小红书经验信号**：怡丰评价集中在“老字号叻沙有特色”与“份量小、网红感重”两端，因此只安排一顿早餐；刺天堂的榴莲煎蕊约为两人共享量，但鲜果、服务与报价评价不一，现场状态不好就跳过；食全食美主打中式海鲜，晚市高峰可能上菜慢，所以日落后直接过去、不额外加行程；敬文被反复提到的菜是咸蛋黄蟹、湿奶油虾和招牌豆腐。以上均为个人口味，只用于控制点单量。[怡丰红黑榜](https://www.xiaohongshu.com/explore/6904a5760000000004010dee)｜[刺天堂对比](https://www.xiaohongshu.com/explore/69f2ff69000000003802178b)｜[食全食美近期菜单与点评](https://www.foodpanda.my/restaurant/g1vo/hilltop-restaurant-shi-quan-shi-mei)｜[敬文测评](https://www.xiaohongshu.com/explore/69d9fc08000000001f004cc4)
+
+> 🌰 **10月榴莲策略**：沙巴常见主产季约为 7–9 月，10 月初通常还有尾季果，但供应、品种和品质不保证。先在周日市集观察本地 Sukang、Dalit 或甘榜榴莲，再到刺天堂；如果只有高价调货、果肉水软或带酒味，就只吃一份榴莲煎蕊，不把黑刺/猫山王设为必吃任务。[沙巴旅游局季节说明](https://japan.sabahtourism.com/2021/08/11/%E4%BB%8A%E5%B9%B4%E3%82%82%E3%83%89%E3%83%AA%E3%82%A2%E3%83%B3%E3%81%AE%E3%82%B7%E3%83%BC%E3%82%BA%E3%83%B3%E3%81%8C%E3%82%84%E3%81%A3%E3%81%A6%E6%9D%A5%E3%81%BE%E3%81%97%E3%81%9F/)｜[沙巴果农季末说明](https://www.sinarharian.com.my/ampArticle/676069)
+
+> 🗺️ **全天路线**：[怡丰茶室 → Gaya Street → Jesselton Point/刺天堂 → 丹绒亚路 → 食全食美](https://www.google.com/maps/dir/Yee+Fung+Laksa+Kota+Kinabalu/Gaya+Street+Sunday+Market/KK+Durian+Paradise/Tanjung+Aru+Beach/Hilltop+Restaurant+Kota+Kinabalu/)
 
 ---
 
@@ -336,7 +349,8 @@ Gaya Street Sunday Market 官方开放时间为每周日 06:00–13:00。[Sabah 
 - [ ] **11:30–12:30** 水面休息、午餐；根据潜店安排浮潜。
 - [ ] **13:00 左右** 第二潜：只有第一潜舒适才继续；不追求下到 12 m。
 - [ ] **15:30–16:30** 返回 Jesselton Point，回酒店洗澡、补水、休息。
-- [ ] **18:30–20:00** Gaya Street 晚餐。
+- [ ] **18:20–18:40** 休息后前往 Gaya Street 一带的 **洪金买饭店 Ang Restaurant**；不要晚于 19:30 到店。
+- [ ] **18:40–20:00** 洪金买晚餐：两人点蚝油鸡翅、蒜米虾球、炒空心菜或姜葱牛肉中的 3 份小菜；口味偏咸甜，先点少量，不够再加。
 
 > 这是全程唯一需要主动早起的游玩日，因为出海、海况和潜店船班通常在上午统一安排；若最终潜店提供更晚集合，可优先选择，但不能为晚起压缩安全讲解和浅水训练。
 
@@ -362,11 +376,12 @@ Gaya Street Sunday Market 官方开放时间为每周日 06:00–13:00。[Sabah 
 
 | 餐厅 | 推荐内容 | 预算 | 链接 |
 | --- | --- | ---: | --- |
-| **Yu Kee Bak Kut Teh** | 亚庇风格肉骨茶、小菜 | RM25–45/人 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Yu+Kee+Bak+Kut+Teh+Kota+Kinabalu) |
-| **Sin Kee Bak Kut Teh** | 肉骨茶、猪脚等 | RM25–45/人 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Sin+Kee+Bak+Kut+Teh+Kota+Kinabalu) |
-| **Little Italy** | 潜水后想吃清淡西餐的备选 | RM35–70/人 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Little+Italy+Kota+Kinabalu) |
+| **洪金买饭店 Ang Restaurant** | 蚝油鸡翅、蒜米虾球、姜葱牛肉；默认晚餐 | RM35–65/人 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Ang+Restaurant+Kota+Kinabalu) |
+| **Little Italy** | 潜水后不想吃咸甜中餐时的备选 | RM35–70/人 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Little+Italy+Kota+Kinabalu) |
 
 东姑阿都拉曼公园距亚庇约 3 km，由五座岛屿组成，官方允许在指定区域进行潜水与浮潜；国际成人公园门票当前 RM25/日，但默认潜店套餐已含相关费用。[Sabah Parks 公园介绍与费用](https://www.sabahparks.org.my/tunku-abdul-rahman-park)
+
+洪金买通常营业至 20:30，位置在 Jalan Kota Kinabalu Lama 3；小红书评价最集中的优点是价格不高、咸甜酱香适合下饭，分歧点也主要是口味偏甜，所以不把它和敬文排在同一天。[餐厅地址与营业时间](https://gs.ctrip.com/html5/you/foods/kotakinabalu583/11654507.html)｜[小红书点单参考](https://www.xiaohongshu.com/explore/6a01a99e00000000070101dd)
 
 > 📖 **小红书经验信号**：[《旱鸭子的亚庇潜水初体验》](https://www.xiaohongshu.com/explore/699194f6000000000a02979e)提到首次下水紧张与耳压不适；[《向体验潜说——不！》及评论讨论](https://www.xiaohongshu.com/explore/667969f5000000001d0154e5)反向提醒了不规范带潜的风险。它们都是个人体验，最终只用 PADI 潜店资质、浅水训练和教练配比作决策。
 
@@ -382,9 +397,9 @@ Gaya Street Sunday Market 官方开放时间为每周日 06:00–13:00。[Sabah 
 
 **行程节点**：
 
-- [ ] **10:00–11:00** 睡到自然醒、Gaya Street 早餐。
+- [ ] **10:00–11:00** 睡到自然醒，去 **京那巴鲁咖啡店 Kedai Kopi Kinabalu** 吃晚早餐：两人点一份牛肉叻沙、一份牛杂汤或海鲜炒粿条；饮料评价一般，可只点桔子冰或饮用水。
 - [ ] **11:00–12:00** Suria Sabah / 酒店泳池 / 咖啡馆休息。
-- [ ] **12:00–13:00** 简单午餐，换长裤、带雨衣和驱蚊液。
+- [ ] **12:00–13:00** 若早餐吃得饱就不再安排正餐，只补水或吃少量点心；随后换长裤，带雨衣和驱蚊液。
 - [ ] **13:30–14:00** 市区酒店接车。
 - [ ] **约 16:00** 抵达 Klias，下午茶。
 - [ ] **16:30–18:15** 河道巡游，寻找长鼻猴、银叶猴和鸟类；野生动物不保证出现。
@@ -393,6 +408,8 @@ Gaya Street Sunday Market 官方开放时间为每周日 06:00–13:00。[Sabah 
 - [ ] **21:30–22:30** 返回亚庇酒店。
 
 Klias 常规拼团当前约 RM190–200/人，通常含市区接送、英语导游、下午茶、晚餐、两段船程和门票；车程约 2 小时。[Klias 行程与价格示例](https://borneowildlife.my/avada_portfolio/klias-river-ride-tour/)｜[Sabah Tourism：Weston/Wetland 体验说明](https://sabahtourism.com/destination/weston-wetland/)
+
+京那巴鲁咖啡店位于 57 Jalan Pantai，仍在市中心范围；周二约 06:00–15:30 营业，正好适合红树林接车前的晚早餐。它不是主打咖啡和吐司的咖啡馆，核心是牛肉叻沙、客家牛杂汤和炒粉面；与怡丰相比，第一篇小红书红黑榜更认可这里的牛肉和牛杂。[餐厅位置与营业时段](https://maps.apple.com/place?place-id=IB170130C51A464D8)｜[菜单参考](https://gs.ctrip.com/html5/you/foods/fooddetail/583/16148176.html)｜[小红书红黑榜](https://www.xiaohongshu.com/explore/6904a5760000000004010dee)
 
 > **选团标准**：在马来西亚旅游、艺术及文化部系统核验旅行社牌照；确认市区酒店免费接送、船上救生衣、天气取消政策和最晚回城时间。[Sabah Tourism 防诈骗提醒](https://sabahtourism.com/essential/about-sabah/)
 
@@ -411,7 +428,7 @@ Klias 常规拼团当前约 RM190–200/人，通常含市区接送、英语导�
 - [ ] **09:30–10:15** Gaya Street 早餐。
 - [ ] **10:15–10:45** 退房并寄存行李。
 - [ ] **10:45–12:45** Grab 前往 **Imago Shopping Mall**，购买白咖啡、肉骨茶料包、沙巴茶等正规包装手信。
-- [ ] **12:45–13:30** 商场午餐。
+- [ ] **12:45–13:30** **Borenos Fried Chicken（Imago 店）**午餐：两人先点 2 块炸鸡套餐，再按食量加一块；尽量堂食刚出锅，不建议返程前点整鸡。
 - [ ] **13:30–14:10** 回酒店取行李。
 - [ ] **14:30** Grab 前往 BKI T1。
 - [ ] **15:00–17:10** 值机、托运、出境、安检、候机。
@@ -423,9 +440,12 @@ Klias 常规拼团当前约 RM190–200/人，通常含市区接送、英语导�
 | --- | --- | ---: | --- |
 | **Keng Wan Hing** | 包点、咖啡，快进快出 | RM8–18/人 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Keng+Wan+Hing+Kota+Kinabalu) |
 | **Kedai Kopi Yee Fung** | 若 D4 没吃到，可补叻沙 | RM10–20/人 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Kedai+Kopi+Yee+Fung+Kota+Kinabalu) |
-| **Imago 餐饮区** | 返程前选择多、有空调 | RM20–60/人 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Imago+Shopping+Mall+Kota+Kinabalu) |
+| **Borenos Fried Chicken Imago** | 沙巴本土炸鸡；2 块套餐，堂食优先 | RM20–35/人 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Borenos+Fried+Chicken+Imago+Kota+Kinabalu) |
+| **Imago 其他餐厅** | 不想吃炸物时的机动备选 | RM20–60/人 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Imago+Shopping+Mall+Kota+Kinabalu) |
 
 > 🗺️ **返程路线**：[Gaya Street → Imago → BKI T1](https://www.google.com/maps/dir/Gaya+Street+Kota+Kinabalu/Imago+Shopping+Mall/Kota+Kinabalu+International+Airport/)
+
+Borenos 是沙巴本土炸鸡品牌，Imago 店于 2026 年新开，官方列出的营业时间为每日 10:00–22:00；安排在原本就要去的 Imago 午餐时段，无需绕到 Asia City。[Borenos 官网门店与菜单](https://www.borenos.com/)｜[官方 FAQ](https://www.borenos.com/faq/)｜[小红书炸鸡横评](https://www.xiaohongshu.com/explore/69f7860f000000003703718a)
 
 ---
 
@@ -465,19 +485,19 @@ DAN 建议：单次免减压潜水后至少 12 小时再飞；一天内多潜或
 | --- | --- | ---: | --- |
 | D1 | 机场快线 + Grab | 1–2 km | [KUL T1→KL Sentral→武吉免登](https://www.google.com/maps/dir/Kuala+Lumpur+International+Airport+Terminal+1/KL+Sentral/Capri+by+Fraser+Bukit+Bintang/) |
 | D2 | 步行 + 3次 Grab | 6–8 km | [完整 Citywalk](https://www.google.com/maps/dir/Dataran+Merdeka/Masjid+Jamek/Central+Market+Kuala+Lumpur/Islamic+Arts+Museum+Malaysia/Pavilion+Kuala+Lumpur/Petronas+Twin+Towers/) |
-| D3 | Grab + 机场快线 + 飞机 | 2–4 km | [酒店→TRX→海脚人→KL Sentral→KUL T2](https://www.google.com/maps/dir/Capri+by+Fraser+Bukit+Bintang/The+Exchange+TRX/Hai+Kah+Lang+TRX/KL+Sentral/Kuala+Lumpur+International+Airport+Terminal+2/) |
-| D4 | 步行 + Grab | 4–6 km | [Gaya→丹绒亚路→海鲜](https://www.google.com/maps/dir/Gaya+Street+Kota+Kinabalu/Tanjung+Aru+Beach/Welcome+Seafood+Restaurant+Kota+Kinabalu/) |
-| D5 | 步行 + 潜店船只 | 1–2 km | [酒店区→Jesselton Point](https://www.google.com/maps/dir/Hotel+Sixty3+Kota+Kinabalu/Jesselton+Point/) |
-| D6 | 旅行社接送 + 河船 | 1 km 内 | [Gaya Street→Klias Wetland](https://www.google.com/maps/dir/Gaya+Street+Kota+Kinabalu/Klias+Wetland/) |
-| D7 | Grab + 飞机 | 2–3 km | [Gaya→Imago→BKI](https://www.google.com/maps/dir/Gaya+Street+Kota+Kinabalu/Imago+Shopping+Mall/Kota+Kinabalu+International+Airport/) |
+| D3 | Grab + 机场快线 + 飞机 | 2–4 km | [酒店→TRX→海脚人→KL Sentral→KUL T1](https://www.google.com/maps/dir/Capri+by+Fraser+Bukit+Bintang/The+Exchange+TRX/Hai+Kah+Lang+TRX/KL+Sentral/Kuala+Lumpur+International+Airport+Terminal+1/) |
+| D4 | 步行 + Grab | 4–6 km | [怡丰→市集→刺天堂→丹绒亚路→敬文](https://www.google.com/maps/dir/Yee+Fung+Laksa+Kota+Kinabalu/Gaya+Street+Sunday+Market/KK+Durian+Paradise/Tanjung+Aru+Beach/Leslie+Cafe+Kota+Kinabalu/) |
+| D5 | Grab + 潜店船只 | 2–4 km | [万豪→Jesselton Point→洪金买](https://www.google.com/maps/dir/Kota+Kinabalu+Marriott+Hotel/Jesselton+Point/Ang+Restaurant+Kota+Kinabalu/) |
+| D6 | 旅行社接送 + 河船 | 1 km 内 | [京那巴鲁咖啡店→Klias Wetland](https://www.google.com/maps/dir/Kedai+Kopi+Kinabalu/Klias+Wetland/) |
+| D7 | Grab + 飞机 | 3–5 km | [万豪→Gaya 早餐→Imago/Borenos→BKI](https://www.google.com/maps/dir/Kota+Kinabalu+Marriott+Hotel/Gaya+Street+Kota+Kinabalu/Imago+Shopping+Mall/Kota+Kinabalu+International+Airport/) |
 
 ---
 
-## 八、地点与坐标速查
+## 八、地点与导航速查
 
-> 坐标用于快速核对地点；实际导航以链接打开后的最新道路和入口为准。
+> 坐标或地址用于快速核对地点；实际导航以链接打开后的最新道路和入口为准。
 
-| 地点 | 坐标（lat, lng） | Google Maps |
+| 地点 | 坐标 / 地址提示 | Google Maps |
 | --- | --- | --- |
 | Capri by Fraser Bukit Bintang | 3.146506, 101.715173 | [打开](https://www.google.com/maps/search/?api=1&query=3.146506,101.715173) |
 | 独立广场 | 3.149000, 101.693700 | [打开](https://www.google.com/maps/search/?api=1&query=3.149000,101.693700) |
@@ -487,12 +507,19 @@ DAN 建议：单次免减压潜水后至少 12 小时再飞；一天内多潜或
 | Pavilion Kuala Lumpur | 3.149154, 101.712953 | [打开](https://www.google.com/maps/search/?api=1&query=3.149154,101.712953) |
 | PETRONAS Twin Towers | 3.157968, 101.711205 | [打开](https://www.google.com/maps/search/?api=1&query=3.157968,101.711205) |
 | KL Sentral | 3.132585, 101.687996 | [打开](https://www.google.com/maps/search/?api=1&query=3.132585,101.687996) |
-| Hotel Sixty3 | 5.985487, 116.077812 | [打开](https://www.google.com/maps/search/?api=1&query=5.985487,116.077812) |
+| Kota Kinabalu Marriott Hotel | Lot G-23A, Jalan Tun Fuad Stephens | [打开](https://www.google.com/maps/search/?api=1&query=Kota+Kinabalu+Marriott+Hotel) |
 | Gaya Street | 5.983539, 116.077023 | [打开](https://www.google.com/maps/search/?api=1&query=5.983539,116.077023) |
 | Jesselton Point | 5.990196, 116.079088 | [打开](https://www.google.com/maps/search/?api=1&query=5.990196,116.079088) |
+| 怡丰茶室 Yee Fung Laksa | 127 Jalan Gaya | [打开](https://www.google.com/maps/search/?api=1&query=Yee+Fung+Laksa+Kota+Kinabalu) |
+| 刺天堂 KK Durian Paradise | Jesselton Point Ferry Terminal 一带 | [打开](https://www.google.com/maps/search/?api=1&query=KK+Durian+Paradise+Kota+Kinabalu) |
+| 洪金买饭店 Ang Restaurant | Jalan Kota Kinabalu Lama 3 | [打开](https://www.google.com/maps/search/?api=1&query=Ang+Restaurant+Kota+Kinabalu) |
+| 京那巴鲁咖啡店 | 57 Jalan Pantai | [打开](https://www.google.com/maps/search/?api=1&query=Kedai+Kopi+Kinabalu) |
 | Tanjung Aru Beach | 5.935651, 116.046698 | [打开](https://www.google.com/maps/search/?api=1&query=5.935651,116.046698) |
+| 食全食美 Hilltop Restaurant | Lintas Kolam Centre，Jalan Lintas | [打开](https://www.google.com/maps/search/?api=1&query=Hilltop+Restaurant+%E9%A3%9F%E5%85%A8%E9%A3%9F%E7%BE%8E+Kota+Kinabalu) |
+| 敬文茶餐室 Leslie Cafe | Sri Kepayan Commercial Center | [打开](https://www.google.com/maps/search/?api=1&query=Leslie+Cafe+Kota+Kinabalu) |
 | Welcome Seafood | 5.974845, 116.072926 | [打开](https://www.google.com/maps/search/?api=1&query=5.974845,116.072926) |
 | Imago Shopping Mall | 5.970914, 116.066417 | [打开](https://www.google.com/maps/search/?api=1&query=5.970914,116.066417) |
+| Borenos Fried Chicken Imago | Imago Shopping Mall 内 | [打开](https://www.google.com/maps/search/?api=1&query=Borenos+Fried+Chicken+Imago+Kota+Kinabalu) |
 | Kota Kinabalu International Airport | 5.937200, 116.051300 | [打开](https://www.google.com/maps/search/?api=1&query=5.937200,116.051300) |
 
 ---
@@ -525,10 +552,14 @@ DAN 建议：单次免减压潜水后至少 12 小时再飞；一天内多潜或
 | 吉隆坡 | 椰浆饭、仁当、咖喱叻沙 | Madam Kwan's / 商场餐饮区 | RM35–65/人 |
 | 吉隆坡 | 街头小吃 | Jalan Alor | RM30–60/人 |
 | 吉隆坡 | 老城面食 | Lai Foong 一带 | RM15–30/人 |
-| 亚庇 | 沙巴叻沙、牛杂面 | Yee Fung | RM10–20/人 |
-| 亚庇 | 包点、咖啡 | Keng Wan Hing | RM8–18/人 |
-| 亚庇 | 海鲜 | Welcome / Fatt Kee | RM80–220/两人 |
-| 亚庇 | 肉骨茶 | Yu Kee / Sin Kee | RM25–45/人 |
+| 亚庇 | 沙巴叻沙、牛杂面 | **怡丰茶室（D4 早餐）** | RM10–20/人 |
+| 亚庇 | 榴莲煎蕊、尾季鲜果 | **刺天堂（D4 甜品）** | RM20–40/份起 |
+| 亚庇 | 咸蛋黄鱿鱼、湿奶油虾、姜葱炒蟹 | **食全食美 Hilltop Restaurant（D4 晚餐）** | RM120–220/两人 |
+| 亚庇 | 咸甜中式小炒 | **洪金买饭店（D5 晚餐）** | RM35–65/人 |
+| 亚庇 | 牛肉叻沙、客家牛杂汤 | **京那巴鲁咖啡店（D6 早餐）** | RM10–25/人 |
+| 亚庇 | 沙巴本土炸鸡 | **Borenos Imago（D7 午餐）** | RM20–35/人 |
+| 亚庇 | 包点、咖啡 | Keng Wan Hing（机动早餐） | RM8–18/人 |
+| 亚庇 | 备用海鲜 | 敬文茶餐室 / Welcome Seafood | RM80–220/两人 |
 | 亚庇 | 本地手信 | Gaya Sunday Market / Imago 超市 | 按需 |
 
 > 海鲜不点来源或价格不清楚的“时价”鱼；下单前确认重量、单位、加工费和税费。潜水前一晚不吃生食、不饮酒。
@@ -539,8 +570,9 @@ DAN 建议：单次免减压潜水后至少 12 小时再飞；一天内多潜或
 
 ### 现在完成
 
-- [ ] 购买 10/03 KUL→BKI 晚间直飞，优先复核 AK5118 19:35–22:15。
-- [ ] 预订吉隆坡 2 晚、亚庇 4 晚可取消酒店；把晚到信息发给亚庇酒店。
+- [x] 已购买 10/03 KUL→BKI：MH2638，18:55–21:35，KUL T1 → BKI T1。
+- [ ] 打开马航订单复核两人英文姓名、票号和各自托运行李额，并把订单截图保存到两部手机。
+- [ ] 确认吉隆坡 2 晚酒店；向亚庇万豪确认晚到入住信息。
 - [ ] 向 2–3 家 PADI 潜店发送文末问题，锁定 10/05 DSD 两潜与浮潜安排。
 - [ ] 预订可取消的 10/06 Klias 拼团，核验旅行社牌照。
 

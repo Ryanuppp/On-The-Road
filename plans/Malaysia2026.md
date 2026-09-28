@@ -6,7 +6,7 @@
 > **节奏** 晚起慢游｜城市文化与美食｜无证体验潜水 + 浮潜｜周日市集与日落｜红树林萤火虫<br>
 > **已订国际航班** 10/01 MF9102（实际承运 MH319）10:00–16:30；10/07 AK1560 18:00–23:15<br>
 > **已订境内航班** 10/03 MH2638 吉隆坡 KUL T1 → 亚庇 BKI T1，18:55–21:35<br>
-> **已预约出海** 10/05 淘梦岛体验深潜（两潜 + 午餐 + 下午自由活动）；**关键待订** 10/06 Klias 红树林<br>
+> **已预约出海** 10/05 淘梦岛体验深潜（两潜 + 午餐 + 下午自由活动）；**10/06 待选** Klias 红树林（A）或 Manukan + Mamutik 近岛慢游（B）<br>
 > **预算口径** 中等舒适；人民币换算暂按 `RM1 ≈ ¥1.66`，汇率与价格均会变动
 
 ---
@@ -82,7 +82,7 @@ MH2638 在吉隆坡使用 T1、亚庇抵达 T1。马航马来西亚境内航线�
 | D3 | 10/03 周六 | 吉隆坡 → 亚庇 | TRX → 海脚人午餐 → KL Sentral → KUL T1 → BKI T1 | 吃完海鲜粉再从容赶晚班机 |
 | D4 | 10/04 周日 | 亚庇城市日 | 怡丰茶室 → 加雅街周日市集 → 刺天堂 → 丹绒亚路 → 食全食美 | 周日限定市集 + 日落 + 海鲜 |
 | D5 | 10/05 周一 | 淘梦岛潜水日 | Star Marina 码头 → 淘梦岛 → 洪金买饭店 | 已预约两潜；午餐后浮潜 / 桨板 / 独木舟 |
-| D6 | 10/06 周二 | 红树林日 | 京那巴鲁咖啡店 → 上午休息 → Klias 湿地 → 长鼻猴 → 萤火虫 | 下午出发、约 22:00 回城 |
+| D6 | 10/06 周二 | 红树林日 / 近岛 Plan B | A：Klias 湿地 → 长鼻猴 → 萤火虫；B：Manukan → Mamutik | A 车程长；B 从市区码头出发、当天回城 |
 | D7 | 10/07 周三 | 返程 | Gaya 早餐 → Imago/Borenos → BKI T1 → 北京大兴 | 买手信、吃沙巴本土炸鸡、预留机场时间 |
 
 > **不绕路原则**：吉隆坡只住武吉免登；亚庇确认住 **Kota Kinabalu Marriott Hotel（市中心滨海）**，全程不换酒店。去 Gaya Street、Star Marina 码头与 Lintas 等非步行点统一用 Grab。
@@ -124,7 +124,7 @@ MH2638 在吉隆坡使用 T1、亚庇抵达 T1。马航马来西亚境内航线�
 | 10/03 | 09:30–22:45 | 慢早餐、海脚人、18:55 飞亚庇 | 低 |
 | 10/04 | 09:30–20:30 | Gaya 周日市集、休息、18:05 日落、海鲜 | 中低 |
 | 10/05 | 07:50–约 15:00 | 淘梦岛两潜、自助午餐、下午浮潜 / 桨板 / 独木舟；默认 14:00 返船 | 中高 |
-| 10/06 | 10:00–22:00 | 睡到自然醒、Klias 长鼻猴与萤火虫 | 中低但车程长 |
+| 10/06 | A：10:00–22:00；B：09:30–18:00 | A：Klias 长鼻猴与萤火虫；B：Manukan + Mamutik 两岛慢游 | A 车程长；B 中低 |
 | 10/07 | 09:30–23:15 | 早餐、Imago、18:00 飞北京 | 低 |
 
 ---
@@ -400,6 +400,27 @@ Klias 常规拼团当前约 RM190–200/人，通常含市区接送、英语导�
 
 > ⚠️ 蚊虫多，穿轻薄长袖长裤；不要喷强光或闪光灯照萤火虫。回程晚，晚餐已在套餐中，不再安排夜宵任务。
 
+#### Plan B ｜Manukan + Mamutik 两岛慢游（替代 Klias；二选一）
+
+> 🏝️ 这是给“不想坐两小时车去红树林”的近岛方案：**Manukan** 负责午餐、设施和海滩散步，**Mamutik** 负责小岛感与轻松浮潜。东姑阿都拉曼公园距亚庇约 3 km，由 Gaya、Sapi、Manukan、Mamutik、Sulug 五岛组成；码头船程约 30 分钟、岛间约 5–15 分钟。[Sabah Parks](https://sabahparks.org.my/tunku-abdul-rahman-park)｜[码头时刻与价格](https://www.jesseltonpoint.com.my/schedule/)
+
+**Plan B 行程节点**：
+
+- [ ] **09:30–10:15** 睡到自然醒，在 **京那巴鲁咖啡店**吃晚早餐；吃到七分饱，岛上午餐不需要加太多。
+- [ ] **10:20** Grab 前往 **South Jetty, KK Port**。目前近岛船从这里出发，不要只导航旧 Jesselton Point 地址。
+- [ ] **10:45–11:10** 现场买 **2 Islands** 往返船票，选 Manukan + Mamutik；带护照付国际游客公园费。等下一班船，不硬卡具体发船分钟。
+- [ ] **约 11:30–13:00｜Manukan**：沙滩散步、树荫休息、岛上午餐；这里的餐饮与设施相对完整。
+- [ ] **约 13:00–13:20** 船转 Mamutik。
+- [ ] **13:20–15:00｜Mamutik**：看海、拍照、浅水浮潜；只在划定区域穿救生衣做水面浮潜，不安排水肺、海底漫步或下潜式自由潜。
+- [ ] **15:00–15:30** 返回 South Jetty；最晚返程船为 16:00，别在岛上拖到最后一班。
+- [ ] **16:00–18:00** 回万豪洗澡、休息；晚上按心情在 Waterfront / Gaya Street 吃轻松晚餐，不再额外塞景点。
+
+**两人基础花费**：两岛船票 RM58/人 + 国际游客公园费 RM25/人，合计 **RM166**；另加餐饮、Grab 和浮潜装备（码头当前标示装备按件 RM10/天）。船票含往返船、救生衣和安全简报，不含公园费、装备与餐饮。
+
+> ⚠️ 10/05 有两潜，10/06 的 Plan B 只做观光和**水面**浮潜，不再加水肺或其他压缩空气项目。DAN 对一天多潜后的飞行建议至少间隔 18 小时；你们 10/07 18:00 起飞，保留 D6 的无水肺安排更稳妥。[DAN 指引](https://dan.org/health-medicine/health-resource/smart-guides/know-before-you-go-how-to-plan-your-dive-trip/tips-for-health-and-safety/)
+
+> 出发当天先看船班和海况；如果运营方因安全原因取消，码头说明可退款或免费改期。此时不要硬上船，改成 Imago / 沙巴博物馆 / 咖啡馆即可。[码头退款说明](https://www.jesseltonpoint.com.my/faq/)
+
 ---
 
 ### Day 7 ｜ 10/07 周三 ｜ 早餐 + 手信 + 亚庇返京
@@ -446,7 +467,7 @@ Borenos 是沙巴本土炸鸡品牌，Imago 店于 2026 年新开，官方列出
 | 10/04 日落阴天 | 仍去海边散步；Waterfront 一带作为第二次日落视角，但不保证看到太阳 |
 | 10/05 海况不适合潜水 | 以淘梦岛商家 / 船长的改期或退款安排为准；不要自行找低价小船硬出海 |
 | 潜水改到 10/06 | 只有潜店确认安全、最后一潜在 16:00 前结束才考虑；距 10/07 18:00 航班约 26 小时。若海况差，宁可取消 |
-| 10/06 暴雨 | Klias 是否运行听持牌旅行社通知；取消则改 Imago + Sabah Museum / 咖啡馆 |
+| 10/06 暴雨 / 风浪 | 若选 A，听 Klias 旅行社通知；若选 B，先看 South Jetty 船班，停航就改 Imago + Sabah Museum / 咖啡馆 |
 
 ### 🤿 潜水后乘飞机
 
@@ -473,7 +494,8 @@ DAN 建议：单次免减压潜水后至少 12 小时再飞；一天内多潜或
 | D3 | Grab + 机场快线 + 飞机 | 2–4 km | [WOLO→TRX→海脚人→KL Sentral→KUL T1](https://www.google.com/maps/dir/WOLO+Kuala+Lumpur/The+Exchange+TRX/Hai+Kah+Lang+TRX/KL+Sentral/Kuala+Lumpur+International+Airport+Terminal+1/) |
 | D4 | 步行 + Grab | 4–6 km | [怡丰→市集→刺天堂→丹绒亚路→敬文](https://www.google.com/maps/dir/Yee+Fung+Laksa+Kota+Kinabalu/Gaya+Street+Sunday+Market/KK+Durian+Paradise/Tanjung+Aru+Beach/Leslie+Cafe+Kota+Kinabalu/) |
 | D5 | Grab + 淘梦岛船只 | 2–4 km | [万豪→Star Marina→洪金买](https://www.google.com/maps/dir/Kota+Kinabalu+Marriott+Hotel/Star+Marina+Kota+Kinabalu/Ang+Restaurant+Kota+Kinabalu/) |
-| D6 | 旅行社接送 + 河船 | 1 km 内 | [京那巴鲁咖啡店→Klias Wetland](https://www.google.com/maps/dir/Kedai+Kopi+Kinabalu/Klias+Wetland/) |
+| D6 A | 旅行社接送 + 河船 | 1 km 内 | [京那巴鲁咖啡店→Klias Wetland](https://www.google.com/maps/dir/Kedai+Kopi+Kinabalu/Klias+Wetland/) |
+| D6 B | Grab + 近岛船 | 2–4 km | [万豪→South Jetty→Manukan→Mamutik](https://www.google.com/maps/dir/Kota+Kinabalu+Marriott+Hotel/South+Jetty+Kota+Kinabalu/Manukan+Island/Mamutik+Island/) |
 | D7 | Grab + 飞机 | 3–5 km | [万豪→Gaya 早餐→Imago/Borenos→BKI](https://www.google.com/maps/dir/Kota+Kinabalu+Marriott+Hotel/Gaya+Street+Kota+Kinabalu/Imago+Shopping+Mall/Kota+Kinabalu+International+Airport/) |
 
 ---
@@ -495,6 +517,7 @@ DAN 建议：单次免减压潜水后至少 12 小时再飞；一天内多潜或
 | Kota Kinabalu Marriott Hotel | Lot G-23A, Jalan Tun Fuad Stephens | [打开](https://www.google.com/maps/search/?api=1&query=Kota+Kinabalu+Marriott+Hotel) |
 | Gaya Street | 5.983539, 116.077023 | [打开](https://www.google.com/maps/search/?api=1&query=5.983539,116.077023) |
 | Star Marina 码头（10/05 集合） | 以商家订单内定位为准 | [在 Google Maps 搜索](https://www.google.com/maps/search/?api=1&query=Star+Marina+Kota+Kinabalu) |
+| South Jetty（10/06 Plan B 出发） | KK Port, Jalan Tun Fuad Stephens；近岛船临时出发点 | [打开](https://www.google.com/maps/search/?api=1&query=South+Jetty+Kota+Kinabalu) |
 | Jesselton Point | 5.990196, 116.079088 | [打开](https://www.google.com/maps/search/?api=1&query=5.990196,116.079088) |
 | 怡丰茶室 Yee Fung Laksa | 127 Jalan Gaya | [打开](https://www.google.com/maps/search/?api=1&query=Yee+Fung+Laksa+Kota+Kinabalu) |
 | 刺天堂 KK Durian Paradise | Jesselton Point Ferry Terminal 一带 | [打开](https://www.google.com/maps/search/?api=1&query=KK+Durian+Paradise+Kota+Kinabalu) |
@@ -528,6 +551,10 @@ DAN 建议：单次免减压潜水后至少 12 小时再飞；一天内多潜或
 
 看点是河道生态、长鼻猴和天黑后的萤火虫，而不是高强度徒步。最大的成本是往返车程，因此 D6 上午必须留空，不再叠加环滩岛或神山。
 
+### 5. D6 近岛 Plan B：Manukan + Mamutik
+
+若不想把下午和晚上都花在往返车程，直接从 South Jetty 出发两岛慢游。Manukan 设施与餐饮相对完整，Mamutik 更适合安静看海和浅水浮潜；10/05 两潜后的次日不增加水肺项目。
+
 ---
 
 ## 十、美食推荐汇总
@@ -560,7 +587,7 @@ DAN 建议：单次免减压潜水后至少 12 小时再飞；一天内多潜或
 - [ ] 保存两家酒店确认单与三段航班订单至两部手机；向亚庇万豪确认 10/03 约 22:30 晚到入住。
 - [x] 已预约 10/05 淘梦岛体验深潜：07:50 Star Marina 码头集合，08:30 开船，含两潜、自助午餐和下午自由活动。
 - [ ] 向商家确认 Star Marina 精确定位、两人预约姓名、订单金额 / 付款状态及天气退改规则。
-- [ ] 预订可取消的 10/06 Klias 拼团，核验旅行社牌照。
+- [ ] 在 10/06 的 Klias（A）和 Manukan + Mamutik 近岛慢游（B）中二选一；选 B 可当天在 South Jetty 现场买两岛船票，也可提前线上订票。
 
 ### 出发前 2–3 周
 

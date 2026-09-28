@@ -6,7 +6,7 @@
 > **节奏** 晚起慢游｜城市文化与美食｜无证体验潜水 + 浮潜｜周日市集与日落｜红树林萤火虫<br>
 > **已订国际航班** 10/01 MF9102（实际承运 MH319）10:00–16:30；10/07 AK1560 18:00–23:15<br>
 > **已订境内航班** 10/03 MH2638 吉隆坡 KUL T1 → 亚庇 BKI T1，18:55–21:35<br>
-> **关键待订** 10/05 DSD 潜水、10/06 Klias 红树林<br>
+> **已预约出海** 10/05 淘梦岛体验深潜（两潜 + 午餐 + 下午自由活动）；**关键待订** 10/06 Klias 红树林<br>
 > **预算口径** 中等舒适；人民币换算暂按 `RM1 ≈ ¥1.66`，汇率与价格均会变动
 
 ---
@@ -81,11 +81,11 @@ MH2638 在吉隆坡使用 T1、亚庇抵达 T1。马航马来西亚境内航线�
 | D2 | 10/02 周五 | 吉隆坡完整日 | 独立广场 → 占美清真寺 → 中央市场 → 伊斯兰艺术博物馆 → Pavilion → KLCC | 历史城区 + 博物馆 + 双子塔夜景 |
 | D3 | 10/03 周六 | 吉隆坡 → 亚庇 | TRX → 海脚人午餐 → KL Sentral → KUL T1 → BKI T1 | 吃完海鲜粉再从容赶晚班机 |
 | D4 | 10/04 周日 | 亚庇城市日 | 怡丰茶室 → 加雅街周日市集 → 刺天堂 → 丹绒亚路 → 食全食美 | 周日限定市集 + 日落 + 海鲜 |
-| D5 | 10/05 周一 | 潜水日 | Jesselton Point → 东姑阿都拉曼海洋公园 → 洪金买饭店 | 无证 DSD 两潜 + 水面浮潜 |
+| D5 | 10/05 周一 | 淘梦岛潜水日 | Star Marina 码头 → 淘梦岛 → 洪金买饭店 | 已预约两潜；午餐后浮潜 / 桨板 / 独木舟 |
 | D6 | 10/06 周二 | 红树林日 | 京那巴鲁咖啡店 → 上午休息 → Klias 湿地 → 长鼻猴 → 萤火虫 | 下午出发、约 22:00 回城 |
 | D7 | 10/07 周三 | 返程 | Gaya 早餐 → Imago/Borenos → BKI T1 → 北京大兴 | 买手信、吃沙巴本土炸鸡、预留机场时间 |
 
-> **不绕路原则**：吉隆坡只住武吉免登；亚庇确认住 **Kota Kinabalu Marriott Hotel（市中心滨海）**，全程不换酒店。去 Gaya Street、Jesselton Point 与 Lintas 等非步行点统一用 Grab。
+> **不绕路原则**：吉隆坡只住武吉免登；亚庇确认住 **Kota Kinabalu Marriott Hotel（市中心滨海）**，全程不换酒店。去 Gaya Street、Star Marina 码头与 Lintas 等非步行点统一用 Grab。
 
 > **晚起原则**：除 10/01 固定国际航班和 10/05 潜店集合外，其余日期尽量 09:30 后出门；不为了多打卡牺牲睡眠。
 
@@ -105,11 +105,11 @@ MH2638 在吉隆坡使用 T1、亚庇抵达 T1。马航马来西亚境内航线�
 
 ### 亚庇｜10/03–10/07，共 4 晚
 
-> 🛏️ **已订 Kota Kinabalu Marriott Hotel**：Lot G-23A, Jalan Tun Fuad Stephens，市中心滨海位置；适合晚到入住、去丹绒亚路、机场和 Imago。Gaya Street／Jesselton Point 约一小段 Grab 车程，潜水日按潜店集合时间提前叫车即可。
+> 🛏️ **已订 Kota Kinabalu Marriott Hotel**：Lot G-23A, Jalan Tun Fuad Stephens，市中心滨海位置；适合晚到入住、去丹绒亚路、机场和 Imago。Gaya Street／Star Marina 码头约一小段 Grab 车程，10/05 按 07:50 集合时间提前叫车即可。
 
 | 已确认酒店 | 位置优势 | 行程提醒 |
 | --- | --- | --- |
-| [Kota Kinabalu Marriott Hotel](https://www.marriott.com/en-us/hotels/bkikk-kota-kinabalu-marriott-hotel/overview/) | 市中心滨海，靠近 Waterfront / Oceanus；去丹绒亚路、Imago 和机场方向更顺路 | Gaya Street、Jesselton Point 与食全食美不适合步行，统一 Grab；10/05 潜水日以潜店集合时间倒推约 15–20 分钟出发 |
+| [Kota Kinabalu Marriott Hotel](https://www.marriott.com/en-us/hotels/bkikk-kota-kinabalu-marriott-hotel/overview/) | 市中心滨海，靠近 Waterfront / Oceanus；去丹绒亚路、Imago 和机场方向更顺路 | Gaya Street、Star Marina 码头与食全食美不适合步行，统一 Grab；10/05 建议 07:10 从酒店出发，留集合与登记缓冲 |
 
 按 MH2638 计算，10/03 预计 22:15–22:45 到店；订房备注或 App 消息保留“late arrival around 22:30”，避免被误判未入住。
 
@@ -123,7 +123,7 @@ MH2638 在吉隆坡使用 T1、亚庇抵达 T1。马航马来西亚境内航线�
 | 10/02 | 09:30–21:30 | 吉隆坡历史城区、博物馆、Pavilion、KLCC | 中 |
 | 10/03 | 09:30–22:45 | 慢早餐、海脚人、18:55 飞亚庇 | 低 |
 | 10/04 | 09:30–20:30 | Gaya 周日市集、休息、18:05 日落、海鲜 | 中低 |
-| 10/05 | 08:15–16:00 | DSD 两潜，按海况安排浮潜 | 中高 |
+| 10/05 | 07:50–约 15:00 | 淘梦岛两潜、自助午餐、下午浮潜 / 桨板 / 独木舟；默认 14:00 返船 | 中高 |
 | 10/06 | 10:00–22:00 | 睡到自然醒、Klias 长鼻猴与萤火虫 | 中低但车程长 |
 | 10/07 | 09:30–23:15 | 早餐、Imago、18:00 飞北京 | 低 |
 
@@ -131,18 +131,17 @@ MH2638 在吉隆坡使用 T1、亚庇抵达 T1。马航马来西亚境内航线�
 
 ## 四、预算与交通总览（2人）
 
-### 两人预算
+### 两人未付预算
 
-| 项目 | 已订机酒外的两人预算（MYR） | 人民币参考 |
+| 项目 | 未付的两人预算（MYR） | 人民币参考 |
 | --- | ---: | ---: |
-| DSD 两潜 | **840** | 约 ¥1,395 |
 | Klias 红树林萤火虫 | 380–420 | ¥630–700 |
 | 市内与机场交通 | 400–550 | ¥660–910 |
 | 7天餐饮 | 900–1,400 | ¥1,495–2,325 |
 | 景点、电话卡、杂项 | 300–500 | ¥500–830 |
-| **合计（不含已订机票、两地酒店与购物）** | **2,820–3,710** | **约 ¥4,680–6,160** |
+| **合计（不含已订机票、两地酒店、淘梦岛项目与购物）** | **1,980–2,870** | **约 ¥3,290–4,760** |
 
-> 以上只用于估算旅途中尚未支付的项目。
+> 淘梦岛项目已经预约，但你没有提供订单金额和付款状态，因此暂不把它计入未付预算；若尚未支付，按订单金额另加即可。
 
 ### 关键交通
 
@@ -288,7 +287,7 @@ WOLO 官方退房时间为 12:00。因此本日默认先退房、将行李寄存
 
 - [ ] **09:30–10:15** **怡丰茶室 Yee Fung Laksa** 早餐：两人先点一份叻沙、一份牛杂或干捞面共享；它口碑两极、份量不大，不要为了“网红必吃”加点过量。
 - [ ] **10:15–11:45** **Gaya Street Sunday Market**：看手工艺和本地食材；准备小额现金，最晚不要拖到 12:00 才开始逛。
-- [ ] **11:45–12:15** 步行前往 Jesselton Point；顺便确认次日潜店集合点。
+- [ ] **11:45–12:15** 步行前往 Jesselton Point；顺路去刺天堂前的码头一带看海。
 - [ ] **12:15–12:45** **刺天堂 KK Durian Paradise**：两人共享一份榴莲煎蕊即可；先问清品种、克重、含税总价和果肉状态，不盲点整颗高价榴莲。
 - [ ] **12:45–13:15** Jesselton Point、Suria Sabah 一带慢逛，回酒店前补水。
 - [ ] **13:15–15:45** 如饿了只吃简单午餐，随后酒店午休；早餐和榴莲甜品都吃得多时直接休息，不要硬塞第三顿。
@@ -327,44 +326,36 @@ Gaya Street Sunday Market 官方开放时间为每周日 06:00–13:00。[Sabah 
 
 ---
 
-### Day 5 ｜ 10/05 周一 ｜ 无证体验潜水 DSD + 浮潜
+### Day 5 ｜ 10/05 周一 ｜ 淘梦岛体验深潜（两潜）+ 浮潜
 
-> 🤿 本日主线是 **Discover Scuba Diving（DSD）**，不是 Fun Dive，也不是考 OW。开放水域最大深度通常为 12 m，但 12 m 是上限而不是任务。[PADI DSD FAQ](https://blog.padi.com/discover-scuba-diving-faqs/)
+> 🤿 已预约 **淘梦岛体验深潜**。图片中的英文 `Pulau Tioman` 与亚庇的实际淘梦岛名称不一致；本日以商家给出的 **Star Marina 码头集合**、订单内地图定位和当天船长通知为准。该行程从亚庇出海，和这次住在亚庇的路线不冲突。
 
-**默认方案**：选择正规 PADI 潜店的 **DSD 两潜**；报名时书面确认两次潜水之间或完成后能否安排水面浮潜。若套餐不含浮潜，优先选“一潜 + 专门浮潜”，不要为了凑项目买三潜。
+**商家时间表**：07:50 码头集合 → 08:30 开船 → 09:00 水面教学 / 教练跟拍 → 09:20 第一潜 → 10:20 第二潜 → 12:00 自助午餐 → 下午自由活动。返程船可选 13:00 / 14:00 / 15:00；攻略默认选 **14:00**，既能玩一会儿浮潜、桨板或独木舟，也能回酒店洗澡休息后从容晚餐。
 
 **行程节点**：
 
-- [ ] **06:45–07:30** 清淡早餐；不要空腹，也不要吃得过油。
-- [ ] **07:45** 带泳衣、水母衣、防水袋、毛巾、晕船药、护照复印件出门。
-- [ ] **08:15** Jesselton Point 指定位置集合。
-- [ ] **08:30–09:30** 装备与安全讲解：调节器呼吸、面镜排水、耳压平衡、手势、浅水练习。
-- [ ] **10:00 左右** 第一潜：适应为主；耳压做不通、紧张或呼吸失控立即示意上升。
-- [ ] **11:30–12:30** 水面休息、午餐；根据潜店安排浮潜。
-- [ ] **13:00 左右** 第二潜：只有第一潜舒适才继续；不追求下到 12 m。
-- [ ] **15:30–16:30** 返回 Jesselton Point，回酒店洗澡、补水、休息。
+- [ ] **06:35–07:00** 在酒店或附近清淡早餐；不要空腹，也不要吃得过油。
+- [ ] **07:10** 带泳衣 / 水母衣、防水袋、毛巾、晕船药、护照复印件出门；Grab 目的地以商家订单内的 **Star Marina 码头** 定位为准。
+- [ ] **07:50** 抵达 Star Marina 码头集合、办理登记；迟到按船班处理，不压缩安全讲解。
+- [ ] **08:30** 上船准时出发前往淘梦岛。
+- [ ] **09:00** 水面教学、装备使用、耳压平衡和手势；教练全程跟拍按商家实际服务执行。
+- [ ] **09:20** 第一潜：在舒适、耳压顺利的前提下下水；任何不适立刻示意上升。
+- [ ] **10:20** 第二潜：不追求深度或时长，以教练判断和当天海况为准。
+- [ ] **12:00** 岛上自助午餐、补水和休息。
+- [ ] **12:30–13:50** 免费自由活动：浮潜、桨板、独木舟三选一或轮流体验；自费水上项目只在明码标价后参加。
+- [ ] **14:00** 默认返程船班；约 14:20–14:40 回到码头后 Grab 回酒店，洗澡、补水、午休。
 - [ ] **18:20–18:40** 休息后前往 Gaya Street 一带的 **洪金买饭店 Ang Restaurant**；不要晚于 19:30 到店。
 - [ ] **18:40–20:00** 洪金买晚餐：两人点蚝油鸡翅、蒜米虾球、炒空心菜或姜葱牛肉中的 3 份小菜；口味偏咸甜，先点少量，不够再加。
 
-> 这是全程唯一需要主动早起的游玩日，因为出海、海况和潜店船班通常在上午统一安排；若最终潜店提供更晚集合，可优先选择，但不能为晚起压缩安全讲解和浅水训练。
+> 这是全程唯一需要主动早起的游玩日。若你们只想两潜后尽快回酒店，可改 13:00 船班；15:00 船班只建议体力很好、明确还想继续玩免费项目时再选。
 
-#### 潜店默认候选与预算
+#### 出海前向商家确认的 5 件事
 
-[Scuba Junkie Kota Kinabalu](https://www.scubajunkiekk.com/discover-scuba-diving/)公开的 2026 年价格为两潜 RM420/人、三潜 RM475/人；两潜已包含装备、PADI材料、教练、午餐、公园/码头相关费用与税。其 PADI 页面显示为五星潜水中心。[PADI 潜店核验](https://www.padi.com/dive-center/malaysia/scuba-junkie-kota-kinabalu/)
-
-**两人默认预算：RM840。**若必须中文教练，可同时询问 [Sunnyreef Paradise](https://www.padi.com/dive-center/malaysia/sunnyreef-paradise/) 或 [Dive Borneo Bah](https://www.padi.com/dive-center/malaysia/dive-borneo-bah/)，两者 PADI 页面均列出中文服务；只有书面确认教练语言、人数配比与完整价格后再付款。
-
-#### 付款前必须问潜店的 9 个问题
-
-1. 项目是否正式登记为 PADI/SSI 的 DSD，而非口头称“深潜”？
-2. 两人是否能安排同一位、最好 1:2 的教练？最多带几名无证学员？
-3. 是否先在泳池或平静浅水完成基础技巧？
-4. 两潜分别大约多久、最大深度多少？不舒服能否随时结束？
-5. 是否包含浮潜与浮潜装备？安排在何时？
-6. 是否包含公园费、码头费、午餐、全套装备和照片？
-7. 中文教练是否为当日实际下水教练，而非仅客服会中文？
-8. 天气取消、船班取消、个人无法通过浅水练习时如何退款？
-9. 保险覆盖范围是什么，紧急氧气和最近医疗点在哪里？
+1. Star Marina 码头的**精确定位**、集合联系人和两人预约姓名。
+2. 两潜的教练配比、教学语言、每潜预计时长与最大深度；不舒服能否随时结束。
+3. 套餐是否已含全套装备、两潜、自助午餐、浮潜 / 桨板 / 独木舟及码头或登岛费用；照片、视频与自费项目怎样收费。
+4. 天气 / 海况取消、船班取消或无法完成浅水练习时的改期和退款规则。
+5. 订单总金额及是否已支付；拿到后补进预算表。
 
 #### 🍽️ D5 晚餐推荐（Gaya Street）
 
@@ -373,11 +364,11 @@ Gaya Street Sunday Market 官方开放时间为每周日 06:00–13:00。[Sabah 
 | **洪金买饭店 Ang Restaurant** | 蚝油鸡翅、蒜米虾球、姜葱牛肉；默认晚餐 | RM35–65/人 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Ang+Restaurant+Kota+Kinabalu) |
 | **Little Italy** | 潜水后不想吃咸甜中餐时的备选 | RM35–70/人 | [Google Maps](https://www.google.com/maps/search/?api=1&query=Little+Italy+Kota+Kinabalu) |
 
-东姑阿都拉曼公园距亚庇约 3 km，由五座岛屿组成，官方允许在指定区域进行潜水与浮潜；国际成人公园门票当前 RM25/日，但默认潜店套餐已含相关费用。[Sabah Parks 公园介绍与费用](https://www.sabahparks.org.my/tunku-abdul-rahman-park)
+图片所列的 12:00 自助午餐、下午浮潜 / 桨板 / 独木舟，以及 13:00 / 14:00 / 15:00 三档返程船班均已纳入本日安排；最终时间可能因天气、海况或码头调度调整，听船长与教练当天通知。
 
 洪金买通常营业至 20:30，位置在 Jalan Kota Kinabalu Lama 3；小红书评价最集中的优点是价格不高、咸甜酱香适合下饭，分歧点也主要是口味偏甜，所以不把它和敬文排在同一天。[餐厅地址与营业时间](https://gs.ctrip.com/html5/you/foods/kotakinabalu583/11654507.html)｜[小红书点单参考](https://www.xiaohongshu.com/explore/6a01a99e00000000070101dd)
 
-> 📖 **小红书经验信号**：[《旱鸭子的亚庇潜水初体验》](https://www.xiaohongshu.com/explore/699194f6000000000a02979e)提到首次下水紧张与耳压不适；[《向体验潜说——不！》及评论讨论](https://www.xiaohongshu.com/explore/667969f5000000001d0154e5)反向提醒了不规范带潜的风险。它们都是个人体验，最终只用 PADI 潜店资质、浅水训练和教练配比作决策。
+> 📖 **体验潜安全底线**：第一次下水的紧张和耳压不适都很常见；只要耳压做不通、紧张或呼吸不顺，就向教练示意上升。不要为完成“两潜”硬撑，也不把照片作为下水优先级。
 
 > ⚠️ 潜水结束后不按摩、不剧烈运动、不大量饮酒，多喝水。若出现持续耳痛、眩晕、异常疲乏、关节痛、麻木或呼吸不适，立即联系潜店并就医，不乘飞机硬扛。
 
@@ -453,7 +444,7 @@ Borenos 是沙巴本土炸鸡品牌，Imago 店于 2026 年新开，官方列出
 | --- | --- |
 | 10/02 吉隆坡下大雨 | 上午仍走历史城区；下午博物馆；晚间用 Pavilion—KLCC 遮棚连廊 |
 | 10/04 日落阴天 | 仍去海边散步；Waterfront 一带作为第二次日落视角，但不保证看到太阳 |
-| 10/05 海况不适合潜水 | 听潜店取消；不要自行找低价小船硬出海 |
+| 10/05 海况不适合潜水 | 以淘梦岛商家 / 船长的改期或退款安排为准；不要自行找低价小船硬出海 |
 | 潜水改到 10/06 | 只有潜店确认安全、最后一潜在 16:00 前结束才考虑；距 10/07 18:00 航班约 26 小时。若海况差，宁可取消 |
 | 10/06 暴雨 | Klias 是否运行听持牌旅行社通知；取消则改 Imago + Sabah Museum / 咖啡馆 |
 
@@ -481,7 +472,7 @@ DAN 建议：单次免减压潜水后至少 12 小时再飞；一天内多潜或
 | D2 | 步行 + 3次 Grab | 6–8 km | [完整 Citywalk](https://www.google.com/maps/dir/Dataran+Merdeka/Masjid+Jamek/Central+Market+Kuala+Lumpur/Islamic+Arts+Museum+Malaysia/Pavilion+Kuala+Lumpur/Petronas+Twin+Towers/) |
 | D3 | Grab + 机场快线 + 飞机 | 2–4 km | [WOLO→TRX→海脚人→KL Sentral→KUL T1](https://www.google.com/maps/dir/WOLO+Kuala+Lumpur/The+Exchange+TRX/Hai+Kah+Lang+TRX/KL+Sentral/Kuala+Lumpur+International+Airport+Terminal+1/) |
 | D4 | 步行 + Grab | 4–6 km | [怡丰→市集→刺天堂→丹绒亚路→敬文](https://www.google.com/maps/dir/Yee+Fung+Laksa+Kota+Kinabalu/Gaya+Street+Sunday+Market/KK+Durian+Paradise/Tanjung+Aru+Beach/Leslie+Cafe+Kota+Kinabalu/) |
-| D5 | Grab + 潜店船只 | 2–4 km | [万豪→Jesselton Point→洪金买](https://www.google.com/maps/dir/Kota+Kinabalu+Marriott+Hotel/Jesselton+Point/Ang+Restaurant+Kota+Kinabalu/) |
+| D5 | Grab + 淘梦岛船只 | 2–4 km | [万豪→Star Marina→洪金买](https://www.google.com/maps/dir/Kota+Kinabalu+Marriott+Hotel/Star+Marina+Kota+Kinabalu/Ang+Restaurant+Kota+Kinabalu/) |
 | D6 | 旅行社接送 + 河船 | 1 km 内 | [京那巴鲁咖啡店→Klias Wetland](https://www.google.com/maps/dir/Kedai+Kopi+Kinabalu/Klias+Wetland/) |
 | D7 | Grab + 飞机 | 3–5 km | [万豪→Gaya 早餐→Imago/Borenos→BKI](https://www.google.com/maps/dir/Kota+Kinabalu+Marriott+Hotel/Gaya+Street+Kota+Kinabalu/Imago+Shopping+Mall/Kota+Kinabalu+International+Airport/) |
 
@@ -503,6 +494,7 @@ DAN 建议：单次免减压潜水后至少 12 小时再飞；一天内多潜或
 | KL Sentral | 3.132585, 101.687996 | [打开](https://www.google.com/maps/search/?api=1&query=3.132585,101.687996) |
 | Kota Kinabalu Marriott Hotel | Lot G-23A, Jalan Tun Fuad Stephens | [打开](https://www.google.com/maps/search/?api=1&query=Kota+Kinabalu+Marriott+Hotel) |
 | Gaya Street | 5.983539, 116.077023 | [打开](https://www.google.com/maps/search/?api=1&query=5.983539,116.077023) |
+| Star Marina 码头（10/05 集合） | 以商家订单内定位为准 | [在 Google Maps 搜索](https://www.google.com/maps/search/?api=1&query=Star+Marina+Kota+Kinabalu) |
 | Jesselton Point | 5.990196, 116.079088 | [打开](https://www.google.com/maps/search/?api=1&query=5.990196,116.079088) |
 | 怡丰茶室 Yee Fung Laksa | 127 Jalan Gaya | [打开](https://www.google.com/maps/search/?api=1&query=Yee+Fung+Laksa+Kota+Kinabalu) |
 | 刺天堂 KK Durian Paradise | Jesselton Point Ferry Terminal 一带 | [打开](https://www.google.com/maps/search/?api=1&query=KK+Durian+Paradise+Kota+Kinabalu) |
@@ -528,9 +520,9 @@ DAN 建议：单次免减压潜水后至少 12 小时再飞；一天内多潜或
 
 它比“再打卡一座商场”更能补齐吉隆坡的文化线。正常参观约 2–2.5 小时；展厅冷气足，带薄外套。当前常规成人票 RM20，最后入场 17:30。
 
-### 3. 东姑阿都拉曼海洋公园
+### 3. 淘梦岛体验深潜
 
-公园包含 Gaya、Sapi、Manukan、Mamutik、Sulug 五岛，距市区近、船程短，是本次第一次 DSD 的合理选择。十月海况有不确定性，潜点由潜店当天根据能见度和风浪决定，不固定追某一座岛。
+10/05 已预约淘梦岛两潜，按商家提供的 Star Marina 集合、08:30 开船、09:20 / 10:20 两潜与 12:00 午餐执行。下午不再加塞其他岛屿，浮潜、桨板或独木舟按体力选；最后以教练、船长和当天海况为准。
 
 ### 4. Klias 湿地
 
@@ -566,12 +558,13 @@ DAN 建议：单次免减压潜水后至少 12 小时再飞；一天内多潜或
 
 - [x] 已订机票：10/03 MH2638，18:55–21:35，KUL T1 → BKI T1；已订酒店：10/01–10/03 WOLO Kuala Lumpur、10/03–10/07 Kota Kinabalu Marriott Hotel。
 - [ ] 保存两家酒店确认单与三段航班订单至两部手机；向亚庇万豪确认 10/03 约 22:30 晚到入住。
-- [ ] 向 2–3 家 PADI 潜店发送文末问题，锁定 10/05 DSD 两潜与浮潜安排。
+- [x] 已预约 10/05 淘梦岛体验深潜：07:50 Star Marina 码头集合，08:30 开船，含两潜、自助午餐和下午自由活动。
+- [ ] 向商家确认 Star Marina 精确定位、两人预约姓名、订单金额 / 付款状态及天气退改规则。
 - [ ] 预订可取消的 10/06 Klias 拼团，核验旅行社牌照。
 
 ### 出发前 2–3 周
 
-- [ ] 购买明确覆盖 DSD 的境外旅行保险。
+- [ ] 购买明确覆盖淘梦岛体验深潜（两潜）的境外旅行保险。
 - [ ] 填 PADI 健康问卷；任何需要医生确认的项目提前处理。
 - [ ] 检查护照有效期、国际航班票号和两人姓名拼写。
 - [ ] 准备 Type G 转换插头、雨具、水母衣与晕船药。

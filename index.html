@@ -157,9 +157,14 @@ a:hover { text-decoration: underline; }
 .weather-icon { font-size: 2rem; line-height: 1; }
 .weather-temperature { font-size: 1.65rem; font-weight: 700; letter-spacing: -.04em; line-height: 1; }
 .weather-condition { margin-top: 4px; color: var(--text-2); font-size: .8rem; }
-.weather-days { display: grid; grid-template-columns: repeat(auto-fit, minmax(54px, 1fr)); gap: 5px; }
-.weather-day { min-width: 0; padding: 7px 3px; text-align: center; border-radius: 9px; background: rgba(255,255,255,.72); }
-.weather-day-date { display: block; color: var(--text-2); font-size: .68rem; }
+.weather-section-label { margin: 14px 0 7px; color: var(--text-2); font-size: .72rem; font-weight: 600; }
+.weather-hours { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 5px; }
+.weather-hour, .weather-day { min-width: 0; padding: 7px 3px; text-align: center; border-radius: 9px; background: rgba(255,255,255,.72); }
+.weather-hour-time, .weather-day-date { display: block; color: var(--text-2); font-size: .68rem; }
+.weather-hour-icon { display: block; margin: 3px 0 1px; font-size: 1rem; line-height: 1.2; }
+.weather-hour-temp { display: block; font-size: .72rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.weather-hour-rain { display: block; margin-top: 1px; color: #3b82c4; font-size: .66rem; white-space: nowrap; }
+.weather-days { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 5px; }
 .weather-day-icon { display: block; margin: 3px 0 1px; font-size: 1.05rem; line-height: 1.2; }
 .weather-day-temp { display: block; font-size: .72rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .weather-day-rain { display: block; margin-top: 1px; color: #3b82c4; font-size: .66rem; white-space: nowrap; }
@@ -946,12 +951,10 @@ details.attraction-guide .guide-content > *:last-child { margin-bottom: 0; }
             const refresh = module.querySelector('[data-weather-refresh]');
             const cities = [
                 {
-                    name: '吉隆坡', latitude: 3.1390, longitude: 101.6869,
-                    dates: ['2026-10-01', '2026-10-02', '2026-10-03']
+                    name: '吉隆坡', latitude: 3.1390, longitude: 101.6869
                 },
                 {
-                    name: '亚庇', latitude: 5.9800, longitude: 116.0730,
-                    dates: ['2026-10-03', '2026-10-04', '2026-10-05', '2026-10-06', '2026-10-07']
+                    name: '亚庇', latitude: 5.9800, longitude: 116.0730
                 }
             ];
             content.className = 'weather-loading';
@@ -997,9 +1000,11 @@ details.attraction-guide .guide-content > *:last-child { margin-bottom: 0; }
                 latitude: String(city.latitude),
                 longitude: String(city.longitude),
                 current: 'temperature_2m,apparent_temperature,precipitation,weather_code,wind_speed_10m',
+                hourly: 'temperature_2m,precipitation_probability,weather_code',
                 daily: 'weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,precipitation_sum',
                 timezone: 'Asia/Kuala_Lumpur',
-                forecast_days: '10'
+                forecast_days: '7',
+                forecast_hours: '12'
             });
             const response = await fetch(`https://api.open-meteo.com/v1/forecast?${query}`, { cache: 'no-store' });
             if (!response.ok) throw new Error('weather unavailable');
@@ -1009,10 +1014,15 @@ details.attraction-guide .guide-content > *:last-child { margin-bottom: 0; }
         weatherCityCard(city, data) {
             const current = data.current || {};
             const condition = this.weatherInfo(current.weather_code);
+            const hourly = data.hourly || {};
             const daily = data.daily || {};
-            const forecast = city.dates.map(date => {
-                const index = (daily.time || []).indexOf(date);
-                if (index < 0) return null;
+            const hours = (hourly.time || []).slice(0, 12).map((time, index) => ({
+                time,
+                weather: this.weatherInfo(hourly.weather_code?.[index]),
+                temperature: hourly.temperature_2m?.[index],
+                rain: hourly.precipitation_probability?.[index]
+            }));
+            const forecast = (daily.time || []).slice(0, 7).map((date, index) => {
                 return {
                     date,
                     weather: this.weatherInfo(daily.weather_code?.[index]),
@@ -1020,13 +1030,12 @@ details.attraction-guide .guide-content > *:last-child { margin-bottom: 0; }
                     min: daily.temperature_2m_min?.[index],
                     rain: daily.precipitation_probability_max?.[index]
                 };
-            }).filter(Boolean);
-            const range = `${this.weatherDate(city.dates[0])}–${this.weatherDate(city.dates.at(-1))}`;
+            });
             return `<article class="weather-city">
                 <div class="weather-city-top">
                     <div>
                         <div class="weather-city-name">${esc(city.name)}</div>
-                        <div class="weather-city-dates">行程日期 ${esc(range)}</div>
+                        <div class="weather-city-dates">未来 12 小时 · 未来 7 天</div>
                     </div>
                     <span class="weather-icon" aria-label="${esc(condition.label)}">${condition.icon}</span>
                 </div>
@@ -1036,6 +1045,15 @@ details.attraction-guide .guide-content > *:last-child { margin-bottom: 0; }
                         <div class="weather-condition">当前 ${esc(condition.label)} · 体感 ${this.weatherNumber(current.apparent_temperature)}°</div>
                     </div>
                 </div>
+                ${hours.length ? `<div class="weather-section-label">未来 12 小时</div>
+                <div class="weather-hours">${hours.map(hour => `
+                    <div class="weather-hour" title="${esc(this.weatherHour(hour.time))} ${esc(hour.weather.label)}，降雨概率 ${this.weatherNumber(hour.rain)}%">
+                        <span class="weather-hour-time">${esc(this.weatherHour(hour.time))}</span>
+                        <span class="weather-hour-icon" aria-hidden="true">${hour.weather.icon}</span>
+                        <span class="weather-hour-temp">${this.weatherNumber(hour.temperature)}°</span>
+                        <span class="weather-hour-rain">☂ ${this.weatherNumber(hour.rain)}%</span>
+                    </div>`).join('')}</div>` : ''}
+                <div class="weather-section-label">未来 7 天</div>
                 ${forecast.length ? `<div class="weather-days">${forecast.map(day => `
                     <div class="weather-day" title="${esc(day.weather.label)}，降雨概率 ${this.weatherNumber(day.rain)}%">
                         <span class="weather-day-date">${esc(this.weatherDate(day.date))}</span>
@@ -1043,7 +1061,7 @@ details.attraction-guide .guide-content > *:last-child { margin-bottom: 0; }
                         <span class="weather-day-temp">${this.weatherNumber(day.max)}°/${this.weatherNumber(day.min)}°</span>
                         <span class="weather-day-rain">☂ ${this.weatherNumber(day.rain)}%</span>
                     </div>`).join('')}</div>` :
-                    '<div class="weather-condition">行程日期的逐日预报将在出行前约 10 天显示。</div>'}
+                    '<div class="weather-condition">暂时无法获取逐日预报。</div>'}
             </article>`;
         }
 
@@ -1063,6 +1081,10 @@ details.attraction-guide .guide-content > *:last-child { margin-bottom: 0; }
 
         weatherDate(date) {
             return date ? date.slice(5).replace('-', '/') : '—';
+        }
+
+        weatherHour(time) {
+            return time ? time.slice(11, 16) : '—';
         }
 
         weatherNumber(value) {

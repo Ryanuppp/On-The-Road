@@ -21,7 +21,7 @@
 
 - [ ] 核对两人护照：有效期至少 6 个月，护照英文姓名与三段机票、两家酒店订单完全一致。
 - [ ] 把两家酒店、三段机票、淘梦岛预约和护照资料页放进同一共享文件夹，并各自离线保存到手机。
-- [ ] 向亚庇万豪确认 10/03 约 22:30 晚到；向淘梦岛商家确认 Star Marina 精确定位、两人姓名、付款状态和天气退改规则。
+- [ ] 保存亚庇希尔顿入住信息；向淘梦岛商家确认 Star Marina 精确定位、两人姓名、付款状态和天气退改规则。
 - [ ] 买覆盖**体验水肺两潜、浮潜和医疗转运**的境外险；填写潜店健康问卷，有需要医生确认的项目现在处理。
 - [ ] 决定 10/06 选 Klias 红树林（A）还是 Manukan + Mamutik 近岛慢游（B）；选 B 当天从 South Jetty 出发即可，不必再额外安排深潜。
 - [ ] 两人各带一张已开通境外支付的 Visa / Mastercard，分开放；准备 RM400–600 小额现金，安装并绑定 Grab、马航和 AirAsia MOVE。
@@ -115,12 +115,12 @@ MH2638 在吉隆坡使用 T1、亚庇抵达 T1。马航马来西亚境内航线�
 | D1 | 10/01 周四 | 抵达吉隆坡 | 北京大兴 → KUL T1 → 武吉免登 | 入境、入住、阿罗街晚餐 |
 | D2 | 10/02 周五 | 吉隆坡完整日 | 独立广场 → 占美清真寺 → 中央市场 → 伊斯兰艺术博物馆 → Pavilion → KLCC | 历史城区 + 博物馆 + 双子塔夜景 |
 | D3 | 10/03 周六 | 吉隆坡 → 亚庇 | TRX → 海脚人午餐 → KL Sentral → KUL T1 → BKI T1 | 吃完海鲜粉再从容赶晚班机 |
-| D4 | 10/04 周日 | 亚庇城市日 | 怡丰茶室 → 加雅街周日市集 → 刺天堂 → 丹绒亚路 → 食全食美 | 周日限定市集 + 日落 + 海鲜 |
+| D4 | 10/04 周日 | 亚庇城市日 | 怡丰 → 周日市集 → 刺天堂 → UMS 粉色清真寺 → 水上清真寺 → 希尔顿 → 丹绒亚路 → 食全食美 | 两座清真寺趁午后较低降雨时段；日落看雨势 |
 | D5 | 10/05 周一 | 淘梦岛潜水日 | Star Marina 码头 → 淘梦岛 → 洪金买饭店 | 已预约两潜；午餐后浮潜 / 桨板 / 独木舟 |
 | D6 | 10/06 周二 | 红树林日 / 近岛 Plan B | A：Klias 湿地 → 长鼻猴 → 萤火虫；B：Manukan → Mamutik | A 车程长；B 从市区码头出发、当天回城 |
 | D7 | 10/07 周三 | 返程 | Gaya 早餐 → Imago/Borenos → BKI T1 → 北京大兴 | 买手信、吃沙巴本土炸鸡、预留机场时间 |
 
-> **不绕路原则**：吉隆坡只住武吉免登；亚庇确认住 **Kota Kinabalu Marriott Hotel（市中心滨海）**，全程不换酒店。去 Gaya Street、Star Marina 码头与 Lintas 等非步行点统一用 Grab。
+> **住宿与交通**：吉隆坡住武吉免登 WOLO；亚庇已入住 **Hilton Kota Kinabalu（希尔顿，Asia City）**。两座清真寺、Star Marina 码头、丹绒亚路与 Lintas 餐厅之间用 Grab；前往 UMS 时导航粉色清真寺，另留校门登记时间。
 
 > **晚起原则**：除 10/01 固定国际航班和 10/05 潜店集合外，其余日期尽量 09:30 后出门；不为了多打卡牺牲睡眠。
 
@@ -140,13 +140,13 @@ MH2638 在吉隆坡使用 T1、亚庇抵达 T1。马航马来西亚境内航线�
 
 ### 亚庇｜10/03–10/07，共 4 晚
 
-> 🛏️ **已订 Kota Kinabalu Marriott Hotel**：Lot G-23A, Jalan Tun Fuad Stephens，市中心滨海位置；适合晚到入住、去丹绒亚路、机场和 Imago。Gaya Street／Star Marina 码头约一小段 Grab 车程，10/05 按 07:50 集合时间提前叫车即可。
+> 🛏️ **已入住 Hilton Kota Kinabalu（亚庇希尔顿）**：Jalan Tunku Abdul Rahman, Asia City, Kota Kinabalu, Sabah 88000。酒店位于市中心 Asia City；10/04 两座清真寺回来仅安排约半小时休息，10/05 按 07:50 潜店集合时间提前叫车。
 
 | 已确认酒店 | 位置优势 | 行程提醒 |
 | --- | --- | --- |
-| [Kota Kinabalu Marriott Hotel](https://www.marriott.com/en-us/hotels/bkikk-kota-kinabalu-marriott-hotel/overview/) | 市中心滨海，靠近 Waterfront / Oceanus；去丹绒亚路、Imago 和机场方向更顺路 | Gaya Street、Star Marina 码头与食全食美不适合步行，统一 Grab；10/05 建议 07:10 从酒店出发，留集合与登记缓冲 |
+| [Hilton Kota Kinabalu（亚庇希尔顿）](https://www.hilton.com/en/hotels/bkikkhi-hilton-kota-kinabalu/) | 市中心 Asia City，附近可觅食；北向去 Gaya / 两座清真寺，南向去丹绒亚路与机场 | 长距离用 Grab；10/05 仍建议 07:10 从酒店出发，目的地按潜店给出的 Star Marina 精确定位 |
 
-按 MH2638 计算，10/03 预计 22:15–22:45 到店；订房备注或 App 消息保留“late arrival around 22:30”，避免被误判未入住。
+10/04 已确认实际入住希尔顿；后续接送、回酒店休息与 10/07 取行李均以希尔顿为起终点。[酒店官方地址](https://www.hilton.com/en/hotels/bkikkhi-hilton-kota-kinabalu/hotel-location/)
 
 ---
 
@@ -157,7 +157,7 @@ MH2638 在吉隆坡使用 T1、亚庇抵达 T1。马航马来西亚境内航线�
 | 10/01 | 07:00 到大兴；16:30 抵 KUL；19:15 入住 | 机场快线、武吉免登晚餐 | 低 |
 | 10/02 | 09:30–21:30 | 吉隆坡历史城区、博物馆、Pavilion、KLCC | 中 |
 | 10/03 | 09:30–22:45 | 慢早餐、海脚人、18:55 飞亚庇 | 低 |
-| 10/04 | 09:30–20:30 | Gaya 周日市集、休息、18:05 日落、海鲜 | 中低 |
+| 10/04 | 09:30–21:00 | 市集与刺天堂；13:15 粉色清真寺、14:20 水上清真寺；短休；日落与海鲜 | 中；午休约半小时 |
 | 10/05 | 07:50–约 15:00 | 淘梦岛两潜、自助午餐、下午浮潜 / 桨板 / 独木舟；默认 14:00 返船 | 中高 |
 | 10/06 | A：10:00–22:00；B：09:30–18:00 | A：Klias 长鼻猴与萤火虫；B：Manukan + Mamutik 两岛慢游 | A 车程长；B 中低 |
 | 10/07 | 09:30–23:15 | 早餐、Imago、18:00 飞北京 | 低 |
@@ -185,9 +185,9 @@ MH2638 在吉隆坡使用 T1、亚庇抵达 T1。马航马来西亚境内航线�
 | KUL T1 → KL Sentral | KLIA Ekspres | 28 min | RM110；官网购票通常有折扣 |
 | KL Sentral → WOLO | Grab | 15–25 min | RM15–30 |
 | WOLO → KL Sentral → KUL T1 | Grab + KLIA Ekspres | 约 60–80 min（含换乘） | RM125–145 |
-| BKI → Kota Kinabalu Marriott Hotel | Grab | 15–20 min | RM18–30 |
+| BKI → Hilton Kota Kinabalu | Grab | 约 15–25 min | RM18–35，实际以 App 为准 |
 | 亚庇市区 → 丹绒亚路 | Grab | 15–25 min | RM12–25/车 |
-| Kota Kinabalu Marriott Hotel → BKI | Grab | 15–20 min | RM18–30 |
+| Hilton Kota Kinabalu → BKI | Grab | 约 15–25 min | RM18–35，实际以 App 为准 |
 
 KLIA Ekspres 每 20 分钟一班，KL Sentral 至 T1 为 28 分钟，T1 至 T2 再约 3 分钟；成人单程 RM55，官网/APP购票有 10% 折扣。[KLIA Ekspres 官方时刻与票价](https://www.kliaekspres.com/products-fares/klia-ekspres/)
 
@@ -289,7 +289,7 @@ KLIA Ekspres 每 20 分钟一班，KL Sentral 至 T1 为 28 分钟，T1 至 T2 �
 - [ ] **16:15 左右** KLIA Ekspres 前往 KUL T1；目标 **16:50–17:00 到 T1**。
 - [ ] **17:00–18:10** 值机、托运行李、安检、吃简餐；即使已在线值机也按这个缓冲执行。
 - [ ] **18:55–21:35** 已订 MH2638 KUL T1 → BKI T1。
-- [ ] **21:35–22:20** 取行李、Grab 到 Kota Kinabalu Marriott Hotel。
+- [ ] **21:35–22:20** 取行李、Grab 到 Hilton Kota Kinabalu（已入住）。
 - [ ] **22:15–22:45** 入住；如饿了优先便利店或外卖，不再安排海鲜大餐。
 
 #### 🍽️ D3 早餐 / 午餐推荐
@@ -312,11 +312,11 @@ WOLO 官方退房时间为 12:00。因此本日默认先退房、将行李寄存
 
 ---
 
-### Day 4 ｜ 10/04 周日 ｜ Gaya 周日市集 + 丹绒亚路日落
+### Day 4 ｜ 10/04 周日 ｜ 周日市集 + 两座清真寺 + 日落与海鲜
 
-> 🌅 亚庇 10/04 日落约 18:05；16:45 前到丹绒亚路，给云层变化和交通留时间。[日落时间参考](https://www.timeanddate.com/sun/malaysia/kota-kinabalu?month=10)
+> 🌦️ **10/04 天气安排**：查询时的 Open-Meteo 预报为午后多云、约 30°C；13 / 14 / 15 点降雨概率约 33% / 45% / 53%，16–18 点约 58%–67%。另一预报源提示午后局地雷雨，因此把两座清真寺集中在 13–15 点，日落只作为机动项目。以上是预报快照，出发前看网页顶部最新 12 小时天气与实际雨势。[Open-Meteo 亚庇逐小时预报](https://api.open-meteo.com/v1/forecast?latitude=5.9800&longitude=116.0730&hourly=temperature_2m,precipitation_probability,precipitation,weather_code&timezone=Asia%2FKuching&start_date=2026-10-04&end_date=2026-10-04)
 
-**今日重点**：周日限定市集、城市慢节奏、第一轮日落机会。
+**今日重点**：09:30 后出门；先逛周日市集，午后顺路去 UMS 粉色清真寺和 Likas 水上清真寺，回希尔顿只短休半小时。
 
 **行程节点**：
 
@@ -324,15 +324,30 @@ WOLO 官方退房时间为 12:00。因此本日默认先退房、将行李寄存
 - [ ] **10:15–11:45** **Gaya Street Sunday Market**：看手工艺和本地食材；准备小额现金，最晚不要拖到 12:00 才开始逛。
 - [ ] **11:45–12:15** 步行前往 Jesselton Point；顺路去刺天堂前的码头一带看海。
 - [ ] **12:15–12:45** **刺天堂 KK Durian Paradise**：两人共享一份榴莲煎蕊即可；先问清品种、克重、含税总价和果肉状态，不盲点整颗高价榴莲。
-- [ ] **12:45–13:15** Jesselton Point、Suria Sabah 一带慢逛，回酒店前补水。
-- [ ] **13:15–15:45** 如饿了只吃简单午餐，随后酒店午休；早餐和榴莲甜品都吃得多时直接休息，不要硬塞第三顿。
-- [ ] **16:15** Grab 前往丹绒亚路海滩。
-- [ ] **16:40–18:25** 海边散步、等 18:05 左右日落；阵雨时找有遮挡的位置等待，不必过早放弃。
+- [ ] **12:45–13:15** 补水、按需买简单午餐，然后 Grab 北上沙巴大学；目的地填 **UMS Mosque / Masjid UMS**，预留校门登记、购票和进校时间。
+- [ ] **13:15–14:00** **UMS 粉色清真寺**：以粉色外墙、穹顶和拱廊拍照为主，约 30–45 分钟；若遇礼拜暂停进入，按工作人员指定区域参观。
+- [ ] **14:00–14:20** Grab 南返 **Kota Kinabalu City Mosque（水上清真寺）**；车程为安排估算，出发时看 App，校内约车较慢时及时压缩拍照时间。
+- [ ] **14:20–15:00** **水上清真寺**：登记后看蓝白穹顶与水面倒影；这一段处在官方列示的 14:00–15:30 参观窗口内，留出停止入场缓冲。
+- [ ] **15:00–15:25** Grab 回 **Hilton Kota Kinabalu**。
+- [ ] **15:25–15:55** 酒店换衣、补水、短休约半小时；按个人体力调整。
+- [ ] **16:00–16:30** 看最新雷达 / 天气和实际雨势；无雷电、大雨时 Grab 前往丹绒亚路。
+- [ ] **16:30–18:25** 海边散步、等约 18:05 日落；云厚不保证看到太阳。若雷雨持续，改 Centre Point / Imago 咖啡和购物，不在开阔海滩等雷雨。
 - [ ] **18:35–19:05** Grab 前往 Lintas Kolam Centre 的 **食全食美 Hilltop Restaurant**；周日客流可能较大，出发前电话确认是否需要订位。
 - [ ] **19:05–20:35** 食全食美海鲜晚餐：咸蛋黄鱿鱼、湿奶油虾、姜葱炒蟹三选二，另加一份时蔬；螃蟹先确认重量、单价、加工费和税费，两个人不要点整套海鲜。
 - [ ] **20:35–21:00** Grab 回酒店，准备潜水用品，避免饮酒和熬夜。
 
 Gaya Street Sunday Market 官方开放时间为每周日 06:00–13:00。[Sabah Tourism](https://sabahtourism.com/destination/gaya-street-sunday-market/)
+
+#### 🕌 两座清真寺怎么去
+
+| 地点 | 参观安排 | 费用与入口 |
+| --- | --- | --- |
+| **粉色清真寺 UMS Mosque / Masjid UMS** | 在沙巴大学校园内，和布城 Putra Mosque 不是同一座；本次主要看外观，预留校门登记和校内车程 | 旅游局近期信息列示校园游客入场约 RM10 起；在 EVIC / 校门按现场规则办理，实际价格与开放区域现场确认 |
+| **水上清真寺 Kota Kinabalu City Mosque** | 在 Likas；官方当前列示周一至周日 08:00–12:00、14:00–15:30、16:00–17:00，周五关闭，时段可变 | 入场 RM5/人，参观服租赁 RM5–10；游客需登记，按现场要求穿参观服 |
+
+两座都穿遮肩上衣、长裤 / 长裙；女性带头巾，进入指定区域按要求脱鞋。UMS 校园大，直接用车到清真寺，不从校门徒步走进去。[水上清真寺官方旅游信息](https://sabahtourism.com/destination/city-mosque/?locale=da)｜[沙巴旅游局 UMS 最新参观说明](https://japan.sabahtourism.com/2026/08/27/【コタキナバル】州立博物館が休館中-代わりに/)
+
+> **如果已经出门较晚**：优先保证水上清真寺的 14:00–15:30 窗口，改为先水上、再粉色；这样多绕一点路但能避开关门空档。若大雨、校门临时不开放或两处约车耗时长，剩下的一座顺延 10/07 上午，并取消部分购物；14:30 去机场的时间不变。不要把两座拖到 16:00 后再开始。
 
 #### 🍽️ D4 早餐 / 午餐推荐（Gaya Street）
 
@@ -357,7 +372,7 @@ Gaya Street Sunday Market 官方开放时间为每周日 06:00–13:00。[Sabah 
 
 > 🌰 **10月榴莲策略**：沙巴常见主产季约为 7–9 月，10 月初通常还有尾季果，但供应、品种和品质不保证。先在周日市集观察本地 Sukang、Dalit 或甘榜榴莲，再到刺天堂；如果只有高价调货、果肉水软或带酒味，就只吃一份榴莲煎蕊，不把黑刺/猫山王设为必吃任务。[沙巴旅游局季节说明](https://japan.sabahtourism.com/2021/08/11/%E4%BB%8A%E5%B9%B4%E3%82%82%E3%83%89%E3%83%AA%E3%82%A2%E3%83%B3%E3%81%AE%E3%82%B7%E3%83%BC%E3%82%BA%E3%83%B3%E3%81%8C%E3%82%84%E3%81%A3%E3%81%A6%E6%9D%A5%E3%81%BE%E3%81%97%E3%81%9F/)｜[沙巴果农季末说明](https://www.sinarharian.com.my/ampArticle/676069)
 
-> 🗺️ **全天路线**：[怡丰茶室 → Gaya Street → Jesselton Point/刺天堂 → 丹绒亚路 → 食全食美](https://www.google.com/maps/dir/Yee+Fung+Laksa+Kota+Kinabalu/Gaya+Street+Sunday+Market/KK+Durian+Paradise/Tanjung+Aru+Beach/Hilltop+Restaurant+Kota+Kinabalu/)
+> 🗺️ **清真寺到日落路线**：[刺天堂 → UMS 粉色清真寺 → 水上清真寺 → 希尔顿 → 丹绒亚路 → 食全食美](https://www.google.com/maps/dir/KK+Durian+Paradise/UMS+Mosque/Kota+Kinabalu+City+Mosque/Hilton+Kota+Kinabalu/Tanjung+Aru+Beach/Hilltop+Restaurant+Kota+Kinabalu/)
 
 ---
 
@@ -448,7 +463,7 @@ Klias 常规拼团当前约 RM190–200/人，通常含市区接送、英语导�
 - [ ] **约 13:00–13:20** 船转 Mamutik。
 - [ ] **13:20–15:00｜Mamutik**：看海、拍照、浅水浮潜；只在划定区域穿救生衣做水面浮潜，不安排水肺、海底漫步或下潜式自由潜。
 - [ ] **15:00–15:30** 返回 South Jetty；最晚返程船为 16:00，别在岛上拖到最后一班。
-- [ ] **16:00–18:00** 回万豪洗澡、休息；晚上按心情在 Waterfront / Gaya Street 吃轻松晚餐，不再额外塞景点。
+- [ ] **16:00–18:00** 回希尔顿洗澡、休息；晚上按心情在 Asia City / Waterfront / Gaya Street 吃轻松晚餐，不再额外塞景点。
 
 **两人基础花费**：两岛船票 RM58/人 + 国际游客公园费 RM25/人，合计 **RM166**；另加餐饮、Grab 和浮潜装备（码头当前标示装备按件 RM10/天）。船票含往返船、救生衣和安全简报，不含公园费、装备与餐饮。
 
@@ -499,7 +514,7 @@ Borenos 是沙巴本土炸鸡品牌，Imago 店于 2026 年新开，官方列出
 | 情况 | 调整方式 |
 | --- | --- |
 | 10/02 吉隆坡下大雨 | 上午仍走历史城区；下午博物馆；晚间用 Pavilion—KLCC 遮棚连廊 |
-| 10/04 日落阴天 | 仍去海边散步；Waterfront 一带作为第二次日落视角，但不保证看到太阳 |
+| 10/04 午后阵雨 / 雷雨 | 13–15 点优先两座清真寺，16 点后看雨势决定丹绒亚路；持续雷雨改商场。没去成的清真寺顺延 10/07 上午并减少购物 |
 | 10/05 海况不适合潜水 | 以淘梦岛商家 / 船长的改期或退款安排为准；不要自行找低价小船硬出海 |
 | 潜水改到 10/06 | 只有潜店确认安全、最后一潜在 16:00 前结束才考虑；距 10/07 18:00 航班约 26 小时。若海况差，宁可取消 |
 | 10/06 暴雨 / 风浪 | 若选 A，听 Klias 旅行社通知；若选 B，先看 South Jetty 船班，停航就改 Imago + Sabah Museum / 咖啡馆 |
@@ -527,11 +542,11 @@ DAN 建议：单次免减压潜水后至少 12 小时再飞；一天内多潜或
 | D1 | 机场快线 + Grab | 1–2 km | [KUL T1→KL Sentral→WOLO](https://www.google.com/maps/dir/Kuala+Lumpur+International+Airport+Terminal+1/KL+Sentral/WOLO+Kuala+Lumpur/) |
 | D2 | 步行 + 3次 Grab | 6–8 km | [完整 Citywalk](https://www.google.com/maps/dir/Dataran+Merdeka/Masjid+Jamek/Central+Market+Kuala+Lumpur/Islamic+Arts+Museum+Malaysia/Pavilion+Kuala+Lumpur/Petronas+Twin+Towers/) |
 | D3 | Grab + 机场快线 + 飞机 | 2–4 km | [WOLO→TRX→海脚人→KL Sentral→KUL T1](https://www.google.com/maps/dir/WOLO+Kuala+Lumpur/The+Exchange+TRX/Hai+Kah+Lang+TRX/KL+Sentral/Kuala+Lumpur+International+Airport+Terminal+1/) |
-| D4 | 步行 + Grab | 4–6 km | [怡丰→市集→刺天堂→丹绒亚路→敬文](https://www.google.com/maps/dir/Yee+Fung+Laksa+Kota+Kinabalu/Gaya+Street+Sunday+Market/KK+Durian+Paradise/Tanjung+Aru+Beach/Leslie+Cafe+Kota+Kinabalu/) |
-| D5 | Grab + 淘梦岛船只 | 2–4 km | [万豪→Star Marina→洪金买](https://www.google.com/maps/dir/Kota+Kinabalu+Marriott+Hotel/Star+Marina+Kota+Kinabalu/Ang+Restaurant+Kota+Kinabalu/) |
+| D4 | 步行 + Grab | 4–6 km | [刺天堂→粉色清真寺→水上清真寺→希尔顿→丹绒亚路→食全食美](https://www.google.com/maps/dir/KK+Durian+Paradise/UMS+Mosque/Kota+Kinabalu+City+Mosque/Hilton+Kota+Kinabalu/Tanjung+Aru+Beach/Hilltop+Restaurant+Kota+Kinabalu/) |
+| D5 | Grab + 淘梦岛船只 | 2–4 km | [希尔顿→Star Marina→洪金买](https://www.google.com/maps/dir/Hilton+Kota+Kinabalu/Star+Marina+Kota+Kinabalu/Ang+Restaurant+Kota+Kinabalu/) |
 | D6 A | 旅行社接送 + 河船 | 1 km 内 | [京那巴鲁咖啡店→Klias Wetland](https://www.google.com/maps/dir/Kedai+Kopi+Kinabalu/Klias+Wetland/) |
-| D6 B | Grab + 近岛船 | 2–4 km | [万豪→South Jetty→Manukan→Mamutik](https://www.google.com/maps/dir/Kota+Kinabalu+Marriott+Hotel/South+Jetty+Kota+Kinabalu/Manukan+Island/Mamutik+Island/) |
-| D7 | Grab + 飞机 | 3–5 km | [万豪→Gaya 早餐→Imago/Borenos→BKI](https://www.google.com/maps/dir/Kota+Kinabalu+Marriott+Hotel/Gaya+Street+Kota+Kinabalu/Imago+Shopping+Mall/Kota+Kinabalu+International+Airport/) |
+| D6 B | Grab + 近岛船 | 2–4 km | [希尔顿→South Jetty→Manukan→Mamutik](https://www.google.com/maps/dir/Hilton+Kota+Kinabalu/South+Jetty+Kota+Kinabalu/Manukan+Island/Mamutik+Island/) |
+| D7 | Grab + 飞机 | 3–5 km | [希尔顿→Gaya 早餐→Imago/Borenos→BKI](https://www.google.com/maps/dir/Hilton+Kota+Kinabalu/Gaya+Street+Kota+Kinabalu/Imago+Shopping+Mall/Kota+Kinabalu+International+Airport/) |
 
 ---
 
@@ -549,7 +564,9 @@ DAN 建议：单次免减压潜水后至少 12 小时再飞；一天内多潜或
 | Pavilion Kuala Lumpur | 3.149154, 101.712953 | [打开](https://www.google.com/maps/search/?api=1&query=3.149154,101.712953) |
 | PETRONAS Twin Towers | 3.157968, 101.711205 | [打开](https://www.google.com/maps/search/?api=1&query=3.157968,101.711205) |
 | KL Sentral | 3.132585, 101.687996 | [打开](https://www.google.com/maps/search/?api=1&query=3.132585,101.687996) |
-| Kota Kinabalu Marriott Hotel | Lot G-23A, Jalan Tun Fuad Stephens | [打开](https://www.google.com/maps/search/?api=1&query=Kota+Kinabalu+Marriott+Hotel) |
+| Hilton Kota Kinabalu（亚庇希尔顿） | Jalan Tunku Abdul Rahman, Asia City, 88000 | [打开](https://www.google.com/maps/search/?api=1&query=Hilton+Kota+Kinabalu) |
+| UMS Mosque（粉色清真寺） | Universiti Malaysia Sabah 校园内；先办理游客入校手续 | [打开](https://www.google.com/maps/search/?api=1&query=UMS+Mosque+Kota+Kinabalu) |
+| Kota Kinabalu City Mosque（水上清真寺） | Jalan Pasir, Teluk Likas | [打开](https://www.google.com/maps/search/?api=1&query=Kota+Kinabalu+City+Mosque) |
 | Gaya Street | 5.983539, 116.077023 | [打开](https://www.google.com/maps/search/?api=1&query=5.983539,116.077023) |
 | Star Marina 码头（10/05 集合） | 以商家订单内定位为准 | [在 Google Maps 搜索](https://www.google.com/maps/search/?api=1&query=Star+Marina+Kota+Kinabalu) |
 | South Jetty（10/06 Plan B 出发） | KK Port, Jalan Tun Fuad Stephens；近岛船临时出发点 | [打开](https://www.google.com/maps/search/?api=1&query=South+Jetty+Kota+Kinabalu) |
@@ -618,8 +635,8 @@ DAN 建议：单次免减压潜水后至少 12 小时再飞；一天内多潜或
 
 ### 现在完成
 
-- [x] 已订机票：10/03 MH2638，18:55–21:35，KUL T1 → BKI T1；已订酒店：10/01–10/03 WOLO Kuala Lumpur、10/03–10/07 Kota Kinabalu Marriott Hotel。
-- [ ] 保存两家酒店确认单与三段航班订单至两部手机；向亚庇万豪确认 10/03 约 22:30 晚到入住。
+- [x] 已订机票：10/03 MH2638，18:55–21:35，KUL T1 → BKI T1；住宿：10/01–10/03 WOLO Kuala Lumpur、10/03–10/07 Hilton Kota Kinabalu（10/04 已确认入住）。
+- [ ] 保存两家酒店确认单与三段航班订单至两部手机；亚庇后续接送使用希尔顿地址。
 - [x] 已预约 10/05 淘梦岛体验深潜：07:50 Star Marina 码头集合，08:30 开船，含两潜、自助午餐和下午自由活动。
 - [ ] 向商家确认 Star Marina 精确定位、两人预约姓名、订单金额 / 付款状态及天气退改规则。
 - [ ] 在 10/06 的 Klias（A）和 Manukan + Mamutik 近岛慢游（B）中二选一；选 B 可当天在 South Jetty 现场买两岛船票，也可提前线上订票。
